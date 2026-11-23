@@ -15,7 +15,7 @@
 | BUG_MODE B01–B12 ทีละตัว **กับเว็บใน Docker Compose** | **จับได้ 12/12** · ชุด TC ที่ล้มอยู่ในรายการของ BUGS.md ทุกตัว (ไม่มีล้มเกิน ไม่มีผ่านหลอก) · รันซ้ำกับ `node server.js` ได้ผลเท่ากัน | [`BUG-HUNT.md`](BUG-HUNT.md) · [`matrix.log`](test-report/results/matrix.log) (Docker) · [`matrix-node.log`](test-report/results/matrix-node.log) · `test-report/results/bug-*.json` |
 | บั๊กรวม `B03,B07` · `B01,B05,B09` | ล้มเท่ากับ union ของแต่ละตัว | [`BUG-HUNT.md`](BUG-HUNT.md) |
 | GIF ของ TC ระดับ P1 | 43 ไฟล์ (P1 ทั้งหมด) | [`test-report/report/gifs/`](test-report/report/gifs/) |
-| ขั้นรวมของบล็อก B12 | ทำซ้ำได้ด้วยคำสั่งเดียว `bash app/e2e/b12.sh` (build image → matrix 17 รอบ → ตาราง BUGS.md §4 → รหัสออก 0 เมื่อผลตรงตาราง) | [`FINAL-REPORT.md`](FINAL-REPORT.md) · [`app/e2e/b12.sh`](app/e2e/b12.sh) |
+| ขั้นรวมของบล็อก B12 | รวมเป็นคำสั่งเดียว `bash app/e2e/b12.sh` (build image → matrix 17 รอบ → ตาราง BUGS.md §4 → รหัสออก 0 เมื่อผลตรงตาราง) · ลองรันแบบย่อ 2 โหมดแล้ว | [`FINAL-REPORT.md`](FINAL-REPORT.md) · [`app/e2e/b12.sh`](app/e2e/b12.sh) |
 | ไม่ตั้ง `TEST_MODE` | `/api/test/*` ตอบ 404 ทุกเส้น · `/api/health` และ `/verify` ยังใช้ได้ | [`test-report/results/test-mode-off.log`](test-report/results/test-mode-off.log) |
 
 ## ไฟล์ที่ส่ง (ตาม `PROMPTS.md` ของชุดโจทย์)
