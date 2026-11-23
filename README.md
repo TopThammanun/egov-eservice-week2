@@ -11,11 +11,11 @@
 
 | รายการ | ผล | หลักฐาน |
 |---|---|---|
-| ชุด Playwright 51 TC (`TEST_MODE=1` ไม่ตั้ง `BUG_MODE`) | **ผ่าน 51/51** · รันซ้ำทันทีโดยไม่ restart เว็บ 51/51 · หลังปิดบั๊กทั้งหมด 51/51 | [`test-report/index.html`](test-report/index.html) · [`test-report/results.json`](test-report/results.json) · [`matrix.log`](test-report/results/matrix.log) · [`rerun-no-restart.log`](test-report/results/rerun-no-restart.log) |
-| BUG_MODE B01–B12 ทีละตัว | **จับได้ 12/12** · ชุด TC ที่ล้มอยู่ในรายการของ BUGS.md ทุกตัว (ไม่มีล้มเกิน ไม่มีผ่านหลอก) | [`BUG-HUNT.md`](BUG-HUNT.md) · `test-report/results/bug-*.json` |
+| ชุด Playwright 51 TC (`TEST_MODE=1` ไม่ตั้ง `BUG_MODE`) | **ผ่าน 51/51** · รันซ้ำทันทีโดยไม่ restart เว็บ 51/51 · หลังปิดบั๊กทั้งหมด 51/51 (รอบปิดบั๊กรอบแรกบน Docker มี TC-UPLOAD-01 ล้มด้วย timeout ของ test → แก้การรอแล้วรันซ้ำผ่าน) | [`test-report/index.html`](test-report/index.html) · [`test-report/results.json`](test-report/results.json) · [`matrix.log`](test-report/results/matrix.log) · [`rerun-no-restart.log`](test-report/results/rerun-no-restart.log) |
+| BUG_MODE B01–B12 ทีละตัว **กับเว็บใน Docker Compose** | **จับได้ 12/12** · ชุด TC ที่ล้มอยู่ในรายการของ BUGS.md ทุกตัว (ไม่มีล้มเกิน ไม่มีผ่านหลอก) · รันซ้ำกับ `node server.js` ได้ผลเท่ากัน | [`BUG-HUNT.md`](BUG-HUNT.md) · [`matrix.log`](test-report/results/matrix.log) (Docker) · [`matrix-node.log`](test-report/results/matrix-node.log) · `test-report/results/bug-*.json` |
 | บั๊กรวม `B03,B07` · `B01,B05,B09` | ล้มเท่ากับ union ของแต่ละตัว | [`BUG-HUNT.md`](BUG-HUNT.md) |
 | GIF ของ TC ระดับ P1 | 43 ไฟล์ (P1 ทั้งหมด) | [`test-report/report/gifs/`](test-report/report/gifs/) |
-| เว็บใน Docker (`TEST_MODE=1 docker compose up --build`) | ผ่าน 50/50 (ทุก TC ยกเว้น TC-NFR-04 ที่ต้องอ่านไฟล์ฐานข้อมูลจาก host) · BUG_MODE matrix รันกับ `node server.js` โค้ดชุดเดียวกัน | [`test-report/results/docker-run.log`](test-report/results/docker-run.log) |
+| ขั้นรวมของบล็อก B12 | ทำซ้ำได้ด้วยคำสั่งเดียว `bash app/e2e/b12.sh` (build image → matrix 17 รอบ → ตาราง BUGS.md §4 → รหัสออก 0 เมื่อผลตรงตาราง) | [`FINAL-REPORT.md`](FINAL-REPORT.md) · [`app/e2e/b12.sh`](app/e2e/b12.sh) |
 | ไม่ตั้ง `TEST_MODE` | `/api/test/*` ตอบ 404 ทุกเส้น · `/api/health` และ `/verify` ยังใช้ได้ | [`test-report/results/test-mode-off.log`](test-report/results/test-mode-off.log) |
 
 ## ไฟล์ที่ส่ง (ตาม `PROMPTS.md` ของชุดโจทย์)
@@ -23,7 +23,7 @@
 | ขั้น | ไฟล์ | คืออะไร |
 |---|---|---|
 | 1 วางแผน | [`blocks.json`](blocks.json) · [`dag.png`](dag.png) · [`gantt-plan.png`](gantt-plan.png) · [`PLAN.md`](PLAN.md) | 12 บล็อก · 4 บัญชี (yolo1 yolo2 cyolo1 cyolo2) · สายวิกฤต B01 → B03 → B04 → B11 → B12 |
-| 3 รันทีม | [`gantt-actual.png`](gantt-actual.png) · [`compare.png`](compare.png) · [`REPORT.md`](REPORT.md) · [`run.log`](run.log) · [`run-resume.log`](run-resume.log) | ผลรันจริงของ agent-team (+ ภาคผนวกหลัง resume) |
+| 3 รันทีม | [`gantt-actual.png`](gantt-actual.png) · [`compare.png`](compare.png) · [`REPORT.md`](REPORT.md) · [`run.log`](run.log) · [`run-resume.log`](run-resume.log) | ผลรันจริงของ agent-team **รวมผลหลัง resume** (ok 11 · B12 หมดเวลา) · ภาพสร้างใหม่จาก log ด้วย [`tools/regen-actual-charts.js`](tools/regen-actual-charts.js) · ภาพเดิมจากเครื่องมือ (รอบแรก): [`gantt-actual-run1.png`](gantt-actual-run1.png) · [`compare-run1.png`](compare-run1.png) |
 | 3–4 เว็บ + test | [`app/`](app/) · [`app/e2e/`](app/e2e/) | เว็บ (Node 22 + SQLite ในตัว) และชุด Playwright 51 TC |
 | 4 TEST-PLAN | [`test-report/`](test-report/) | `results.json` · `index.html` · GIF ของ TC ระดับ P1 · ผลดิบ BUG_MODE ทุกรอบ |
 | 5 BUG_MODE | [`BUG-HUNT.md`](BUG-HUNT.md) | ตาราง triage ตามรูปแบบ BUGS.md §4 |
@@ -55,8 +55,8 @@ TEST_MODE=1 PORT=3912 DB_PATH=$PWD/e2e/.data/egov.db npm start
 cd app/e2e && npm ci && npx playwright install chromium
 DB_PATH=$PWD/.data/egov.db BASE_URL=http://127.0.0.1:3912 npx playwright test          # 51 passed
 
-# BUG_MODE ทีละตัว + ชุดรวม (ปิดเว็บในเทอร์มินัล 1 ก่อน · สคริปต์เปิด/ปิดเว็บเองทุกรอบ)
-cd app && WEB=node bash e2e/run-matrix.sh "" "" B01 B02 B03 B04 B05 B06 B07 B08 B09 B10 B11 B12 "B03,B07" "B01,B05,B09" ""
+# BUG_MODE ทีละตัว + ชุดรวม กับเว็บใน Docker Compose (ปิดเว็บในเทอร์มินัล 1 ก่อน · สคริปต์ build และเปิด/ปิดเว็บเองทุกรอบ)
+bash app/e2e/b12.sh                  # ไม่มี Docker: WEB=node bash app/e2e/b12.sh
 ```
 
 รายละเอียดและข้อจำกัดของแต่ละวิธี: [`app/e2e/README.md`](app/e2e/README.md)

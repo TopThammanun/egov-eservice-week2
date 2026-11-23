@@ -102,6 +102,10 @@ async function auditCount(browser: Browser, query: string): Promise<number> {
   } finally { await ctx.close(); }
 }
 
+// อัปโหลดไฟล์ ~5 MB ผ่านหน้าจอใช้เวลาเกิน 5 วินาที (ค่า timeout ตั้งต้นของ expect) ได้เมื่อเครื่องช้า → รอผลของการอัปโหลดให้นานพอ
+// (เคยล้มด้วย timeout ในรอบท้ายของ matrix บน Docker ทั้งที่เว็บถูก = test เปราะ ตาม BUGS.md §5 แถว 5)
+const UPLOAD_WAIT = 30_000;
+
 async function expectApiError(response: Awaited<ReturnType<APIRequestContext['post']>>, status: number, code: string) {
   expect(response.status()).toBe(status);
   expect((await response.json()).code).toBe(code);
@@ -464,12 +468,12 @@ test('TC-UPLOAD-01 · byte size and five-file limit', async ({ browser }) => {
   expect((await (await h.api.get(`/api/drafts/${d.draftId}`)).json()).files).toHaveLength(0);
   await h.page.goto('/citizen/new/SV-01'); await h.page.getByTestId('to-upload-btn').click();
   await h.page.getByTestId('upload-input-id-card').setInputFiles(uploadFile('size-5242881.pdf', pdf(5242881)));
-  await expect(h.page.getByTestId('upload-error')).toHaveText('ไฟล์ใหญ่เกิน 5 MB');
+  await expect(h.page.getByTestId('upload-error')).toHaveText('ไฟล์ใหญ่เกิน 5 MB', { timeout: UPLOAD_WAIT });
   await expect(h.page.getByTestId('file-item')).toHaveCount(0);
   // การ์ด: ขอบ ≤ 5 MB บนจอ · รับ → file-item 1 และไม่มี upload-error
   await h.page.goto('/citizen/new/SV-01'); await h.page.getByTestId('to-upload-btn').click();
   await h.page.getByTestId('upload-input-id-card').setInputFiles(uploadFile('size-5242880.pdf', pdf(5242880)));
-  await expect(h.page.getByTestId('file-item')).toHaveCount(1);
+  await expect(h.page.getByTestId('file-item')).toHaveCount(1, { timeout: UPLOAD_WAIT });
   await expect(h.page.getByTestId('file-item')).toHaveAttribute('data-name', 'size-5242880.pdf');
   await expect(h.page.getByTestId('upload-error')).not.toBeVisible();
 

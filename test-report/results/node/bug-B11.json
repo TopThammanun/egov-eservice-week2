@@ -1,0 +1,1930 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--reporter=json",
+      "--output=results/out-B11"
+    ],
+    "configFile": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\playwright.config.ts",
+    "rootDir": "C:/Work/Ai-homework/egov-eservice-week2-main/app/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Work/Ai-homework/egov-eservice-week2-main/app/e2e/results/out-B11",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "C:/Work/Ai-homework/egov-eservice-week2-main/app/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "tests-*.spec.ts"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\results\\out-B11",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "",
+        "testDir": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e",
+        "snapshotDir": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "tests-*.spec.ts"
+        ],
+        "timeout": 60000,
+        "use": {
+          "baseURL": "http://127.0.0.1:3912",
+          "trace": "off",
+          "screenshot": "off",
+          "locale": "th-TH",
+          "timezoneId": "Asia/Bangkok"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "webServer": [],
+        "__projectId": ""
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.66.0-alpha-2026-11-09",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "tests-a.spec.ts",
+      "file": "tests-a.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "TC-AUTH-01 · Thai ID validation boundaries and checksum",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1292,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-23T14:31:29.782Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c95f8e5ae0ba9c093418-813b6978bee5f4467348",
+          "file": "tests-a.spec.ts",
+          "line": 110,
+          "column": 1
+        },
+        {
+          "title": "TC-AUTH-02 · three invalid OTPs lock only that identity for 15 minutes",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 820,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-23T14:31:31.245Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c95f8e5ae0ba9c093418-eac9a82700bc8ed10338",
+          "file": "tests-a.spec.ts",
+          "line": 136,
+          "column": 1
+        },
+        {
+          "title": "TC-AUTH-03 · first citizen registration validates mobile and consent",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1624,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-23T14:31:32.077Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c95f8e5ae0ba9c093418-fad86568f08d3e4fb20c",
+          "file": "tests-a.spec.ts",
+          "line": 190,
+          "column": 1
+        },
+        {
+          "title": "TC-AUTH-04 · staff SSO lands on the page assigned to each role",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3290,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-23T14:31:33.712Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c95f8e5ae0ba9c093418-f1c19968836b14f97cb2",
+          "file": "tests-a.spec.ts",
+          "line": 225,
+          "column": 1
+        },
+        {
+          "title": "TC-FEE-01 · fee formulas and inclusive input boundaries",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 700,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-23T14:31:37.012Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c95f8e5ae0ba9c093418-cbbe8610e7b046185ccd",
+          "file": "tests-a.spec.ts",
+          "line": 261,
+          "column": 1
+        },
+        {
+          "title": "TC-SUBMIT-01 · submit an SV-01 request from data entry through receipt and queue",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1007,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-23T14:31:37.721Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c95f8e5ae0ba9c093418-a0ca1a9d72311156c792",
+          "file": "tests-a.spec.ts",
+          "line": 294,
+          "column": 1
+        },
+        {
+          "title": "TC-SUBMIT-02 · required documents gate payment for SV-02 and SV-03",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 596,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-23T14:31:38.739Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c95f8e5ae0ba9c093418-7ae2d0e5e87d283b1870",
+          "file": "tests-a.spec.ts",
+          "line": 344,
+          "column": 1
+        },
+        {
+          "title": "TC-SUBMIT-03 · saved drafts, cancellation, deletion, and cancel/claim race",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1399,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-23T14:31:39.346Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c95f8e5ae0ba9c093418-488772d8fbfed41c938b",
+          "file": "tests-a.spec.ts",
+          "line": 377,
+          "column": 1
+        },
+        {
+          "title": "TC-UPLOAD-01 · byte size and five-file limit",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2295,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-23T14:31:40.755Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c95f8e5ae0ba9c093418-d47b46c8b4a39434d1f1",
+          "file": "tests-a.spec.ts",
+          "line": 454,
+          "column": 1
+        },
+        {
+          "title": "TC-UPLOAD-02 · classify uploads from file contents, not extension or MIME header",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 359,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-23T14:31:43.062Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c95f8e5ae0ba9c093418-f87f66ff78f0b7c60226",
+          "file": "tests-a.spec.ts",
+          "line": 497,
+          "column": 1
+        },
+        {
+          "title": "TC-PAY-01 · QR expires at exactly fifteen minutes and can be renewed",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 585,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-23T14:31:43.430Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c95f8e5ae0ba9c093418-628c7540816f887624a3",
+          "file": "tests-a.spec.ts",
+          "line": 522,
+          "column": 1
+        },
+        {
+          "title": "TC-PAY-02 · exact amount, callback idempotency, and contiguous numbers",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 218,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-23T14:31:44.026Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c95f8e5ae0ba9c093418-baa327d0f6dcf5ca8c7e",
+          "file": "tests-a.spec.ts",
+          "line": 545,
+          "column": 1
+        },
+        {
+          "title": "TC-PAY-03 · simultaneous payments allocate unique case and receipt numbers",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 402,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-23T14:31:44.255Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c95f8e5ae0ba9c093418-11c540e6f1cd57c9efc0",
+          "file": "tests-a.spec.ts",
+          "line": 565,
+          "column": 1
+        },
+        {
+          "title": "TC-PAY-04 · case and receipt numbering rolls over at the Buddhist year boundary",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 247,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-23T14:31:44.668Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c95f8e5ae0ba9c093418-f7803bf134435763bf83",
+          "file": "tests-a.spec.ts",
+          "line": 591,
+          "column": 1
+        },
+        {
+          "title": "TC-QUEUE-01 · queue order, filters, department boundaries, and head read-only view",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1027,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-23T14:31:44.926Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c95f8e5ae0ba9c093418-f2f2094e0685465590c5",
+          "file": "tests-a.spec.ts",
+          "line": 608,
+          "column": 1
+        },
+        {
+          "title": "TC-QUEUE-02 · only one officer can claim a case, including concurrent requests",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1377,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-23T14:31:45.963Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c95f8e5ae0ba9c093418-76146a9f401f9ed57e88",
+          "file": "tests-a.spec.ts",
+          "line": 647,
+          "column": 1
+        },
+        {
+          "title": "TC-QUEUE-03 · workload cap applies to claims, not a returned case resuming",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1138,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-23T14:31:47.350Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c95f8e5ae0ba9c093418-7294050ee396a5df8764",
+          "file": "tests-a.spec.ts",
+          "line": 700,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "tests-b.spec.ts",
+      "file": "tests-b.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "ชุด B · SLA / NOTI / WORKFLOW / DOC / PDPA / DASH / AUDIT / ADMIN / NFR",
+          "file": "tests-b.spec.ts",
+          "line": 116,
+          "column": 6,
+          "specs": [
+            {
+              "title": "TC-SLA-01 กำหนดเสร็จข้ามวันหยุดและวันหยุดยาว",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1454,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-23T14:31:50.003Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "12cfe970336169d1d8dc-becd612bffd47e71ae46",
+              "file": "tests-b.spec.ts",
+              "line": 117,
+              "column": 3
+            },
+            {
+              "title": "TC-SLA-02 SLA หยุดนับระหว่าง NEED_FIX และกลับมาต่อหลังส่งแก้",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1039,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-23T14:31:51.486Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "12cfe970336169d1d8dc-23feeef739402d6e8b2f",
+              "file": "tests-b.spec.ts",
+              "line": 157,
+              "column": 3
+            },
+            {
+              "title": "TC-SLA-03 ระดับเตือนรวมขอบเวลาและสถานะปิด/หยุดนับ",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1473,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-23T14:31:52.537Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "12cfe970336169d1d8dc-6e405c38acd7290dcace",
+              "file": "tests-b.spec.ts",
+              "line": 203,
+              "column": 3
+            },
+            {
+              "title": "TC-NOTI-01 สร้างแจ้งเตือนให้ผู้รับตามระดับและแผนก",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 573,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-23T14:31:54.022Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "12cfe970336169d1d8dc-aff5f7e7ff937b1a037e",
+              "file": "tests-b.spec.ts",
+              "line": 240,
+              "column": 3
+            },
+            {
+              "title": "TC-NOTI-02 ไม่แจ้งซ้ำและเพิ่มรายการเมื่อระดับเปลี่ยน",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1094,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-23T14:31:54.607Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "12cfe970336169d1d8dc-639fc540f2c07dfc8e4f",
+              "file": "tests-b.spec.ts",
+              "line": 270,
+              "column": 3
+            },
+            {
+              "title": "TC-WORKFLOW-01 เจ้าหน้าที่ผู้ถืออนุมัติและออกเอกสารได้",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 793,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-23T14:31:55.712Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "12cfe970336169d1d8dc-997945c45171dd58029b",
+              "file": "tests-b.spec.ts",
+              "line": 319,
+              "column": 3
+            },
+            {
+              "title": "TC-WORKFLOW-02 SV-02 ส่งหัวหน้าอนุมัติ และหัวหน้าส่งออกเอกสารไม่ได้",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1073,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-23T14:31:56.518Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "12cfe970336169d1d8dc-ac6675ccadd0e4051862",
+              "file": "tests-b.spec.ts",
+              "line": 349,
+              "column": 3
+            },
+            {
+              "title": "TC-WORKFLOW-03 SV-03 route ทะเบียน → โยธา → หัวหน้า → ออกเอกสาร",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1108,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-23T14:31:57.604Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "12cfe970336169d1d8dc-9da246969775edec8762",
+              "file": "tests-b.spec.ts",
+              "line": 386,
+              "column": 3
+            },
+            {
+              "title": "TC-WORKFLOW-04 จำกัดการตีกลับสองครั้ง",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1830,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-23T14:31:58.726Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "12cfe970336169d1d8dc-acfc035e5b75b834c323",
+              "file": "tests-b.spec.ts",
+              "line": 428,
+              "column": 3
+            },
+            {
+              "title": "TC-WORKFLOW-05 เหตุผลตีกลับและไม่อนุมัติอย่างน้อยสิบตัว",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1340,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-23T14:32:00.568Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "12cfe970336169d1d8dc-4f2cdeeb23c5134ed3a0",
+              "file": "tests-b.spec.ts",
+              "line": 474,
+              "column": 3
+            },
+            {
+              "title": "TC-WORKFLOW-06 ยกเลิกอัตโนมัติเมื่อครบ 168 ชั่วโมง",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 875,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-23T14:32:01.919Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "12cfe970336169d1d8dc-f9f52dbecb460e10f28b",
+              "file": "tests-b.spec.ts",
+              "line": 512,
+              "column": 3
+            },
+            {
+              "title": "TC-DOC-01 ออก ตรวจสอบ และดาวน์โหลดเอกสารได้ตามข้อมูล",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 513,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-23T14:32:02.804Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "12cfe970336169d1d8dc-6d40e0f6c708306c20af",
+              "file": "tests-b.spec.ts",
+              "line": 535,
+              "column": 3
+            },
+            {
+              "title": "TC-DOC-02 หน้า verify เปิดได้โดยไม่ล็อกอินและไม่เผยข้อมูลส่วนบุคคล",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 382,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-23T14:32:03.328Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "12cfe970336169d1d8dc-2fb0ea40e1434741373a",
+              "file": "tests-b.spec.ts",
+              "line": 564,
+              "column": 3
+            },
+            {
+              "title": "TC-DOC-03 เอกสารหมดอายุและลายเซ็นผิดมีผลตามลำดับตรวจ",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 925,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-23T14:32:03.721Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "12cfe970336169d1d8dc-143c6b9ed5daa85d7d61",
+              "file": "tests-b.spec.ts",
+              "line": 584,
+              "column": 3
+            },
+            {
+              "title": "TC-PDPA-01 แสดงเลขบัตรตามสิทธิ์และปิดบังในหน้าพนักงาน",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 489,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-23T14:32:04.659Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "12cfe970336169d1d8dc-a25811889fadd841fe00",
+              "file": "tests-b.spec.ts",
+              "line": 632,
+              "column": 3
+            },
+            {
+              "title": "TC-PDPA-02 API เจ้าหน้าที่ไม่ส่งเลขบัตรเต็มหรือ key idNo",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 222,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-23T14:32:05.159Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "12cfe970336169d1d8dc-362f33ddf73b54938dd3",
+              "file": "tests-b.spec.ts",
+              "line": 649,
+              "column": 3
+            },
+            {
+              "title": "TC-PDPA-03 แสดงเลขเต็มต้องมีเหตุผลและบันทึก UNMASK",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 5593,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByTestId('audit-count')\nExpected: \u001b[32m\"1\"\u001b[39m\nReceived: \u001b[31m\"0\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" getByTestId('audit-count') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('audit-count')\u001b[22m\n\u001b[2m    14 × locator resolved to <strong aria-live=\"polite\" data-testid=\"audit-count\">0</strong>\u001b[22m\n\u001b[2m       - unexpected value \"0\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByTestId('audit-count')\nExpected: \u001b[32m\"1\"\u001b[39m\nReceived: \u001b[31m\"0\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" getByTestId('audit-count') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('audit-count')\u001b[22m\n\u001b[2m    14 × locator resolved to <strong aria-live=\"polite\" data-testid=\"audit-count\">0</strong>\u001b[22m\n\u001b[2m       - unexpected value \"0\"\u001b[22m\n\n    at C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-b.spec.ts:680:51",
+                        "location": {
+                          "file": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-b.spec.ts",
+                          "column": 51,
+                          "line": 680
+                        },
+                        "snippet": " \u001b[90m 678 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByTestId(\u001b[32m'applicant-id'\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[32m'X-XXXX-XXXXX-65-9'\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// โหลดซ้ำแล้วปิดบังตามเดิม\u001b[39m\n \u001b[90m 679 |\u001b[39m     \u001b[36mawait\u001b[39m staff(page\u001b[33m,\u001b[39m \u001b[32m'audit1'\u001b[39m)\u001b[33m;\u001b[39m \u001b[36mawait\u001b[39m open(page\u001b[33m,\u001b[39m \u001b[32m'/audit'\u001b[39m)\u001b[33m;\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByTestId(\u001b[32m'audit-filter-event'\u001b[39m)\u001b[33m.\u001b[39mselectOption(\u001b[32m'UNMASK'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 680 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByTestId(\u001b[32m'audit-count'\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[32m'1'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 681 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m'[data-testid=\"audit-row\"]'\u001b[39m)\u001b[33m.\u001b[39mfirst())\u001b[33m.\u001b[39mtoContainText(\u001b[32m'ตรวจสอบตัวตนซ้ำ'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 682 |\u001b[39m     \u001b[36mconst\u001b[39m row \u001b[33m=\u001b[39m page\u001b[33m.\u001b[39mgetByTestId(\u001b[32m'audit-row'\u001b[39m)\u001b[33m;\u001b[39m \u001b[36mawait\u001b[39m expect(row)\u001b[33m.\u001b[39mtoHaveCount(\u001b[35m1\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 683 |\u001b[39m     \u001b[36mawait\u001b[39m expect(row)\u001b[33m.\u001b[39mtoHaveAttribute(\u001b[32m'data-actor'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'off.reg2'\u001b[39m)\u001b[33m;\u001b[39m \u001b[36mawait\u001b[39m expect(row)\u001b[33m.\u001b[39mtoHaveAttribute(\u001b[32m'data-case-no'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'EG-2569-000025'\u001b[39m)\u001b[33m;\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-b.spec.ts",
+                            "column": 51,
+                            "line": 680
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByTestId('audit-count')\nExpected: \u001b[32m\"1\"\u001b[39m\nReceived: \u001b[31m\"0\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" getByTestId('audit-count') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('audit-count')\u001b[22m\n\u001b[2m    14 × locator resolved to <strong aria-live=\"polite\" data-testid=\"audit-count\">0</strong>\u001b[22m\n\u001b[2m       - unexpected value \"0\"\u001b[22m\n\n\n  678 |     await expect(page.getByTestId('applicant-id')).toHaveText('X-XXXX-XXXXX-65-9'); // โหลดซ้ำแล้วปิดบังตามเดิม\n  679 |     await staff(page, 'audit1'); await open(page, '/audit'); await page.getByTestId('audit-filter-event').selectOption('UNMASK');\n> 680 |     await expect(page.getByTestId('audit-count')).toHaveText('1');\n      |                                                   ^\n  681 |     await expect(page.locator('[data-testid=\"audit-row\"]').first()).toContainText('ตรวจสอบตัวตนซ้ำ');\n  682 |     const row = page.getByTestId('audit-row'); await expect(row).toHaveCount(1);\n  683 |     await expect(row).toHaveAttribute('data-actor', 'off.reg2'); await expect(row).toHaveAttribute('data-case-no', 'EG-2569-000025');\n    at C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-b.spec.ts:680:51"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-23T14:32:05.394Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\results\\out-B11\\tests-b-ชุด-B-·-SLA-NOTI-W-8c9a6-้องมีเหตุผลและบันทึก-UNMASK\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-b.spec.ts",
+                        "column": 51,
+                        "line": 680
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "12cfe970336169d1d8dc-ef1dde571c04333032cb",
+              "file": "tests-b.spec.ts",
+              "line": 666,
+              "column": 3
+            },
+            {
+              "title": "TC-DASH-01 Dashboard ค่าเริ่มต้นและข้อมูลส่วนบุคคลไม่ปรากฏ",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 473,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-23T14:32:13.895Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "12cfe970336169d1d8dc-2d0187b9bcc01e6ae601",
+              "file": "tests-b.spec.ts",
+              "line": 694,
+              "column": 3
+            },
+            {
+              "title": "TC-DASH-02 Dashboard ย้อนหลังคิดเปอร์เซ็นต์จากงานปิด",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 588,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-23T14:32:14.507Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "12cfe970336169d1d8dc-0fd4dbea49814b5d1556",
+              "file": "tests-b.spec.ts",
+              "line": 716,
+              "column": 3
+            },
+            {
+              "title": "TC-DASH-03 ส่งออก XLSX/PDF สะท้อนตัวเลขที่เลือกและ Audit",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2455,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-23T14:32:15.109Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "12cfe970336169d1d8dc-ee36f19bcb9e94ea903f",
+              "file": "tests-b.spec.ts",
+              "line": 730,
+              "column": 3
+            },
+            {
+              "title": "TC-DASH-04 นิยามทันกำหนดรวมเวลาปิดที่ 16:30:00",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 726,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-23T14:32:17.577Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "12cfe970336169d1d8dc-750d130b398251cb2250",
+              "file": "tests-b.spec.ts",
+              "line": 770,
+              "column": 3
+            },
+            {
+              "title": "TC-AUDIT-01 audit บันทึกเหตุการณ์ผู้กระทำและการเปลี่ยนสถานะ",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 5721,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByTestId('audit-count')\nExpected: \u001b[32m\"1\u001b[7m6\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"1\u001b[7m5\u001b[27m\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" getByTestId('audit-count') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('audit-count')\u001b[22m\n\u001b[2m    14 × locator resolved to <strong aria-live=\"polite\" data-testid=\"audit-count\">15</strong>\u001b[22m\n\u001b[2m       - unexpected value \"15\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByTestId('audit-count')\nExpected: \u001b[32m\"1\u001b[7m6\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"1\u001b[7m5\u001b[27m\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" getByTestId('audit-count') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('audit-count')\u001b[22m\n\u001b[2m    14 × locator resolved to <strong aria-live=\"polite\" data-testid=\"audit-count\">15</strong>\u001b[22m\n\u001b[2m       - unexpected value \"15\"\u001b[22m\n\n    at C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-b.spec.ts:818:50",
+                        "location": {
+                          "file": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-b.spec.ts",
+                          "column": 50,
+                          "line": 818
+                        },
+                        "snippet": " \u001b[90m 816 |\u001b[39m       p \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m session(\u001b[32m'admin1'\u001b[39m)\u001b[33m;\u001b[39m \u001b[36mawait\u001b[39m api(p\u001b[33m,\u001b[39m \u001b[32m'put'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'/api/admin/services/SV-01'\u001b[39m\u001b[33m,\u001b[39m { fee\u001b[33m:\u001b[39m \u001b[35m25\u001b[39m\u001b[33m,\u001b[39m sla\u001b[33m:\u001b[39m \u001b[35m3\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 817 |\u001b[39m       p \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m session(\u001b[32m'audit1'\u001b[39m)\u001b[33m;\u001b[39m \u001b[36mawait\u001b[39m open(p\u001b[33m,\u001b[39m \u001b[32m'/audit'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 818 |\u001b[39m       \u001b[36mawait\u001b[39m expect(p\u001b[33m.\u001b[39mgetByTestId(\u001b[32m'audit-count'\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[32m'16'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 819 |\u001b[39m       \u001b[36mfor\u001b[39m (\u001b[36mconst\u001b[39m [event\u001b[33m,\u001b[39m count] \u001b[36mof\u001b[39m \u001b[33mObject\u001b[39m\u001b[33m.\u001b[39mentries({ \u001b[33mSTAFF_LOGIN\u001b[39m\u001b[33m:\u001b[39m \u001b[35m6\u001b[39m\u001b[33m,\u001b[39m \u001b[33mCLAIM\u001b[39m\u001b[33m:\u001b[39m \u001b[35m1\u001b[39m\u001b[33m,\u001b[39m \u001b[33mRETURN\u001b[39m\u001b[33m:\u001b[39m \u001b[35m1\u001b[39m\u001b[33m,\u001b[39m \u001b[33mFORWARD\u001b[39m\u001b[33m:\u001b[39m \u001b[35m1\u001b[39m\u001b[33m,\u001b[39m \u001b[33mAPPROVE\u001b[39m\u001b[33m:\u001b[39m \u001b[35m2\u001b[39m\u001b[33m,\u001b[39m \u001b[33mISSUE\u001b[39m\u001b[33m:\u001b[39m \u001b[35m1\u001b[39m\u001b[33m,\u001b[39m \u001b[33mREJECT\u001b[39m\u001b[33m:\u001b[39m \u001b[35m1\u001b[39m\u001b[33m,\u001b[39m \u001b[33mUNMASK\u001b[39m\u001b[33m:\u001b[39m \u001b[35m1\u001b[39m\u001b[33m,\u001b[39m \u001b[33mEXPORT\u001b[39m\u001b[33m:\u001b[39m \u001b[35m1\u001b[39m\u001b[33m,\u001b[39m \u001b[33mADMIN_CHANGE\u001b[39m\u001b[33m:\u001b[39m \u001b[35m1\u001b[39m })) {\n \u001b[90m 820 |\u001b[39m         \u001b[36mawait\u001b[39m p\u001b[33m.\u001b[39mgetByTestId(\u001b[32m'audit-filter-event'\u001b[39m)\u001b[33m.\u001b[39mselectOption(event)\u001b[33m;\u001b[39m \u001b[36mawait\u001b[39m expect(p\u001b[33m.\u001b[39mgetByTestId(\u001b[32m'audit-count'\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[33mString\u001b[39m(count))\u001b[33m;\u001b[39m\n \u001b[90m 821 |\u001b[39m       }"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-b.spec.ts",
+                            "column": 50,
+                            "line": 818
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByTestId('audit-count')\nExpected: \u001b[32m\"1\u001b[7m6\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"1\u001b[7m5\u001b[27m\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" getByTestId('audit-count') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('audit-count')\u001b[22m\n\u001b[2m    14 × locator resolved to <strong aria-live=\"polite\" data-testid=\"audit-count\">15</strong>\u001b[22m\n\u001b[2m       - unexpected value \"15\"\u001b[22m\n\n\n  816 |       p = await session('admin1'); await api(p, 'put', '/api/admin/services/SV-01', { fee: 25, sla: 3 });\n  817 |       p = await session('audit1'); await open(p, '/audit');\n> 818 |       await expect(p.getByTestId('audit-count')).toHaveText('16');\n      |                                                  ^\n  819 |       for (const [event, count] of Object.entries({ STAFF_LOGIN: 6, CLAIM: 1, RETURN: 1, FORWARD: 1, APPROVE: 2, ISSUE: 1, REJECT: 1, UNMASK: 1, EXPORT: 1, ADMIN_CHANGE: 1 })) {\n  820 |         await p.getByTestId('audit-filter-event').selectOption(event); await expect(p.getByTestId('audit-count')).toHaveText(String(count));\n  821 |       }\n    at C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-b.spec.ts:818:50"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-23T14:32:18.316Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\results\\out-B11\\tests-b-ชุด-B-·-SLA-NOTI-W-88bac-์ผู้กระทำและการเปลี่ยนสถานะ\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-b.spec.ts",
+                        "column": 50,
+                        "line": 818
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "12cfe970336169d1d8dc-a56c0984facdbc1ac1c8",
+              "file": "tests-b.spec.ts",
+              "line": 799,
+              "column": 3
+            },
+            {
+              "title": "TC-AUDIT-02 audit เป็น append-only และอ่านได้เฉพาะ auditor",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 385,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-23T14:32:26.901Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "12cfe970336169d1d8dc-e82045147c0a17fce627",
+              "file": "tests-b.spec.ts",
+              "line": 872,
+              "column": 3
+            },
+            {
+              "title": "TC-AUDIT-03 audit กรองวันที่ตามเขตเวลาไทยแบบ inclusive",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 898,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-23T14:32:27.421Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "12cfe970336169d1d8dc-14a8cbe195942b005939",
+              "file": "tests-b.spec.ts",
+              "line": 894,
+              "column": 3
+            },
+            {
+              "title": "TC-RBAC-04 ผู้ดูแลแก้ค่าบริการ วันหยุดและบทบาท พร้อมยอดที่ล็อก",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1811,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-23T14:32:28.332Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "12cfe970336169d1d8dc-17df49b58f0f0ad6f12a",
+              "file": "tests-b.spec.ts",
+              "line": 914,
+              "column": 3
+            },
+            {
+              "title": "TC-RBAC-05 สิทธิ์อ่านและดาวน์โหลดไฟล์แนบแยกตามบทบาท/ขั้นตอน",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 498,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-23T14:32:30.155Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "12cfe970336169d1d8dc-e73238ccbca64ab303b5",
+              "file": "tests-b.spec.ts",
+              "line": 968,
+              "column": 3
+            },
+            {
+              "title": "TC-RBAC-06 ผู้ดูแลตรวจช่วง fee/SLA และการเปลี่ยนค่าที่ขัดเงื่อนไข",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 502,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-23T14:32:30.664Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "12cfe970336169d1d8dc-5f2909007b5402b26565",
+              "file": "tests-b.spec.ts",
+              "line": 1015,
+              "column": 3
+            },
+            {
+              "title": "TC-NFR-01 11 หน้าพอดีกับ viewport 375, 768 และ 1280",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1956,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-23T14:32:31.179Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "12cfe970336169d1d8dc-21fdef3c6968a32cdc22",
+              "file": "tests-b.spec.ts",
+              "line": 1044,
+              "column": 3
+            },
+            {
+              "title": "TC-NFR-02 axe, label, keyboard focus and text status semantics",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 8795,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-23T14:32:33.146Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "12cfe970336169d1d8dc-099d209684078f3406b6",
+              "file": "tests-b.spec.ts",
+              "line": 1072,
+              "column": 3
+            },
+            {
+              "title": "TC-NFR-03 health, response time and reset reproducibility",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 675,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-23T14:32:41.950Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "12cfe970336169d1d8dc-65eef35f982970d6a4dd",
+              "file": "tests-b.spec.ts",
+              "line": 1122,
+              "column": 3
+            },
+            {
+              "title": "TC-NFR-04 ข้อมูล PII ในไฟล์ฐานข้อมูลไม่เป็นข้อความดิบ",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 371,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-11-23T14:32:42.636Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "12cfe970336169d1d8dc-811bc1f06c630d11c76b",
+              "file": "tests-b.spec.ts",
+              "line": 1140,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "tests-c.spec.ts",
+      "file": "tests-c.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "TC-RBAC-01 ประชาชนเปิดคำขอคนอื่นไม่ได้ (IDOR)",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 324,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-23T14:32:43.027Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f693ae9b916a2cd02346-acf77d21be3cb9739cff",
+          "file": "tests-c.spec.ts",
+          "line": 34,
+          "column": 1
+        },
+        {
+          "title": "TC-RBAC-02 เจ้าหน้าที่อนุมัติ SV-02 ไม่ได้ (ตรวจที่ API)",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 452,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-23T14:32:43.363Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f693ae9b916a2cd02346-81f60676d712ec81ff13",
+          "file": "tests-c.spec.ts",
+          "line": 67,
+          "column": 1
+        },
+        {
+          "title": "TC-RBAC-03 ตารางสิทธิ์หน้า/API ตามบทบาท",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4617,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-23T14:32:43.825Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "f693ae9b916a2cd02346-96a8db37598083b8f1de",
+          "file": "tests-c.spec.ts",
+          "line": 102,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-23T14:31:27.250Z",
+    "duration": 81299.173,
+    "expected": 49,
+    "skipped": 0,
+    "unexpected": 2,
+    "flaky": 0
+  }
+}

@@ -1,4 +1,0 @@
-# ชุด Playwright กับเว็บใน Docker (TEST_MODE=1 docker compose up --build · image node:22-bookworm-slim + ฟอนต์ไทย) · 2026-11-23 21:17
-# ไม่รวม TC-NFR-04 (ต้องอ่านไฟล์ฐานข้อมูลจาก host · ข้อมูลอยู่ใน volume ของ Docker) → 50 TC
-passed 50/50
-ใช้เวลา 60s

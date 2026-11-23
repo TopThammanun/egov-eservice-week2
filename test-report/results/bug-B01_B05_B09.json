@@ -112,12 +112,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1276,
+                  "duration": 1926,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-23T14:35:31.430Z",
+                  "startTime": "2026-11-23T15:56:22.605Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -127,7 +127,7 @@
           ],
           "id": "c95f8e5ae0ba9c093418-813b6978bee5f4467348",
           "file": "tests-a.spec.ts",
-          "line": 110,
+          "line": 114,
           "column": 1
         },
         {
@@ -146,12 +146,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 820,
+                  "duration": 1722,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-23T14:35:32.866Z",
+                  "startTime": "2026-11-23T15:56:24.702Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -161,7 +161,7 @@
           ],
           "id": "c95f8e5ae0ba9c093418-eac9a82700bc8ed10338",
           "file": "tests-a.spec.ts",
-          "line": 136,
+          "line": 140,
           "column": 1
         },
         {
@@ -180,12 +180,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1619,
+                  "duration": 2086,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-23T14:35:33.698Z",
+                  "startTime": "2026-11-23T15:56:26.435Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -195,7 +195,7 @@
           ],
           "id": "c95f8e5ae0ba9c093418-fad86568f08d3e4fb20c",
           "file": "tests-a.spec.ts",
-          "line": 190,
+          "line": 194,
           "column": 1
         },
         {
@@ -214,12 +214,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 3183,
+                  "duration": 5072,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-23T14:35:35.327Z",
+                  "startTime": "2026-11-23T15:56:28.534Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -229,7 +229,7 @@
           ],
           "id": "c95f8e5ae0ba9c093418-f1c19968836b14f97cb2",
           "file": "tests-a.spec.ts",
-          "line": 225,
+          "line": 229,
           "column": 1
         },
         {
@@ -248,31 +248,31 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "failed",
-                  "duration": 5276,
+                  "duration": 5897,
                   "error": {
                     "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByTestId('fee-total')\nExpected: \u001b[32m\"฿1,0\u001b[7m1\u001b[27m0\"\u001b[39m\nReceived: \u001b[31m\"฿1,0\u001b[7m0\u001b[27m0\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" getByTestId('fee-total') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('fee-total')\u001b[22m\n\u001b[2m    14 × locator resolved to <strong aria-live=\"polite\" data-testid=\"fee-total\">฿1,000</strong>\u001b[22m\n\u001b[2m       - unexpected value \"฿1,000\"\u001b[22m\n",
-                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByTestId('fee-total')\nExpected: \u001b[32m\"฿1,0\u001b[7m1\u001b[27m0\"\u001b[39m\nReceived: \u001b[31m\"฿1,0\u001b[7m0\u001b[27m0\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" getByTestId('fee-total') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('fee-total')\u001b[22m\n\u001b[2m    14 × locator resolved to <strong aria-live=\"polite\" data-testid=\"fee-total\">฿1,000</strong>\u001b[22m\n\u001b[2m       - unexpected value \"฿1,000\"\u001b[22m\n\n    at C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-a.spec.ts:266:79",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByTestId('fee-total')\nExpected: \u001b[32m\"฿1,0\u001b[7m1\u001b[27m0\"\u001b[39m\nReceived: \u001b[31m\"฿1,0\u001b[7m0\u001b[27m0\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" getByTestId('fee-total') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('fee-total')\u001b[22m\n\u001b[2m    14 × locator resolved to <strong aria-live=\"polite\" data-testid=\"fee-total\">฿1,000</strong>\u001b[22m\n\u001b[2m       - unexpected value \"฿1,000\"\u001b[22m\n\n    at C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-a.spec.ts:270:79",
                     "location": {
                       "file": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-a.spec.ts",
                       "column": 79,
-                      "line": 266
+                      "line": 270
                     },
-                    "snippet": " \u001b[90m 264 |\u001b[39m   \u001b[36mconst\u001b[39m area \u001b[33m=\u001b[39m h\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mgetByTestId(\u001b[32m'area-input'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 265 |\u001b[39m   \u001b[36mfor\u001b[39m (\u001b[36mconst\u001b[39m [n\u001b[33m,\u001b[39m fee] \u001b[36mof\u001b[39m [[\u001b[35m1\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'฿1,000'\u001b[39m]\u001b[33m,\u001b[39m [\u001b[35m100\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'฿1,000'\u001b[39m]\u001b[33m,\u001b[39m [\u001b[35m101\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'฿1,010'\u001b[39m]\u001b[33m,\u001b[39m [\u001b[35m102\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'฿1,020'\u001b[39m]\u001b[33m,\u001b[39m [\u001b[35m250\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'฿2,500'\u001b[39m]\u001b[33m,\u001b[39m [\u001b[35m300\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'฿3,000'\u001b[39m]\u001b[33m,\u001b[39m [\u001b[35m499\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'฿4,990'\u001b[39m]\u001b[33m,\u001b[39m [\u001b[35m500\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'฿5,000'\u001b[39m]] \u001b[36mas\u001b[39m [number\u001b[33m,\u001b[39m string][]) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 266 |\u001b[39m     \u001b[36mawait\u001b[39m area\u001b[33m.\u001b[39mfill(\u001b[33mString\u001b[39m(n))\u001b[33m;\u001b[39m \u001b[36mawait\u001b[39m expect(h\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mgetByTestId(\u001b[32m'fee-total'\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(fee)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 267 |\u001b[39m     \u001b[36mawait\u001b[39m expect(h\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mgetByTestId(\u001b[32m'fee-error'\u001b[39m))\u001b[33m.\u001b[39mtoHaveCount(\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 268 |\u001b[39m     \u001b[36mconst\u001b[39m want \u001b[33m=\u001b[39m n \u001b[33m<=\u001b[39m \u001b[35m100\u001b[39m \u001b[33m?\u001b[39m \u001b[35m1000\u001b[39m \u001b[33m:\u001b[39m \u001b[35m1000\u001b[39m \u001b[33m+\u001b[39m \u001b[35m10\u001b[39m \u001b[33m*\u001b[39m (n \u001b[33m-\u001b[39m \u001b[35m100\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// BR-05: ฐาน 1,000 + 10 × (พื้นที่ − 100)\u001b[39m\n \u001b[90m 269 |\u001b[39m     expect((\u001b[36mawait\u001b[39m (\u001b[36mawait\u001b[39m h\u001b[33m.\u001b[39mapi\u001b[33m.\u001b[39mpost(\u001b[32m'/api/drafts'\u001b[39m\u001b[33m,\u001b[39m { data\u001b[33m:\u001b[39m { serviceId\u001b[33m:\u001b[39m \u001b[32m'SV-03'\u001b[39m\u001b[33m,\u001b[39m areaSqm\u001b[33m:\u001b[39m n } }))\u001b[33m.\u001b[39mjson())\u001b[33m.\u001b[39mfee\u001b[33m,\u001b[39m \u001b[32m`SV-03 ${n}`\u001b[39m)\u001b[33m.\u001b[39mtoBe(want)\u001b[33m;\u001b[39m"
+                    "snippet": " \u001b[90m 268 |\u001b[39m   \u001b[36mconst\u001b[39m area \u001b[33m=\u001b[39m h\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mgetByTestId(\u001b[32m'area-input'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 269 |\u001b[39m   \u001b[36mfor\u001b[39m (\u001b[36mconst\u001b[39m [n\u001b[33m,\u001b[39m fee] \u001b[36mof\u001b[39m [[\u001b[35m1\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'฿1,000'\u001b[39m]\u001b[33m,\u001b[39m [\u001b[35m100\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'฿1,000'\u001b[39m]\u001b[33m,\u001b[39m [\u001b[35m101\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'฿1,010'\u001b[39m]\u001b[33m,\u001b[39m [\u001b[35m102\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'฿1,020'\u001b[39m]\u001b[33m,\u001b[39m [\u001b[35m250\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'฿2,500'\u001b[39m]\u001b[33m,\u001b[39m [\u001b[35m300\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'฿3,000'\u001b[39m]\u001b[33m,\u001b[39m [\u001b[35m499\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'฿4,990'\u001b[39m]\u001b[33m,\u001b[39m [\u001b[35m500\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'฿5,000'\u001b[39m]] \u001b[36mas\u001b[39m [number\u001b[33m,\u001b[39m string][]) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 270 |\u001b[39m     \u001b[36mawait\u001b[39m area\u001b[33m.\u001b[39mfill(\u001b[33mString\u001b[39m(n))\u001b[33m;\u001b[39m \u001b[36mawait\u001b[39m expect(h\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mgetByTestId(\u001b[32m'fee-total'\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(fee)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 271 |\u001b[39m     \u001b[36mawait\u001b[39m expect(h\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mgetByTestId(\u001b[32m'fee-error'\u001b[39m))\u001b[33m.\u001b[39mtoHaveCount(\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 272 |\u001b[39m     \u001b[36mconst\u001b[39m want \u001b[33m=\u001b[39m n \u001b[33m<=\u001b[39m \u001b[35m100\u001b[39m \u001b[33m?\u001b[39m \u001b[35m1000\u001b[39m \u001b[33m:\u001b[39m \u001b[35m1000\u001b[39m \u001b[33m+\u001b[39m \u001b[35m10\u001b[39m \u001b[33m*\u001b[39m (n \u001b[33m-\u001b[39m \u001b[35m100\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// BR-05: ฐาน 1,000 + 10 × (พื้นที่ − 100)\u001b[39m\n \u001b[90m 273 |\u001b[39m     expect((\u001b[36mawait\u001b[39m (\u001b[36mawait\u001b[39m h\u001b[33m.\u001b[39mapi\u001b[33m.\u001b[39mpost(\u001b[32m'/api/drafts'\u001b[39m\u001b[33m,\u001b[39m { data\u001b[33m:\u001b[39m { serviceId\u001b[33m:\u001b[39m \u001b[32m'SV-03'\u001b[39m\u001b[33m,\u001b[39m areaSqm\u001b[33m:\u001b[39m n } }))\u001b[33m.\u001b[39mjson())\u001b[33m.\u001b[39mfee\u001b[33m,\u001b[39m \u001b[32m`SV-03 ${n}`\u001b[39m)\u001b[33m.\u001b[39mtoBe(want)\u001b[33m;\u001b[39m"
                   },
                   "errors": [
                     {
                       "location": {
                         "file": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-a.spec.ts",
                         "column": 79,
-                        "line": 266
+                        "line": 270
                       },
-                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByTestId('fee-total')\nExpected: \u001b[32m\"฿1,0\u001b[7m1\u001b[27m0\"\u001b[39m\nReceived: \u001b[31m\"฿1,0\u001b[7m0\u001b[27m0\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" getByTestId('fee-total') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('fee-total')\u001b[22m\n\u001b[2m    14 × locator resolved to <strong aria-live=\"polite\" data-testid=\"fee-total\">฿1,000</strong>\u001b[22m\n\u001b[2m       - unexpected value \"฿1,000\"\u001b[22m\n\n\n  264 |   const area = h.page.getByTestId('area-input');\n  265 |   for (const [n, fee] of [[1, '฿1,000'], [100, '฿1,000'], [101, '฿1,010'], [102, '฿1,020'], [250, '฿2,500'], [300, '฿3,000'], [499, '฿4,990'], [500, '฿5,000']] as [number, string][]) {\n> 266 |     await area.fill(String(n)); await expect(h.page.getByTestId('fee-total')).toHaveText(fee);\n      |                                                                               ^\n  267 |     await expect(h.page.getByTestId('fee-error')).toHaveCount(0);\n  268 |     const want = n <= 100 ? 1000 : 1000 + 10 * (n - 100); // BR-05: ฐาน 1,000 + 10 × (พื้นที่ − 100)\n  269 |     expect((await (await h.api.post('/api/drafts', { data: { serviceId: 'SV-03', areaSqm: n } })).json()).fee, `SV-03 ${n}`).toBe(want);\n    at C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-a.spec.ts:266:79"
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByTestId('fee-total')\nExpected: \u001b[32m\"฿1,0\u001b[7m1\u001b[27m0\"\u001b[39m\nReceived: \u001b[31m\"฿1,0\u001b[7m0\u001b[27m0\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" getByTestId('fee-total') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('fee-total')\u001b[22m\n\u001b[2m    14 × locator resolved to <strong aria-live=\"polite\" data-testid=\"fee-total\">฿1,000</strong>\u001b[22m\n\u001b[2m       - unexpected value \"฿1,000\"\u001b[22m\n\n\n  268 |   const area = h.page.getByTestId('area-input');\n  269 |   for (const [n, fee] of [[1, '฿1,000'], [100, '฿1,000'], [101, '฿1,010'], [102, '฿1,020'], [250, '฿2,500'], [300, '฿3,000'], [499, '฿4,990'], [500, '฿5,000']] as [number, string][]) {\n> 270 |     await area.fill(String(n)); await expect(h.page.getByTestId('fee-total')).toHaveText(fee);\n      |                                                                               ^\n  271 |     await expect(h.page.getByTestId('fee-error')).toHaveCount(0);\n  272 |     const want = n <= 100 ? 1000 : 1000 + 10 * (n - 100); // BR-05: ฐาน 1,000 + 10 × (พื้นที่ − 100)\n  273 |     expect((await (await h.api.post('/api/drafts', { data: { serviceId: 'SV-03', areaSqm: n } })).json()).fee, `SV-03 ${n}`).toBe(want);\n    at C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-a.spec.ts:270:79"
                     }
                   ],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-23T14:35:38.521Z",
+                  "startTime": "2026-11-23T15:56:33.618Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -284,7 +284,7 @@
                   "errorLocation": {
                     "file": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-a.spec.ts",
                     "column": 79,
-                    "line": 266
+                    "line": 270
                   }
                 }
               ],
@@ -293,7 +293,7 @@
           ],
           "id": "c95f8e5ae0ba9c093418-cbbe8610e7b046185ccd",
           "file": "tests-a.spec.ts",
-          "line": 261,
+          "line": 265,
           "column": 1
         },
         {
@@ -312,12 +312,12 @@
                   "workerIndex": 1,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1360,
+                  "duration": 1491,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-23T14:35:44.821Z",
+                  "startTime": "2026-11-23T15:56:41.719Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -327,7 +327,7 @@
           ],
           "id": "c95f8e5ae0ba9c093418-a0ca1a9d72311156c792",
           "file": "tests-a.spec.ts",
-          "line": 294,
+          "line": 298,
           "column": 1
         },
         {
@@ -346,12 +346,12 @@
                   "workerIndex": 1,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 610,
+                  "duration": 1622,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-23T14:35:46.310Z",
+                  "startTime": "2026-11-23T15:56:43.418Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -361,7 +361,7 @@
           ],
           "id": "c95f8e5ae0ba9c093418-7ae2d0e5e87d283b1870",
           "file": "tests-a.spec.ts",
-          "line": 344,
+          "line": 348,
           "column": 1
         },
         {
@@ -380,12 +380,12 @@
                   "workerIndex": 1,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1515,
+                  "duration": 3259,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-23T14:35:46.932Z",
+                  "startTime": "2026-11-23T15:56:45.055Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -395,7 +395,7 @@
           ],
           "id": "c95f8e5ae0ba9c093418-488772d8fbfed41c938b",
           "file": "tests-a.spec.ts",
-          "line": 377,
+          "line": 381,
           "column": 1
         },
         {
@@ -414,12 +414,12 @@
                   "workerIndex": 1,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 2199,
+                  "duration": 9385,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-23T14:35:48.459Z",
+                  "startTime": "2026-11-23T15:56:48.327Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -429,7 +429,7 @@
           ],
           "id": "c95f8e5ae0ba9c093418-d47b46c8b4a39434d1f1",
           "file": "tests-a.spec.ts",
-          "line": 454,
+          "line": 458,
           "column": 1
         },
         {
@@ -448,12 +448,12 @@
                   "workerIndex": 1,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 450,
+                  "duration": 1334,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-23T14:35:50.670Z",
+                  "startTime": "2026-11-23T15:56:57.746Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -463,7 +463,7 @@
           ],
           "id": "c95f8e5ae0ba9c093418-f87f66ff78f0b7c60226",
           "file": "tests-a.spec.ts",
-          "line": 497,
+          "line": 501,
           "column": 1
         },
         {
@@ -482,31 +482,31 @@
                   "workerIndex": 1,
                   "parallelIndex": 0,
                   "status": "failed",
-                  "duration": 356,
+                  "duration": 1141,
                   "error": {
                     "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m410\u001b[39m\nReceived: \u001b[31m200\u001b[39m",
-                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m410\u001b[39m\nReceived: \u001b[31m200\u001b[39m\n    at expectApiError (C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-a.spec.ts:106:29)\n    at C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-a.spec.ts:528:9",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m410\u001b[39m\nReceived: \u001b[31m200\u001b[39m\n    at expectApiError (C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-a.spec.ts:110:29)\n    at C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-a.spec.ts:532:9",
                     "location": {
                       "file": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-a.spec.ts",
                       "column": 29,
-                      "line": 106
+                      "line": 110
                     },
-                    "snippet": " \u001b[90m 104 |\u001b[39m\n \u001b[90m 105 |\u001b[39m \u001b[36masync\u001b[39m \u001b[36mfunction\u001b[39m expectApiError(response\u001b[33m:\u001b[39m \u001b[33mAwaited\u001b[39m\u001b[33m<\u001b[39m\u001b[33mReturnType\u001b[39m\u001b[33m<\u001b[39m\u001b[33mAPIRequestContext\u001b[39m[\u001b[32m'post'\u001b[39m]\u001b[33m>>\u001b[39m\u001b[33m,\u001b[39m status\u001b[33m:\u001b[39m number\u001b[33m,\u001b[39m code\u001b[33m:\u001b[39m string) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 106 |\u001b[39m   expect(response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(status)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 107 |\u001b[39m   expect((\u001b[36mawait\u001b[39m response\u001b[33m.\u001b[39mjson())\u001b[33m.\u001b[39mcode)\u001b[33m.\u001b[39mtoBe(code)\u001b[33m;\u001b[39m\n \u001b[90m 108 |\u001b[39m }\n \u001b[90m 109 |\u001b[39m"
+                    "snippet": " \u001b[90m 108 |\u001b[39m\n \u001b[90m 109 |\u001b[39m \u001b[36masync\u001b[39m \u001b[36mfunction\u001b[39m expectApiError(response\u001b[33m:\u001b[39m \u001b[33mAwaited\u001b[39m\u001b[33m<\u001b[39m\u001b[33mReturnType\u001b[39m\u001b[33m<\u001b[39m\u001b[33mAPIRequestContext\u001b[39m[\u001b[32m'post'\u001b[39m]\u001b[33m>>\u001b[39m\u001b[33m,\u001b[39m status\u001b[33m:\u001b[39m number\u001b[33m,\u001b[39m code\u001b[33m:\u001b[39m string) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 110 |\u001b[39m   expect(response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(status)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 111 |\u001b[39m   expect((\u001b[36mawait\u001b[39m response\u001b[33m.\u001b[39mjson())\u001b[33m.\u001b[39mcode)\u001b[33m.\u001b[39mtoBe(code)\u001b[33m;\u001b[39m\n \u001b[90m 112 |\u001b[39m }\n \u001b[90m 113 |\u001b[39m"
                   },
                   "errors": [
                     {
                       "location": {
                         "file": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-a.spec.ts",
                         "column": 29,
-                        "line": 106
+                        "line": 110
                       },
-                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m410\u001b[39m\nReceived: \u001b[31m200\u001b[39m\n\n  104 |\n  105 | async function expectApiError(response: Awaited<ReturnType<APIRequestContext['post']>>, status: number, code: string) {\n> 106 |   expect(response.status()).toBe(status);\n      |                             ^\n  107 |   expect((await response.json()).code).toBe(code);\n  108 | }\n  109 |\n    at expectApiError (C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-a.spec.ts:106:29)\n    at C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-a.spec.ts:528:9"
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m410\u001b[39m\nReceived: \u001b[31m200\u001b[39m\n\n  108 |\n  109 | async function expectApiError(response: Awaited<ReturnType<APIRequestContext['post']>>, status: number, code: string) {\n> 110 |   expect(response.status()).toBe(status);\n      |                             ^\n  111 |   expect((await response.json()).code).toBe(code);\n  112 | }\n  113 |\n    at expectApiError (C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-a.spec.ts:110:29)\n    at C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-a.spec.ts:532:9"
                     }
                   ],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-23T14:35:51.131Z",
+                  "startTime": "2026-11-23T15:56:59.117Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -518,7 +518,7 @@
                   "errorLocation": {
                     "file": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-a.spec.ts",
                     "column": 29,
-                    "line": 106
+                    "line": 110
                   }
                 }
               ],
@@ -527,7 +527,7 @@
           ],
           "id": "c95f8e5ae0ba9c093418-628c7540816f887624a3",
           "file": "tests-a.spec.ts",
-          "line": 522,
+          "line": 526,
           "column": 1
         },
         {
@@ -546,12 +546,12 @@
                   "workerIndex": 2,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 289,
+                  "duration": 837,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-23T14:35:52.335Z",
+                  "startTime": "2026-11-23T15:57:01.292Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -561,7 +561,7 @@
           ],
           "id": "c95f8e5ae0ba9c093418-baa327d0f6dcf5ca8c7e",
           "file": "tests-a.spec.ts",
-          "line": 545,
+          "line": 549,
           "column": 1
         },
         {
@@ -580,12 +580,12 @@
                   "workerIndex": 2,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 398,
+                  "duration": 1208,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-23T14:35:52.770Z",
+                  "startTime": "2026-11-23T15:57:02.423Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -595,7 +595,7 @@
           ],
           "id": "c95f8e5ae0ba9c093418-11c540e6f1cd57c9efc0",
           "file": "tests-a.spec.ts",
-          "line": 565,
+          "line": 569,
           "column": 1
         },
         {
@@ -614,12 +614,12 @@
                   "workerIndex": 2,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 235,
+                  "duration": 704,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-23T14:35:53.180Z",
+                  "startTime": "2026-11-23T15:57:03.653Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -629,7 +629,7 @@
           ],
           "id": "c95f8e5ae0ba9c093418-f7803bf134435763bf83",
           "file": "tests-a.spec.ts",
-          "line": 591,
+          "line": 595,
           "column": 1
         },
         {
@@ -648,12 +648,12 @@
                   "workerIndex": 2,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1078,
+                  "duration": 2176,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-23T14:35:53.426Z",
+                  "startTime": "2026-11-23T15:57:04.369Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -663,7 +663,7 @@
           ],
           "id": "c95f8e5ae0ba9c093418-f2f2094e0685465590c5",
           "file": "tests-a.spec.ts",
-          "line": 608,
+          "line": 612,
           "column": 1
         },
         {
@@ -682,12 +682,12 @@
                   "workerIndex": 2,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1141,
+                  "duration": 3424,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-23T14:35:54.515Z",
+                  "startTime": "2026-11-23T15:57:06.561Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -697,7 +697,7 @@
           ],
           "id": "c95f8e5ae0ba9c093418-76146a9f401f9ed57e88",
           "file": "tests-a.spec.ts",
-          "line": 647,
+          "line": 651,
           "column": 1
         },
         {
@@ -716,12 +716,12 @@
                   "workerIndex": 2,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1060,
+                  "duration": 2113,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-23T14:35:55.666Z",
+                  "startTime": "2026-11-23T15:57:09.999Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -731,7 +731,7 @@
           ],
           "id": "c95f8e5ae0ba9c093418-7294050ee396a5df8764",
           "file": "tests-a.spec.ts",
-          "line": 700,
+          "line": 704,
           "column": 1
         }
       ]
@@ -765,12 +765,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1328,
+                      "duration": 4261,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T14:35:58.783Z",
+                      "startTime": "2026-11-23T15:57:15.506Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -799,12 +799,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1080,
+                      "duration": 2855,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T14:36:00.128Z",
+                      "startTime": "2026-11-23T15:57:19.788Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -833,12 +833,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1468,
+                      "duration": 3772,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T14:36:01.218Z",
+                      "startTime": "2026-11-23T15:57:22.656Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -867,12 +867,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 515,
+                      "duration": 1142,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T14:36:02.698Z",
+                      "startTime": "2026-11-23T15:57:26.456Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -901,12 +901,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1140,
+                      "duration": 3151,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T14:36:03.224Z",
+                      "startTime": "2026-11-23T15:57:27.647Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -935,12 +935,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 750,
+                      "duration": 1828,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T14:36:04.376Z",
+                      "startTime": "2026-11-23T15:57:30.817Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -969,12 +969,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1075,
+                      "duration": 2072,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T14:36:05.137Z",
+                      "startTime": "2026-11-23T15:57:32.665Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1003,12 +1003,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1091,
+                      "duration": 2062,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T14:36:06.221Z",
+                      "startTime": "2026-11-23T15:57:34.754Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1037,12 +1037,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1218,
+                      "duration": 2830,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T14:36:07.325Z",
+                      "startTime": "2026-11-23T15:57:36.836Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1071,12 +1071,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 965,
+                      "duration": 1836,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T14:36:08.555Z",
+                      "startTime": "2026-11-23T15:57:39.692Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1105,12 +1105,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 501,
+                      "duration": 1450,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T14:36:09.531Z",
+                      "startTime": "2026-11-23T15:57:41.543Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1139,12 +1139,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 363,
+                      "duration": 802,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T14:36:10.043Z",
+                      "startTime": "2026-11-23T15:57:43.011Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1173,12 +1173,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 277,
+                      "duration": 443,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T14:36:10.418Z",
+                      "startTime": "2026-11-23T15:57:43.828Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1207,12 +1207,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 867,
+                      "duration": 2075,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T14:36:10.706Z",
+                      "startTime": "2026-11-23T15:57:44.287Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1241,12 +1241,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 500,
+                      "duration": 947,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T14:36:11.583Z",
+                      "startTime": "2026-11-23T15:57:46.377Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1275,7 +1275,7 @@
                       "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 146,
+                      "duration": 335,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: not \u001b[32m/\\d{13}|\\d-\\d{4}-\\d{5}-\\d{2}-\\d/\u001b[39m\nReceived string:      \u001b[31m\"{\\\"filter\\\":\\\"all\\\",\\\"items\\\":[{\\\"caseNo\\\":\\\"EG-2569-000020\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"สมชาย ใจดี\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-45-6\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg1\\\",\\\"dueAt\\\":\\\"2026-11-30T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"overdue\\\",\\\"idNo\\\":\\\"\u001b[7m1101700123456\u001b[27m\\\"},{\\\"caseNo\\\":\\\"EG-2569-000022\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"สมหญิง รักไทย\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-65-9\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg1\\\",\\\"dueAt\\\":\\\"2026-12-01T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"near\\\",\\\"idNo\\\":\\\"3100600987659\\\"},{\\\"caseNo\\\":\\\"EG-2569-000024\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"ปิติ มีสุข\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-01-5\\\",\\\"status\\\":\\\"SUBMITTED\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":null,\\\"dueAt\\\":\\\"2026-12-02T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"near\\\",\\\"idNo\\\":\\\"1909900555015\\\"},{\\\"caseNo\\\":\\\"EG-2569-000023\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"สมหญิง รักไทย\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-65-9\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg1\\\",\\\"dueAt\\\":\\\"2026-12-03T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"3100600987659\\\"},{\\\"caseNo\\\":\\\"EG-2569-000025\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"สมหญิง รักไทย\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-65-9\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-03T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"3100600987659\\\"},{\\\"caseNo\\\":\\\"EG-2569-000026\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"สมชาย ใจดี\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-45-6\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-03T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"1101700123456\\\"},{\\\"caseNo\\\":\\\"EG-2569-000013\\\",\\\"serviceId\\\":\\\"SV-02\\\",\\\"serviceName\\\":\\\"ขออนุญาตประกอบกิจการ\\\",\\\"applicantName\\\":\\\"สมชาย ใจดี\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-45-6\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-04T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"1101700123456\\\"},{\\\"caseNo\\\":\\\"EG-2569-000015\\\",\\\"serviceId\\\":\\\"SV-02\\\",\\\"serviceName\\\":\\\"ขออนุญาตประกอบกิจการ\\\",\\\"applicantName\\\":\\\"สมหญิง รักไทย\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-65-9\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-04T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"3100600987659\\\"},{\\\"caseNo\\\":\\\"EG-2569-000027\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"ปิติ มีสุข\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-01-5\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-04T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"1909900555015\\\"},{\\\"caseNo\\\":\\\"EG-2569-000028\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"สมหญิง รักไทย\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-65-9\\\",\\\"status\\\":\\\"SUBMITTED\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":null,\\\"dueAt\\\":\\\"2026-12-04T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"3100600987659\\\"},{\\\"caseNo\\\":\\\"EG-2569-000029\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"ปิติ มีสุข\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-01-5\\\",\\\"status\\\":\\\"SUBMITTED\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":null,\\\"dueAt\\\":\\\"2026-12-04T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"1909900555015\\\"},{\\\"caseNo\\\":\\\"EG-2569-000030\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"สมชาย ใจดี\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-45-6\\\",\\\"status\\\":\\\"SUBMITTED\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":null,\\\"dueAt\\\":\\\"2026-12-04T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"1101700123456\\\"},{\\\"caseNo\\\":\\\"EG-2569-000016\\\",\\\"serviceId\\\":\\\"SV-02\\\",\\\"serviceName\\\":\\\"ขออนุญาตประกอบกิจการ\\\",\\\"applicantName\\\":\\\"ปิติ มีสุข\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-01-5\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-08T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"1909900555015\\\"},{\\\"caseNo\\\":\\\"EG-2569-000018\\\",\\\"serviceId\\\":\\\"SV-02\\\",\\\"serviceName\\\":\\\"ขออนุญาตประกอบกิจการ\\\",\\\"applicantName\\\":\\\"สมชาย ใจดี\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-45-6\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-09T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"1101700123456\\\"},{\\\"caseNo\\\":\\\"EG-2569-000019\\\",\\\"serviceId\\\":\\\"SV-02\\\",\\\"serviceName\\\":\\\"ขออนุญาตประกอบกิจการ\\\",\\\"applicantName\\\":\\\"สมหญิง รักไทย\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-65-9\\\",\\\"status\\\":\\\"APPROVED\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":null,\\\"dueAt\\\":\\\"2026-12-09T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"3100600987659\\\"},{\\\"caseNo\\\":\\\"EG-2569-000012\\\",\\\"serviceId\\\":\\\"SV-03\\\",\\\"serviceName\\\":\\\"ขออนุญาตก่อสร้าง/ต่อเติมอาคาร\\\",\\\"applicantName\\\":\\\"ปิติ มีสุข\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-01-5\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":1,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-11T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"1909900555015\\\"},{\\\"caseNo\\\":\\\"EG-2569-000021\\\",\\\"serviceId\\\":\\\"SV-02\\\",\\\"serviceName\\\":\\\"ขออนุญาตประกอบกิจการ\\\",\\\"applicantName\\\":\\\"สมหญิง รักไทย\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-65-9\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-11T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"3100600987659\\\"}],\\\"workload\\\":3}\"\u001b[39m",
                         "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: not \u001b[32m/\\d{13}|\\d-\\d{4}-\\d{5}-\\d{2}-\\d/\u001b[39m\nReceived string:      \u001b[31m\"{\\\"filter\\\":\\\"all\\\",\\\"items\\\":[{\\\"caseNo\\\":\\\"EG-2569-000020\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"สมชาย ใจดี\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-45-6\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg1\\\",\\\"dueAt\\\":\\\"2026-11-30T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"overdue\\\",\\\"idNo\\\":\\\"\u001b[7m1101700123456\u001b[27m\\\"},{\\\"caseNo\\\":\\\"EG-2569-000022\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"สมหญิง รักไทย\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-65-9\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg1\\\",\\\"dueAt\\\":\\\"2026-12-01T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"near\\\",\\\"idNo\\\":\\\"3100600987659\\\"},{\\\"caseNo\\\":\\\"EG-2569-000024\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"ปิติ มีสุข\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-01-5\\\",\\\"status\\\":\\\"SUBMITTED\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":null,\\\"dueAt\\\":\\\"2026-12-02T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"near\\\",\\\"idNo\\\":\\\"1909900555015\\\"},{\\\"caseNo\\\":\\\"EG-2569-000023\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"สมหญิง รักไทย\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-65-9\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg1\\\",\\\"dueAt\\\":\\\"2026-12-03T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"3100600987659\\\"},{\\\"caseNo\\\":\\\"EG-2569-000025\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"สมหญิง รักไทย\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-65-9\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-03T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"3100600987659\\\"},{\\\"caseNo\\\":\\\"EG-2569-000026\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"สมชาย ใจดี\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-45-6\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-03T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"1101700123456\\\"},{\\\"caseNo\\\":\\\"EG-2569-000013\\\",\\\"serviceId\\\":\\\"SV-02\\\",\\\"serviceName\\\":\\\"ขออนุญาตประกอบกิจการ\\\",\\\"applicantName\\\":\\\"สมชาย ใจดี\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-45-6\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-04T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"1101700123456\\\"},{\\\"caseNo\\\":\\\"EG-2569-000015\\\",\\\"serviceId\\\":\\\"SV-02\\\",\\\"serviceName\\\":\\\"ขออนุญาตประกอบกิจการ\\\",\\\"applicantName\\\":\\\"สมหญิง รักไทย\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-65-9\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-04T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"3100600987659\\\"},{\\\"caseNo\\\":\\\"EG-2569-000027\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"ปิติ มีสุข\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-01-5\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-04T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"1909900555015\\\"},{\\\"caseNo\\\":\\\"EG-2569-000028\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"สมหญิง รักไทย\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-65-9\\\",\\\"status\\\":\\\"SUBMITTED\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":null,\\\"dueAt\\\":\\\"2026-12-04T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"3100600987659\\\"},{\\\"caseNo\\\":\\\"EG-2569-000029\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"ปิติ มีสุข\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-01-5\\\",\\\"status\\\":\\\"SUBMITTED\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":null,\\\"dueAt\\\":\\\"2026-12-04T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"1909900555015\\\"},{\\\"caseNo\\\":\\\"EG-2569-000030\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"สมชาย ใจดี\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-45-6\\\",\\\"status\\\":\\\"SUBMITTED\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":null,\\\"dueAt\\\":\\\"2026-12-04T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"1101700123456\\\"},{\\\"caseNo\\\":\\\"EG-2569-000016\\\",\\\"serviceId\\\":\\\"SV-02\\\",\\\"serviceName\\\":\\\"ขออนุญาตประกอบกิจการ\\\",\\\"applicantName\\\":\\\"ปิติ มีสุข\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-01-5\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-08T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"1909900555015\\\"},{\\\"caseNo\\\":\\\"EG-2569-000018\\\",\\\"serviceId\\\":\\\"SV-02\\\",\\\"serviceName\\\":\\\"ขออนุญาตประกอบกิจการ\\\",\\\"applicantName\\\":\\\"สมชาย ใจดี\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-45-6\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-09T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"1101700123456\\\"},{\\\"caseNo\\\":\\\"EG-2569-000019\\\",\\\"serviceId\\\":\\\"SV-02\\\",\\\"serviceName\\\":\\\"ขออนุญาตประกอบกิจการ\\\",\\\"applicantName\\\":\\\"สมหญิง รักไทย\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-65-9\\\",\\\"status\\\":\\\"APPROVED\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":null,\\\"dueAt\\\":\\\"2026-12-09T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"3100600987659\\\"},{\\\"caseNo\\\":\\\"EG-2569-000012\\\",\\\"serviceId\\\":\\\"SV-03\\\",\\\"serviceName\\\":\\\"ขออนุญาตก่อสร้าง/ต่อเติมอาคาร\\\",\\\"applicantName\\\":\\\"ปิติ มีสุข\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-01-5\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":1,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-11T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"1909900555015\\\"},{\\\"caseNo\\\":\\\"EG-2569-000021\\\",\\\"serviceId\\\":\\\"SV-02\\\",\\\"serviceName\\\":\\\"ขออนุญาตประกอบกิจการ\\\",\\\"applicantName\\\":\\\"สมหญิง รักไทย\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-65-9\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-11T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"3100600987659\\\"}],\\\"workload\\\":3}\"\u001b[39m\n    at C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-b.spec.ts:657:26",
@@ -1299,7 +1299,7 @@
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T14:36:12.095Z",
+                      "startTime": "2026-11-23T15:57:47.342Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -1339,12 +1339,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 752,
+                      "duration": 1221,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T14:36:14.802Z",
+                      "startTime": "2026-11-23T15:57:51.337Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1373,12 +1373,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 346,
+                      "duration": 506,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T14:36:15.723Z",
+                      "startTime": "2026-11-23T15:57:52.847Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1407,12 +1407,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 518,
+                      "duration": 1273,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T14:36:16.085Z",
+                      "startTime": "2026-11-23T15:57:53.369Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1441,12 +1441,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 2459,
+                      "duration": 2388,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T14:36:16.615Z",
+                      "startTime": "2026-11-23T15:57:54.657Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1475,12 +1475,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 715,
+                      "duration": 1782,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T14:36:19.086Z",
+                      "startTime": "2026-11-23T15:57:57.063Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1509,12 +1509,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1388,
+                      "duration": 2654,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T14:36:19.814Z",
+                      "startTime": "2026-11-23T15:57:58.869Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1543,12 +1543,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 295,
+                      "duration": 763,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T14:36:21.214Z",
+                      "startTime": "2026-11-23T15:58:01.548Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1577,12 +1577,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 744,
+                      "duration": 1317,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T14:36:21.521Z",
+                      "startTime": "2026-11-23T15:58:02.342Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1611,12 +1611,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1721,
+                      "duration": 2670,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T14:36:22.277Z",
+                      "startTime": "2026-11-23T15:58:03.673Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1645,12 +1645,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 577,
+                      "duration": 1528,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T14:36:24.008Z",
+                      "startTime": "2026-11-23T15:58:06.359Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1679,12 +1679,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 479,
+                      "duration": 977,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T14:36:24.596Z",
+                      "startTime": "2026-11-23T15:58:07.903Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1713,12 +1713,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1930,
+                      "duration": 5798,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T14:36:25.087Z",
+                      "startTime": "2026-11-23T15:58:08.896Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1747,12 +1747,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 9066,
+                      "duration": 13095,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T14:36:27.028Z",
+                      "startTime": "2026-11-23T15:58:14.710Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1781,12 +1781,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 687,
+                      "duration": 1572,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T14:36:36.106Z",
+                      "startTime": "2026-11-23T15:58:27.818Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1815,12 +1815,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 360,
+                      "duration": 762,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T14:36:36.804Z",
+                      "startTime": "2026-11-23T15:58:29.402Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1859,12 +1859,12 @@
                   "workerIndex": 3,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 294,
+                  "duration": 656,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-23T14:36:37.183Z",
+                  "startTime": "2026-11-23T15:58:30.188Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1893,12 +1893,12 @@
                   "workerIndex": 3,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 434,
+                  "duration": 738,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-23T14:36:37.489Z",
+                  "startTime": "2026-11-23T15:58:30.855Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1927,12 +1927,12 @@
                   "workerIndex": 3,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 4692,
+                  "duration": 7882,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-23T14:36:37.934Z",
+                  "startTime": "2026-11-23T15:58:31.604Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1950,8 +1950,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-11-23T14:35:28.723Z",
-    "duration": 74019.134,
+    "startTime": "2026-11-23T15:56:19.029Z",
+    "duration": 141120.81,
     "expected": 48,
     "skipped": 0,
     "unexpected": 3,

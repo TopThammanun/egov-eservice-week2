@@ -27,3 +27,12 @@ for (const x of rows) console.log(`| ${x.tag === 'none' ? '(ปกติ)' : x.t
 console.log('\n<details><summary>ข้อความ assert ที่ล้ม</summary>\n');
 for (const x of rows) for (const m of x.msgs) console.log(`- **${x.tag}** ${m}`);
 console.log('\n</details>');
+// รหัสออก: 0 เมื่อครบทุกโหมด ทุกโหมดตรงตาราง BUGS.md และรอบ "ไม่เปิดบั๊ก" ที่รันซ้ำ (none-2, none-3, …) ผ่านครบ
+const pdir = path.dirname(path.join(dir, prefix)), pbase = path.basename(prefix); // prefix เป็นโฟลเดอร์ย่อยได้ เช่น node-final/bug
+const rerunName = new RegExp('^' + pbase + '-none-[0-9]+[.]json$'); // bug-none-2.json, bug-none-3.json, … (ไม่รวมไฟล์ที่ตั้งชื่อเก็บไว้ เช่น *.flaky-upload.json)
+const reruns = fs.readdirSync(pdir).filter(f => rerunName.test(f)).map(f => load(f.slice(pbase.length + 1, -5)));
+const baseOk = rows.length > 0 && rows[0].tag === 'none' && rows[0].okay && reruns.every(r => r && Object.values(r).every(v => v.ok));
+const caught = rows.filter(x => /^B\d+$/.test(x.tag) && x.okay).length;
+const allOk = rows.length === modes.length && rows.every(x => x.okay) && baseOk;
+console.log(`\nสรุป: จับบั๊กได้ตรงตาราง ${caught}/12 · รอบไม่เปิดบั๊ก ${1 + reruns.length} รอบ ${baseOk ? 'ผ่านครบ 51/51' : 'ไม่ผ่านครบ'} · ${allOk ? 'ผ่านเกณฑ์ BUGS.md §3' : 'ยังไม่ผ่านเกณฑ์ BUGS.md §3'}`);
+process.exitCode = allOk ? 0 : 1;
