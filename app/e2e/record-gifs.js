@@ -10,7 +10,7 @@ const { GIFEncoder, quantize, applyPalette } = require('gifenc');
 const P2 = new Set(['TC-AUTH-04', 'TC-SUBMIT-03', 'TC-PAY-04', 'TC-DASH-03', 'TC-RBAC-04', 'TC-RBAC-06', 'TC-NFR-03', 'TC-NFR-04']); // TEST-PLAN §1
 const OUT = path.resolve(__dirname, '..', '..', 'test-report', 'report', 'gifs');
 const REC = path.join(__dirname, 'results', 'rec');
-const MAX_FRAMES = 24;
+const MAX_FRAMES = 30;
 
 function findFfmpeg() {
   if (process.env.FFMPEG) return process.env.FFMPEG;
@@ -38,17 +38,16 @@ function webms(dir) {
 }
 function toGif(ffmpeg, video, gif) {
   const frames = fs.mkdtempSync(path.join(os.tmpdir(), 'egov-gif-'));
-  cp.spawnSync(ffmpeg, ['-loglevel', 'error', '-y', '-i', video, '-r', '2', path.join(frames, 'f%04d.png')]);
+  cp.spawnSync(ffmpeg, ['-loglevel', 'error', '-y', '-i', video, '-r', '5', path.join(frames, 'f%04d.png')]);
   let files = fs.readdirSync(frames).sort();
   if (!files.length) { fs.rmSync(frames, { recursive: true, force: true }); return 0; }
   if (files.length > MAX_FRAMES) { const k = files.length / MAX_FRAMES; files = Array.from({ length: MAX_FRAMES }, (_, i) => files[Math.floor(i * k)]); }
   const enc = GIFEncoder();
   for (const f of files) {
     const im = PNG.sync.read(fs.readFileSync(path.join(frames, f)));
-    const w = im.width >> 1, h = im.height >> 1, d = new Uint8Array(w * h * 4); // ย่อครึ่งหนึ่งให้ไฟล์เล็ก
-    for (let y = 0; y < h; y++) for (let x = 0; x < w; x++) { const s = (y * 2 * im.width + x * 2) * 4, o = (y * w + x) * 4; d[o] = im.data[s]; d[o + 1] = im.data[s + 1]; d[o + 2] = im.data[s + 2]; d[o + 3] = 255; }
+    const w = im.width, h = im.height, d = new Uint8Array(im.data.buffer, im.data.byteOffset, w * h * 4); // 800×450 เต็ม ให้อ่านข้อความบนจอได้
     const palette = quantize(d, 128);
-    enc.writeFrame(applyPalette(d, palette), w, h, { palette, delay: 500 });
+    enc.writeFrame(applyPalette(d, palette), w, h, { palette, delay: 400 });
   }
   enc.finish();
   fs.writeFileSync(gif, enc.bytes());
@@ -62,6 +61,7 @@ fs.mkdirSync(OUT, { recursive: true });
 const rows = [];
 for (const tc of want) {
   const dir = path.join(REC, tc);
+  if (!process.env.BASE_URL) throw new Error('ต้องกำหนด BASE_URL (และ DB_PATH) ก่อนรัน');
   fs.rmSync(dir, { recursive: true, force: true });
   // รหัส TC ยาวเท่ากันทุกตัว (เลข 2 หลัก) จึงใช้เป็นตัวกรอง -g ได้โดยไม่ชนกัน
   const run = cp.spawnSync('npx', ['playwright', 'test', '-c', 'playwright.rec.config.ts', '-g', tc], { cwd: __dirname, env: { ...process.env, REC_DIR: dir }, shell: true, encoding: 'utf8' });

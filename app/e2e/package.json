@@ -8,6 +8,8 @@
   "devDependencies": {
     "@axe-core/playwright": "^4.10.0",
     "@playwright/test": "1.66.0-alpha-2026-11-09",
-    "exceljs": "^4.4.0"
+    "exceljs": "^4.4.0",
+    "gifenc": "^1.0.3",
+    "pngjs": "^7.0.0"
   }
 }

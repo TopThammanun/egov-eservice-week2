@@ -79,11 +79,28 @@ function noPii(text: string, what: string) {
   for (const name of ['สมชาย', 'สมหญิง', 'ปิติ', 'มานะ']) expect(text, what).not.toContain(name);
 }
 /** [เติมตามการ์ด] ดึงข้อความที่ "พิมพ์" ใน PDF (ตัวดำเนินการ TJ · เว็บออก PDF แบบไม่บีบอัด) → 1 สมาชิกต่อ 1 บรรทัดข้อความ
- *  ใช้ตรวจบรรทัด ASCII ที่เครื่องอ่านได้ (CONTRACT 7) และตรวจ PII บนข้อความ ไม่ใช่ไบต์ดิบ (เลข offset ใน xref ไม่นับ) */
+ *  ใช้ตรวจบรรทัด ASCII ที่เครื่องอ่านได้ (CONTRACT 7) และตรวจ PII บนข้อความ ไม่ใช่ไบต์ดิบ (เลข offset ใน xref ไม่นับ)
+ *  ฟอนต์มาตรฐาน (Courier/Helvetica) = 1 ไบต์ต่ออักขระ · ฟอนต์ไทยที่ฝัง (Type0) = รหัส glyph 2 ไบต์ → แปลงกลับด้วย ToUnicode CMap ของฟอนต์นั้น */
 function pdfTextLines(buf: Buffer): string[] {
-  const lines: string[] = [];
-  for (const m of buf.toString('latin1').matchAll(/\[((?:<[0-9a-fA-F]*>\s*-?[\d.]*\s*)+)\]\s*TJ/g)) {
-    lines.push(Buffer.from([...m[1].matchAll(/<([0-9a-fA-F]*)>/g)].map(x => x[1]).join(''), 'hex').toString('latin1'));
+  const s = buf.toString('latin1');
+  const obj = (n: string) => { const head = `\n${n} 0 obj\n`; const i = s.indexOf(head); return i < 0 ? '' : s.slice(i + head.length, s.indexOf('\nendobj', i)); };
+  const cmaps = new Map<string, Map<number, string>>(); // ชื่อฟอนต์ใน resource (F1, F2, …) → รหัส glyph → อักขระ
+  for (const f of s.matchAll(/\/(F\d+) (\d+) 0 R/g)) {
+    const tu = obj(f[2]).match(/\/ToUnicode (\d+) 0 R/); if (!tu) continue;
+    const map = new Map<number, string>();
+    for (const r of obj(tu[1]).matchAll(/<([0-9a-f]{4})>\s*<[0-9a-f]{4}>\s*\[([^\]]*)\]/gi)) { // bfrange: <จาก> <ถึง> [<unicode> …]
+      let glyph = parseInt(r[1], 16);
+      for (const u of r[2].matchAll(/<([0-9a-f]+)>/gi)) map.set(glyph++, String.fromCharCode(...(u[1].match(/.{4}/g) ?? []).map(h => parseInt(h, 16))));
+    }
+    cmaps.set(f[1], map);
+  }
+  const lines: string[] = []; let font = '';
+  for (const t of s.matchAll(/\/(F\d+) [\d.]+ Tf|\[([^\]]*)\]\s*TJ/g)) { // ไล่ตามลำดับ: เลือกฟอนต์ (Tf) แล้วพิมพ์ข้อความ (TJ)
+    if (t[1]) { font = t[1]; continue; }
+    const hex = [...t[2].matchAll(/<([0-9a-fA-F]*)>/g)].map(x => x[1]).join(''); const map = cmaps.get(font);
+    if (!map) { lines.push(Buffer.from(hex, 'hex').toString('latin1')); continue; }
+    let out = ''; for (let i = 0; i + 4 <= hex.length; i += 4) out += map.get(parseInt(hex.slice(i, i + 4), 16)) ?? '�';
+    lines.push(out);
   }
   return lines;
 }
@@ -734,6 +751,8 @@ test.describe('ชุด B · SLA / NOTI / WORKFLOW / DOC / PDPA / DASH / AUDIT 
     const pdfBytes = await readFile((await pdfFile.path())!); expect(pdfBytes.subarray(0, 5).toString('latin1')).toBe('%PDF-');
     expect(pdfBytes.toString('latin1')).toContain('kpi received=26 closed=7 ontime=85.7% backlog=21 overdue=1');
     const pdfLines = pdfTextLines(pdfBytes); // ข้อความที่ดึงออกมา (ไม่ใช่ไบต์ดิบ)
+    expect(pdfLines.join(''), 'ทุก glyph ต้องแปลงกลับเป็นอักขระได้ (ไม่งั้นการตรวจ PII ไม่มีความหมาย)').not.toContain('�');
+    expect(pdfLines.some(l => l.includes('off.reg1')), 'ต้องอ่านบรรทัดงานในมือได้').toBeTruthy();
     expect(pdfLines).toContain('kpi received=26 closed=7 ontime=85.7% backlog=21 overdue=1'); noPii(pdfLines.join(' | '), 'pdf');
     await page.getByTestId('period-select').selectOption('2026-12');
     await exportXlsx(['3', '0', '–', '21', '1']); // ธ.ค. (ปิดงาน 0 → –)

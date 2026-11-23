@@ -38,4 +38,5 @@ cd app/e2e && DB_PATH=$PWD/.data/egov.db BASE_URL=http://127.0.0.1:3912 node rec
 - `WEB=docker` (ค่าเริ่มของ `run-matrix.sh`) ใช้ได้บน host ที่เป็น Linux/macOS · บน **Windows + Docker Desktop** ให้ใช้ `WEB=node`
   เพราะ SQLite โหมด WAL บนโฟลเดอร์ที่ bind mount จาก Windows ล็อกไฟล์ `-shm` ไม่ได้ (เว็บค้างตอน reset) · ไม่ใช้ `compose.e2e.yml` (เก็บข้อมูลใน volume ตามปกติ) เว็บใน Docker ทำงานได้ตามเดิม
 - ผลที่คาดหวังทุกค่าใน test มาจากการ์ด TC / กฎใน REQUIREMENTS · DECISIONS ไม่ได้อ่านจากหน้าจอ
-- TC-DASH-03 อ่านไฟล์ `.xlsx` ด้วย `exceljs` และดึงข้อความจาก PDF จากตัวดำเนินการ `TJ` (เว็บออก PDF แบบไม่บีบอัด)
+- TC-DASH-03 อ่านไฟล์ `.xlsx` ด้วย `exceljs` และดึงข้อความจาก PDF จากตัวดำเนินการ `TJ` (เว็บออก PDF แบบไม่บีบอัด · ฟอนต์ไทยแปลงกลับด้วย ToUnicode CMap)
+- กับเว็บใน Docker ที่เก็บข้อมูลใน volume (ไม่ใช้ `compose.e2e.yml`) ให้รัน `npx playwright test --grep-invert TC-NFR-04` เพราะ TC-NFR-04 ต้องอ่านไฟล์ฐานข้อมูลจาก host

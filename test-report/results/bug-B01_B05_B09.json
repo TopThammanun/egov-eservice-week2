@@ -1,14 +1,14 @@
 {
   "config": {
     "argv": [
-      "/usr/bin/node",
-      "/workspace/plans/egov-eservice/app/e2e/node_modules/.bin/playwright",
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\node_modules\\@playwright\\test\\cli.js",
       "test",
       "--reporter=json",
       "--output=results/out-B01_B05_B09"
     ],
-    "configFile": "/workspace/plans/egov-eservice/app/e2e/playwright.config.ts",
-    "rootDir": "/workspace/plans/egov-eservice/app",
+    "configFile": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\playwright.config.ts",
+    "rootDir": "C:/Work/Ai-homework/egov-eservice-week2-main/app/e2e",
     "failOnFlakyTests": false,
     "forbidOnly": false,
     "fullyParallel": false,
@@ -24,7 +24,7 @@
     "preserveOutput": "always",
     "projects": [
       {
-        "outputDir": "/workspace/plans/egov-eservice/app/e2e/results/out-B01_B05_B09",
+        "outputDir": "C:/Work/Ai-homework/egov-eservice-week2-main/app/e2e/results/out-B01_B05_B09",
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
@@ -32,7 +32,7 @@
         },
         "id": "",
         "name": "",
-        "testDir": "/workspace/plans/egov-eservice/app",
+        "testDir": "C:/Work/Ai-homework/egov-eservice-week2-main/app/e2e",
         "testIgnore": [],
         "testMatch": [
           "tests-*.spec.ts"
@@ -44,15 +44,15 @@
       {
         "grep": {},
         "grepInvert": null,
-        "outputDir": "/workspace/plans/egov-eservice/app/e2e/results/out-B01_B05_B09",
+        "outputDir": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\results\\out-B01_B05_B09",
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
           "actualWorkers": 1
         },
         "name": "",
-        "testDir": "/workspace/plans/egov-eservice/app",
-        "snapshotDir": "/workspace/plans/egov-eservice/app",
+        "testDir": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e",
+        "snapshotDir": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e",
         "testIgnore": [],
         "testMatch": [
           "tests-*.spec.ts"
@@ -112,12 +112,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 602,
+                  "duration": 1276,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-17T02:27:00.805Z",
+                  "startTime": "2026-11-23T13:33:00.044Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -127,7 +127,7 @@
           ],
           "id": "c95f8e5ae0ba9c093418-813b6978bee5f4467348",
           "file": "tests-a.spec.ts",
-          "line": 100,
+          "line": 110,
           "column": 1
         },
         {
@@ -146,12 +146,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 805,
+                  "duration": 794,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-17T02:27:01.465Z",
+                  "startTime": "2026-11-23T13:33:01.450Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -161,7 +161,7 @@
           ],
           "id": "c95f8e5ae0ba9c093418-eac9a82700bc8ed10338",
           "file": "tests-a.spec.ts",
-          "line": 122,
+          "line": 136,
           "column": 1
         },
         {
@@ -180,12 +180,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1260,
+                  "duration": 1455,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-17T02:27:02.276Z",
+                  "startTime": "2026-11-23T13:33:02.254Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -195,7 +195,7 @@
           ],
           "id": "c95f8e5ae0ba9c093418-fad86568f08d3e4fb20c",
           "file": "tests-a.spec.ts",
-          "line": 176,
+          "line": 190,
           "column": 1
         },
         {
@@ -214,12 +214,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 2508,
+                  "duration": 2796,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-17T02:27:03.541Z",
+                  "startTime": "2026-11-23T13:33:03.719Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -229,7 +229,7 @@
           ],
           "id": "c95f8e5ae0ba9c093418-f1c19968836b14f97cb2",
           "file": "tests-a.spec.ts",
-          "line": 211,
+          "line": 225,
           "column": 1
         },
         {
@@ -248,43 +248,43 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "failed",
-                  "duration": 5159,
+                  "duration": 5249,
                   "error": {
                     "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByTestId('fee-total')\nExpected: \u001b[32m\"฿1,0\u001b[7m1\u001b[27m0\"\u001b[39m\nReceived: \u001b[31m\"฿1,0\u001b[7m0\u001b[27m0\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" getByTestId('fee-total') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('fee-total')\u001b[22m\n\u001b[2m    14 × locator resolved to <strong aria-live=\"polite\" data-testid=\"fee-total\">฿1,000</strong>\u001b[22m\n\u001b[2m       - unexpected value \"฿1,000\"\u001b[22m\n",
-                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByTestId('fee-total')\nExpected: \u001b[32m\"฿1,0\u001b[7m1\u001b[27m0\"\u001b[39m\nReceived: \u001b[31m\"฿1,0\u001b[7m0\u001b[27m0\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" getByTestId('fee-total') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('fee-total')\u001b[22m\n\u001b[2m    14 × locator resolved to <strong aria-live=\"polite\" data-testid=\"fee-total\">฿1,000</strong>\u001b[22m\n\u001b[2m       - unexpected value \"฿1,000\"\u001b[22m\n\n    at /workspace/plans/egov-eservice/app/tests-a.spec.ts:248:79",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByTestId('fee-total')\nExpected: \u001b[32m\"฿1,0\u001b[7m1\u001b[27m0\"\u001b[39m\nReceived: \u001b[31m\"฿1,0\u001b[7m0\u001b[27m0\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" getByTestId('fee-total') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('fee-total')\u001b[22m\n\u001b[2m    14 × locator resolved to <strong aria-live=\"polite\" data-testid=\"fee-total\">฿1,000</strong>\u001b[22m\n\u001b[2m       - unexpected value \"฿1,000\"\u001b[22m\n\n    at C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-a.spec.ts:266:79",
                     "location": {
-                      "file": "/workspace/plans/egov-eservice/app/tests-a.spec.ts",
+                      "file": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-a.spec.ts",
                       "column": 79,
-                      "line": 248
+                      "line": 266
                     },
-                    "snippet": "  246 |   const area = h.page.getByTestId('area-input');\n  247 |   for (const [n, fee] of [[1, '฿1,000'], [100, '฿1,000'], [101, '฿1,010'], [102, '฿1,020'], [250, '฿2,500'], [300, '฿3,000'], [499, '฿4,990'], [500, '฿5,000']] as [number, string][]) {\n> 248 |     await area.fill(String(n)); await expect(h.page.getByTestId('fee-total')).toHaveText(fee);\n      |                                                                               ^\n  249 |     await expect(h.page.getByTestId('fee-error')).toHaveCount(0);\n  250 |   }\n  251 |   for (const [n, fee, error, code] of [[0, '–', 'กรุณาระบุพื้นที่ 1–500 ตร.ม.', 'INVALID_AREA'], [-1, '–', 'กรุณาระบุพื้นที่ 1–500 ตร.ม.', 'INVALID_AREA'], [501, '–', 'พื้นที่เกิน 500 ตร.ม. กรุณายื่นที่สำนักงาน', 'AREA_TOO_LARGE']] as [number, string, string, string][]) {"
+                    "snippet": " \u001b[90m 264 |\u001b[39m   \u001b[36mconst\u001b[39m area \u001b[33m=\u001b[39m h\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mgetByTestId(\u001b[32m'area-input'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 265 |\u001b[39m   \u001b[36mfor\u001b[39m (\u001b[36mconst\u001b[39m [n\u001b[33m,\u001b[39m fee] \u001b[36mof\u001b[39m [[\u001b[35m1\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'฿1,000'\u001b[39m]\u001b[33m,\u001b[39m [\u001b[35m100\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'฿1,000'\u001b[39m]\u001b[33m,\u001b[39m [\u001b[35m101\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'฿1,010'\u001b[39m]\u001b[33m,\u001b[39m [\u001b[35m102\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'฿1,020'\u001b[39m]\u001b[33m,\u001b[39m [\u001b[35m250\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'฿2,500'\u001b[39m]\u001b[33m,\u001b[39m [\u001b[35m300\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'฿3,000'\u001b[39m]\u001b[33m,\u001b[39m [\u001b[35m499\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'฿4,990'\u001b[39m]\u001b[33m,\u001b[39m [\u001b[35m500\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'฿5,000'\u001b[39m]] \u001b[36mas\u001b[39m [number\u001b[33m,\u001b[39m string][]) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 266 |\u001b[39m     \u001b[36mawait\u001b[39m area\u001b[33m.\u001b[39mfill(\u001b[33mString\u001b[39m(n))\u001b[33m;\u001b[39m \u001b[36mawait\u001b[39m expect(h\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mgetByTestId(\u001b[32m'fee-total'\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(fee)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                                               \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 267 |\u001b[39m     \u001b[36mawait\u001b[39m expect(h\u001b[33m.\u001b[39mpage\u001b[33m.\u001b[39mgetByTestId(\u001b[32m'fee-error'\u001b[39m))\u001b[33m.\u001b[39mtoHaveCount(\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 268 |\u001b[39m     \u001b[36mconst\u001b[39m want \u001b[33m=\u001b[39m n \u001b[33m<=\u001b[39m \u001b[35m100\u001b[39m \u001b[33m?\u001b[39m \u001b[35m1000\u001b[39m \u001b[33m:\u001b[39m \u001b[35m1000\u001b[39m \u001b[33m+\u001b[39m \u001b[35m10\u001b[39m \u001b[33m*\u001b[39m (n \u001b[33m-\u001b[39m \u001b[35m100\u001b[39m)\u001b[33m;\u001b[39m \u001b[90m// BR-05: ฐาน 1,000 + 10 × (พื้นที่ − 100)\u001b[39m\n \u001b[90m 269 |\u001b[39m     expect((\u001b[36mawait\u001b[39m (\u001b[36mawait\u001b[39m h\u001b[33m.\u001b[39mapi\u001b[33m.\u001b[39mpost(\u001b[32m'/api/drafts'\u001b[39m\u001b[33m,\u001b[39m { data\u001b[33m:\u001b[39m { serviceId\u001b[33m:\u001b[39m \u001b[32m'SV-03'\u001b[39m\u001b[33m,\u001b[39m areaSqm\u001b[33m:\u001b[39m n } }))\u001b[33m.\u001b[39mjson())\u001b[33m.\u001b[39mfee\u001b[33m,\u001b[39m \u001b[32m`SV-03 ${n}`\u001b[39m)\u001b[33m.\u001b[39mtoBe(want)\u001b[33m;\u001b[39m"
                   },
                   "errors": [
                     {
                       "location": {
-                        "file": "/workspace/plans/egov-eservice/app/tests-a.spec.ts",
+                        "file": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-a.spec.ts",
                         "column": 79,
-                        "line": 248
+                        "line": 266
                       },
-                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByTestId('fee-total')\nExpected: \u001b[32m\"฿1,0\u001b[7m1\u001b[27m0\"\u001b[39m\nReceived: \u001b[31m\"฿1,0\u001b[7m0\u001b[27m0\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" getByTestId('fee-total') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('fee-total')\u001b[22m\n\u001b[2m    14 × locator resolved to <strong aria-live=\"polite\" data-testid=\"fee-total\">฿1,000</strong>\u001b[22m\n\u001b[2m       - unexpected value \"฿1,000\"\u001b[22m\n\n\n  246 |   const area = h.page.getByTestId('area-input');\n  247 |   for (const [n, fee] of [[1, '฿1,000'], [100, '฿1,000'], [101, '฿1,010'], [102, '฿1,020'], [250, '฿2,500'], [300, '฿3,000'], [499, '฿4,990'], [500, '฿5,000']] as [number, string][]) {\n> 248 |     await area.fill(String(n)); await expect(h.page.getByTestId('fee-total')).toHaveText(fee);\n      |                                                                               ^\n  249 |     await expect(h.page.getByTestId('fee-error')).toHaveCount(0);\n  250 |   }\n  251 |   for (const [n, fee, error, code] of [[0, '–', 'กรุณาระบุพื้นที่ 1–500 ตร.ม.', 'INVALID_AREA'], [-1, '–', 'กรุณาระบุพื้นที่ 1–500 ตร.ม.', 'INVALID_AREA'], [501, '–', 'พื้นที่เกิน 500 ตร.ม. กรุณายื่นที่สำนักงาน', 'AREA_TOO_LARGE']] as [number, string, string, string][]) {\n    at /workspace/plans/egov-eservice/app/tests-a.spec.ts:248:79"
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByTestId('fee-total')\nExpected: \u001b[32m\"฿1,0\u001b[7m1\u001b[27m0\"\u001b[39m\nReceived: \u001b[31m\"฿1,0\u001b[7m0\u001b[27m0\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" getByTestId('fee-total') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('fee-total')\u001b[22m\n\u001b[2m    14 × locator resolved to <strong aria-live=\"polite\" data-testid=\"fee-total\">฿1,000</strong>\u001b[22m\n\u001b[2m       - unexpected value \"฿1,000\"\u001b[22m\n\n\n  264 |   const area = h.page.getByTestId('area-input');\n  265 |   for (const [n, fee] of [[1, '฿1,000'], [100, '฿1,000'], [101, '฿1,010'], [102, '฿1,020'], [250, '฿2,500'], [300, '฿3,000'], [499, '฿4,990'], [500, '฿5,000']] as [number, string][]) {\n> 266 |     await area.fill(String(n)); await expect(h.page.getByTestId('fee-total')).toHaveText(fee);\n      |                                                                               ^\n  267 |     await expect(h.page.getByTestId('fee-error')).toHaveCount(0);\n  268 |     const want = n <= 100 ? 1000 : 1000 + 10 * (n - 100); // BR-05: ฐาน 1,000 + 10 × (พื้นที่ − 100)\n  269 |     expect((await (await h.api.post('/api/drafts', { data: { serviceId: 'SV-03', areaSqm: n } })).json()).fee, `SV-03 ${n}`).toBe(want);\n    at C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-a.spec.ts:266:79"
                     }
                   ],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-17T02:27:06.055Z",
+                  "startTime": "2026-11-23T13:33:06.524Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "error-context",
                       "contentType": "text/markdown",
-                      "path": "/workspace/plans/egov-eservice/app/e2e/results/out-B01_B05_B09/tests-a-TC-FEE-01-·-fee-fo-bab55--inclusive-input-boundaries/error-context.md"
+                      "path": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\results\\out-B01_B05_B09\\tests-a-TC-FEE-01-·-fee-fo-bab55--inclusive-input-boundaries\\error-context.md"
                     }
                   ],
                   "errorLocation": {
-                    "file": "/workspace/plans/egov-eservice/app/tests-a.spec.ts",
+                    "file": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-a.spec.ts",
                     "column": 79,
-                    "line": 248
+                    "line": 266
                   }
                 }
               ],
@@ -293,7 +293,7 @@
           ],
           "id": "c95f8e5ae0ba9c093418-cbbe8610e7b046185ccd",
           "file": "tests-a.spec.ts",
-          "line": 243,
+          "line": 261,
           "column": 1
         },
         {
@@ -312,12 +312,12 @@
                   "workerIndex": 1,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 764,
+                  "duration": 968,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-17T02:27:11.517Z",
+                  "startTime": "2026-11-23T13:33:12.418Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -327,7 +327,7 @@
           ],
           "id": "c95f8e5ae0ba9c093418-a0ca1a9d72311156c792",
           "file": "tests-a.spec.ts",
-          "line": 271,
+          "line": 294,
           "column": 1
         },
         {
@@ -346,12 +346,12 @@
                   "workerIndex": 1,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 520,
+                  "duration": 581,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-17T02:27:12.336Z",
+                  "startTime": "2026-11-23T13:33:13.513Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -361,7 +361,7 @@
           ],
           "id": "c95f8e5ae0ba9c093418-7ae2d0e5e87d283b1870",
           "file": "tests-a.spec.ts",
-          "line": 313,
+          "line": 344,
           "column": 1
         },
         {
@@ -380,12 +380,12 @@
                   "workerIndex": 1,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 932,
+                  "duration": 1160,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-17T02:27:12.865Z",
+                  "startTime": "2026-11-23T13:33:14.104Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -395,7 +395,7 @@
           ],
           "id": "c95f8e5ae0ba9c093418-488772d8fbfed41c938b",
           "file": "tests-a.spec.ts",
-          "line": 340,
+          "line": 377,
           "column": 1
         },
         {
@@ -414,12 +414,12 @@
                   "workerIndex": 1,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 946,
+                  "duration": 1532,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-17T02:27:13.803Z",
+                  "startTime": "2026-11-23T13:33:15.271Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -429,7 +429,7 @@
           ],
           "id": "c95f8e5ae0ba9c093418-d47b46c8b4a39434d1f1",
           "file": "tests-a.spec.ts",
-          "line": 400,
+          "line": 454,
           "column": 1
         },
         {
@@ -448,12 +448,12 @@
                   "workerIndex": 1,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 281,
+                  "duration": 287,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-17T02:27:14.755Z",
+                  "startTime": "2026-11-23T13:33:16.811Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -463,7 +463,7 @@
           ],
           "id": "c95f8e5ae0ba9c093418-f87f66ff78f0b7c60226",
           "file": "tests-a.spec.ts",
-          "line": 431,
+          "line": 497,
           "column": 1
         },
         {
@@ -482,43 +482,43 @@
                   "workerIndex": 1,
                   "parallelIndex": 0,
                   "status": "failed",
-                  "duration": 264,
+                  "duration": 245,
                   "error": {
                     "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m410\u001b[39m\nReceived: \u001b[31m200\u001b[39m",
-                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m410\u001b[39m\nReceived: \u001b[31m200\u001b[39m\n    at expectApiError (/workspace/plans/egov-eservice/app/tests-a.spec.ts:96:29)\n    at /workspace/plans/egov-eservice/app/tests-a.spec.ts:462:9",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m410\u001b[39m\nReceived: \u001b[31m200\u001b[39m\n    at expectApiError (C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-a.spec.ts:106:29)\n    at C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-a.spec.ts:528:9",
                     "location": {
-                      "file": "/workspace/plans/egov-eservice/app/tests-a.spec.ts",
+                      "file": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-a.spec.ts",
                       "column": 29,
-                      "line": 96
+                      "line": 106
                     },
-                    "snippet": "  94 |\n  95 | async function expectApiError(response: Awaited<ReturnType<APIRequestContext['post']>>, status: number, code: string) {\n> 96 |   expect(response.status()).toBe(status);\n     |                             ^\n  97 |   expect((await response.json()).code).toBe(code);\n  98 | }\n  99 |"
+                    "snippet": " \u001b[90m 104 |\u001b[39m\n \u001b[90m 105 |\u001b[39m \u001b[36masync\u001b[39m \u001b[36mfunction\u001b[39m expectApiError(response\u001b[33m:\u001b[39m \u001b[33mAwaited\u001b[39m\u001b[33m<\u001b[39m\u001b[33mReturnType\u001b[39m\u001b[33m<\u001b[39m\u001b[33mAPIRequestContext\u001b[39m[\u001b[32m'post'\u001b[39m]\u001b[33m>>\u001b[39m\u001b[33m,\u001b[39m status\u001b[33m:\u001b[39m number\u001b[33m,\u001b[39m code\u001b[33m:\u001b[39m string) {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 106 |\u001b[39m   expect(response\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(status)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 107 |\u001b[39m   expect((\u001b[36mawait\u001b[39m response\u001b[33m.\u001b[39mjson())\u001b[33m.\u001b[39mcode)\u001b[33m.\u001b[39mtoBe(code)\u001b[33m;\u001b[39m\n \u001b[90m 108 |\u001b[39m }\n \u001b[90m 109 |\u001b[39m"
                   },
                   "errors": [
                     {
                       "location": {
-                        "file": "/workspace/plans/egov-eservice/app/tests-a.spec.ts",
+                        "file": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-a.spec.ts",
                         "column": 29,
-                        "line": 96
+                        "line": 106
                       },
-                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m410\u001b[39m\nReceived: \u001b[31m200\u001b[39m\n\n  94 |\n  95 | async function expectApiError(response: Awaited<ReturnType<APIRequestContext['post']>>, status: number, code: string) {\n> 96 |   expect(response.status()).toBe(status);\n     |                             ^\n  97 |   expect((await response.json()).code).toBe(code);\n  98 | }\n  99 |\n    at expectApiError (/workspace/plans/egov-eservice/app/tests-a.spec.ts:96:29)\n    at /workspace/plans/egov-eservice/app/tests-a.spec.ts:462:9"
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m410\u001b[39m\nReceived: \u001b[31m200\u001b[39m\n\n  104 |\n  105 | async function expectApiError(response: Awaited<ReturnType<APIRequestContext['post']>>, status: number, code: string) {\n> 106 |   expect(response.status()).toBe(status);\n      |                             ^\n  107 |   expect((await response.json()).code).toBe(code);\n  108 | }\n  109 |\n    at expectApiError (C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-a.spec.ts:106:29)\n    at C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-a.spec.ts:528:9"
                     }
                   ],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-17T02:27:15.042Z",
+                  "startTime": "2026-11-23T13:33:17.104Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "error-context",
                       "contentType": "text/markdown",
-                      "path": "/workspace/plans/egov-eservice/app/e2e/results/out-B01_B05_B09/tests-a-TC-PAY-01-·-QR-exp-81869--minutes-and-can-be-renewed/error-context.md"
+                      "path": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\results\\out-B01_B05_B09\\tests-a-TC-PAY-01-·-QR-exp-81869--minutes-and-can-be-renewed\\error-context.md"
                     }
                   ],
                   "errorLocation": {
-                    "file": "/workspace/plans/egov-eservice/app/tests-a.spec.ts",
+                    "file": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-a.spec.ts",
                     "column": 29,
-                    "line": 96
+                    "line": 106
                   }
                 }
               ],
@@ -527,7 +527,7 @@
           ],
           "id": "c95f8e5ae0ba9c093418-628c7540816f887624a3",
           "file": "tests-a.spec.ts",
-          "line": 456,
+          "line": 522,
           "column": 1
         },
         {
@@ -546,12 +546,12 @@
                   "workerIndex": 2,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 210,
+                  "duration": 252,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-17T02:27:15.634Z",
+                  "startTime": "2026-11-23T13:33:17.994Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -561,7 +561,7 @@
           ],
           "id": "c95f8e5ae0ba9c093418-baa327d0f6dcf5ca8c7e",
           "file": "tests-a.spec.ts",
-          "line": 477,
+          "line": 545,
           "column": 1
         },
         {
@@ -580,12 +580,12 @@
                   "workerIndex": 2,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 320,
+                  "duration": 252,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-17T02:27:15.905Z",
+                  "startTime": "2026-11-23T13:33:18.381Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -595,7 +595,7 @@
           ],
           "id": "c95f8e5ae0ba9c093418-11c540e6f1cd57c9efc0",
           "file": "tests-a.spec.ts",
-          "line": 497,
+          "line": 565,
           "column": 1
         },
         {
@@ -614,12 +614,12 @@
                   "workerIndex": 2,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 183,
+                  "duration": 152,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-17T02:27:16.231Z",
+                  "startTime": "2026-11-23T13:33:18.641Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -629,7 +629,7 @@
           ],
           "id": "c95f8e5ae0ba9c093418-f7803bf134435763bf83",
           "file": "tests-a.spec.ts",
-          "line": 523,
+          "line": 591,
           "column": 1
         },
         {
@@ -648,12 +648,12 @@
                   "workerIndex": 2,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 619,
+                  "duration": 692,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-17T02:27:16.419Z",
+                  "startTime": "2026-11-23T13:33:18.799Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -663,7 +663,7 @@
           ],
           "id": "c95f8e5ae0ba9c093418-f2f2094e0685465590c5",
           "file": "tests-a.spec.ts",
-          "line": 540,
+          "line": 608,
           "column": 1
         },
         {
@@ -682,12 +682,12 @@
                   "workerIndex": 2,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 491,
+                  "duration": 779,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-17T02:27:17.046Z",
+                  "startTime": "2026-11-23T13:33:19.497Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -697,7 +697,7 @@
           ],
           "id": "c95f8e5ae0ba9c093418-76146a9f401f9ed57e88",
           "file": "tests-a.spec.ts",
-          "line": 567,
+          "line": 647,
           "column": 1
         },
         {
@@ -716,12 +716,12 @@
                   "workerIndex": 2,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 289,
+                  "duration": 742,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-17T02:27:17.545Z",
+                  "startTime": "2026-11-23T13:33:20.284Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -731,7 +731,7 @@
           ],
           "id": "c95f8e5ae0ba9c093418-7294050ee396a5df8764",
           "file": "tests-a.spec.ts",
-          "line": 598,
+          "line": 700,
           "column": 1
         }
       ]
@@ -746,7 +746,7 @@
         {
           "title": "ชุด B · SLA / NOTI / WORKFLOW / DOC / PDPA / DASH / AUDIT / ADMIN / NFR",
           "file": "tests-b.spec.ts",
-          "line": 83,
+          "line": 99,
           "column": 6,
           "specs": [
             {
@@ -765,12 +765,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1293,
+                      "duration": 889,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:27:17.885Z",
+                      "startTime": "2026-11-23T13:33:21.987Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -780,7 +780,7 @@
               ],
               "id": "12cfe970336169d1d8dc-becd612bffd47e71ae46",
               "file": "tests-b.spec.ts",
-              "line": 84,
+              "line": 100,
               "column": 3
             },
             {
@@ -799,12 +799,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 513,
+                      "duration": 687,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:27:19.185Z",
+                      "startTime": "2026-11-23T13:33:22.886Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -814,7 +814,7 @@
               ],
               "id": "12cfe970336169d1d8dc-23feeef739402d6e8b2f",
               "file": "tests-b.spec.ts",
-              "line": 124,
+              "line": 140,
               "column": 3
             },
             {
@@ -833,12 +833,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1150,
+                      "duration": 928,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:27:19.705Z",
+                      "startTime": "2026-11-23T13:33:23.580Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -848,7 +848,7 @@
               ],
               "id": "12cfe970336169d1d8dc-6e405c38acd7290dcace",
               "file": "tests-b.spec.ts",
-              "line": 154,
+              "line": 186,
               "column": 3
             },
             {
@@ -867,12 +867,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 274,
+                      "duration": 355,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:27:20.861Z",
+                      "startTime": "2026-11-23T13:33:24.516Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -882,7 +882,7 @@
               ],
               "id": "12cfe970336169d1d8dc-aff5f7e7ff937b1a037e",
               "file": "tests-b.spec.ts",
-              "line": 191,
+              "line": 223,
               "column": 3
             },
             {
@@ -901,12 +901,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 995,
+                      "duration": 737,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:27:21.142Z",
+                      "startTime": "2026-11-23T13:33:24.880Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -916,7 +916,7 @@
               ],
               "id": "12cfe970336169d1d8dc-639fc540f2c07dfc8e4f",
               "file": "tests-b.spec.ts",
-              "line": 209,
+              "line": 253,
               "column": 3
             },
             {
@@ -935,12 +935,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 398,
+                      "duration": 613,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:27:22.143Z",
+                      "startTime": "2026-11-23T13:33:25.624Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -950,7 +950,7 @@
               ],
               "id": "12cfe970336169d1d8dc-997945c45171dd58029b",
               "file": "tests-b.spec.ts",
-              "line": 258,
+              "line": 302,
               "column": 3
             },
             {
@@ -969,12 +969,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 518,
+                      "duration": 1005,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:27:22.548Z",
+                      "startTime": "2026-11-23T13:33:26.247Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -984,7 +984,7 @@
               ],
               "id": "12cfe970336169d1d8dc-ac6675ccadd0e4051862",
               "file": "tests-b.spec.ts",
-              "line": 273,
+              "line": 332,
               "column": 3
             },
             {
@@ -1003,12 +1003,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 643,
+                      "duration": 972,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:27:23.073Z",
+                      "startTime": "2026-11-23T13:33:27.262Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1018,7 +1018,7 @@
               ],
               "id": "12cfe970336169d1d8dc-9da246969775edec8762",
               "file": "tests-b.spec.ts",
-              "line": 287,
+              "line": 369,
               "column": 3
             },
             {
@@ -1037,12 +1037,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1085,
+                      "duration": 1172,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:27:23.723Z",
+                      "startTime": "2026-11-23T13:33:28.245Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1052,7 +1052,7 @@
               ],
               "id": "12cfe970336169d1d8dc-acfc035e5b75b834c323",
               "file": "tests-b.spec.ts",
-              "line": 308,
+              "line": 411,
               "column": 3
             },
             {
@@ -1071,12 +1071,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 100,
+                      "duration": 862,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:27:24.815Z",
+                      "startTime": "2026-11-23T13:33:29.428Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1086,7 +1086,7 @@
               ],
               "id": "12cfe970336169d1d8dc-4f2cdeeb23c5134ed3a0",
               "file": "tests-b.spec.ts",
-              "line": 354,
+              "line": 457,
               "column": 3
             },
             {
@@ -1105,12 +1105,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 183,
+                      "duration": 470,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:27:24.919Z",
+                      "startTime": "2026-11-23T13:33:30.301Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1120,7 +1120,7 @@
               ],
               "id": "12cfe970336169d1d8dc-f9f52dbecb460e10f28b",
               "file": "tests-b.spec.ts",
-              "line": 367,
+              "line": 495,
               "column": 3
             },
             {
@@ -1139,12 +1139,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 208,
+                      "duration": 309,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:27:25.109Z",
+                      "startTime": "2026-11-23T13:33:30.781Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1154,7 +1154,7 @@
               ],
               "id": "12cfe970336169d1d8dc-6d40e0f6c708306c20af",
               "file": "tests-b.spec.ts",
-              "line": 379,
+              "line": 518,
               "column": 3
             },
             {
@@ -1173,12 +1173,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 175,
+                      "duration": 247,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:27:25.323Z",
+                      "startTime": "2026-11-23T13:33:31.099Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1188,7 +1188,7 @@
               ],
               "id": "12cfe970336169d1d8dc-2fb0ea40e1434741373a",
               "file": "tests-b.spec.ts",
-              "line": 394,
+              "line": 547,
               "column": 3
             },
             {
@@ -1207,12 +1207,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 219,
+                      "duration": 775,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:27:25.506Z",
+                      "startTime": "2026-11-23T13:33:31.355Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1222,7 +1222,7 @@
               ],
               "id": "12cfe970336169d1d8dc-143c6b9ed5daa85d7d61",
               "file": "tests-b.spec.ts",
-              "line": 414,
+              "line": 567,
               "column": 3
             },
             {
@@ -1241,12 +1241,12 @@
                       "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 208,
+                      "duration": 437,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:27:25.731Z",
+                      "startTime": "2026-11-23T13:33:32.141Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1256,7 +1256,7 @@
               ],
               "id": "12cfe970336169d1d8dc-a25811889fadd841fe00",
               "file": "tests-b.spec.ts",
-              "line": 425,
+              "line": 615,
               "column": 3
             },
             {
@@ -1275,43 +1275,43 @@
                       "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 96,
+                      "duration": 126,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: not \u001b[32m/\\d{13}|\\d-\\d{4}-\\d{5}-\\d{2}-\\d/\u001b[39m\nReceived string:      \u001b[31m\"{\\\"filter\\\":\\\"all\\\",\\\"items\\\":[{\\\"caseNo\\\":\\\"EG-2569-000020\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"สมชาย ใจดี\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-45-6\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg1\\\",\\\"dueAt\\\":\\\"2026-11-30T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"overdue\\\",\\\"idNo\\\":\\\"\u001b[7m1101700123456\u001b[27m\\\"},{\\\"caseNo\\\":\\\"EG-2569-000022\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"สมหญิง รักไทย\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-65-9\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg1\\\",\\\"dueAt\\\":\\\"2026-12-01T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"near\\\",\\\"idNo\\\":\\\"3100600987659\\\"},{\\\"caseNo\\\":\\\"EG-2569-000024\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"ปิติ มีสุข\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-01-5\\\",\\\"status\\\":\\\"SUBMITTED\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":null,\\\"dueAt\\\":\\\"2026-12-02T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"near\\\",\\\"idNo\\\":\\\"1909900555015\\\"},{\\\"caseNo\\\":\\\"EG-2569-000023\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"สมหญิง รักไทย\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-65-9\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg1\\\",\\\"dueAt\\\":\\\"2026-12-03T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"3100600987659\\\"},{\\\"caseNo\\\":\\\"EG-2569-000025\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"สมหญิง รักไทย\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-65-9\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-03T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"3100600987659\\\"},{\\\"caseNo\\\":\\\"EG-2569-000026\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"สมชาย ใจดี\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-45-6\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-03T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"1101700123456\\\"},{\\\"caseNo\\\":\\\"EG-2569-000013\\\",\\\"serviceId\\\":\\\"SV-02\\\",\\\"serviceName\\\":\\\"ขออนุญาตประกอบกิจการ\\\",\\\"applicantName\\\":\\\"สมชาย ใจดี\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-45-6\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-04T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"1101700123456\\\"},{\\\"caseNo\\\":\\\"EG-2569-000015\\\",\\\"serviceId\\\":\\\"SV-02\\\",\\\"serviceName\\\":\\\"ขออนุญาตประกอบกิจการ\\\",\\\"applicantName\\\":\\\"สมหญิง รักไทย\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-65-9\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-04T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"3100600987659\\\"},{\\\"caseNo\\\":\\\"EG-2569-000027\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"ปิติ มีสุข\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-01-5\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-04T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"1909900555015\\\"},{\\\"caseNo\\\":\\\"EG-2569-000028\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"สมหญิง รักไทย\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-65-9\\\",\\\"status\\\":\\\"SUBMITTED\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":null,\\\"dueAt\\\":\\\"2026-12-04T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"3100600987659\\\"},{\\\"caseNo\\\":\\\"EG-2569-000029\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"ปิติ มีสุข\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-01-5\\\",\\\"status\\\":\\\"SUBMITTED\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":null,\\\"dueAt\\\":\\\"2026-12-04T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"1909900555015\\\"},{\\\"caseNo\\\":\\\"EG-2569-000030\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"สมชาย ใจดี\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-45-6\\\",\\\"status\\\":\\\"SUBMITTED\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":null,\\\"dueAt\\\":\\\"2026-12-04T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"1101700123456\\\"},{\\\"caseNo\\\":\\\"EG-2569-000016\\\",\\\"serviceId\\\":\\\"SV-02\\\",\\\"serviceName\\\":\\\"ขออนุญาตประกอบกิจการ\\\",\\\"applicantName\\\":\\\"ปิติ มีสุข\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-01-5\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-08T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"1909900555015\\\"},{\\\"caseNo\\\":\\\"EG-2569-000018\\\",\\\"serviceId\\\":\\\"SV-02\\\",\\\"serviceName\\\":\\\"ขออนุญาตประกอบกิจการ\\\",\\\"applicantName\\\":\\\"สมชาย ใจดี\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-45-6\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-09T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"1101700123456\\\"},{\\\"caseNo\\\":\\\"EG-2569-000019\\\",\\\"serviceId\\\":\\\"SV-02\\\",\\\"serviceName\\\":\\\"ขออนุญาตประกอบกิจการ\\\",\\\"applicantName\\\":\\\"สมหญิง รักไทย\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-65-9\\\",\\\"status\\\":\\\"APPROVED\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":null,\\\"dueAt\\\":\\\"2026-12-09T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"3100600987659\\\"},{\\\"caseNo\\\":\\\"EG-2569-000012\\\",\\\"serviceId\\\":\\\"SV-03\\\",\\\"serviceName\\\":\\\"ขออนุญาตก่อสร้าง/ต่อเติมอาคาร\\\",\\\"applicantName\\\":\\\"ปิติ มีสุข\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-01-5\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":1,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-11T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"1909900555015\\\"},{\\\"caseNo\\\":\\\"EG-2569-000021\\\",\\\"serviceId\\\":\\\"SV-02\\\",\\\"serviceName\\\":\\\"ขออนุญาตประกอบกิจการ\\\",\\\"applicantName\\\":\\\"สมหญิง รักไทย\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-65-9\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-11T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"3100600987659\\\"}],\\\"workload\\\":3}\"\u001b[39m",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: not \u001b[32m/\\d{13}|\\d-\\d{4}-\\d{5}-\\d{2}-\\d/\u001b[39m\nReceived string:      \u001b[31m\"{\\\"filter\\\":\\\"all\\\",\\\"items\\\":[{\\\"caseNo\\\":\\\"EG-2569-000020\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"สมชาย ใจดี\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-45-6\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg1\\\",\\\"dueAt\\\":\\\"2026-11-30T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"overdue\\\",\\\"idNo\\\":\\\"\u001b[7m1101700123456\u001b[27m\\\"},{\\\"caseNo\\\":\\\"EG-2569-000022\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"สมหญิง รักไทย\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-65-9\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg1\\\",\\\"dueAt\\\":\\\"2026-12-01T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"near\\\",\\\"idNo\\\":\\\"3100600987659\\\"},{\\\"caseNo\\\":\\\"EG-2569-000024\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"ปิติ มีสุข\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-01-5\\\",\\\"status\\\":\\\"SUBMITTED\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":null,\\\"dueAt\\\":\\\"2026-12-02T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"near\\\",\\\"idNo\\\":\\\"1909900555015\\\"},{\\\"caseNo\\\":\\\"EG-2569-000023\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"สมหญิง รักไทย\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-65-9\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg1\\\",\\\"dueAt\\\":\\\"2026-12-03T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"3100600987659\\\"},{\\\"caseNo\\\":\\\"EG-2569-000025\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"สมหญิง รักไทย\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-65-9\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-03T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"3100600987659\\\"},{\\\"caseNo\\\":\\\"EG-2569-000026\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"สมชาย ใจดี\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-45-6\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-03T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"1101700123456\\\"},{\\\"caseNo\\\":\\\"EG-2569-000013\\\",\\\"serviceId\\\":\\\"SV-02\\\",\\\"serviceName\\\":\\\"ขออนุญาตประกอบกิจการ\\\",\\\"applicantName\\\":\\\"สมชาย ใจดี\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-45-6\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-04T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"1101700123456\\\"},{\\\"caseNo\\\":\\\"EG-2569-000015\\\",\\\"serviceId\\\":\\\"SV-02\\\",\\\"serviceName\\\":\\\"ขออนุญาตประกอบกิจการ\\\",\\\"applicantName\\\":\\\"สมหญิง รักไทย\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-65-9\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-04T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"3100600987659\\\"},{\\\"caseNo\\\":\\\"EG-2569-000027\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"ปิติ มีสุข\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-01-5\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-04T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"1909900555015\\\"},{\\\"caseNo\\\":\\\"EG-2569-000028\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"สมหญิง รักไทย\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-65-9\\\",\\\"status\\\":\\\"SUBMITTED\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":null,\\\"dueAt\\\":\\\"2026-12-04T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"3100600987659\\\"},{\\\"caseNo\\\":\\\"EG-2569-000029\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"ปิติ มีสุข\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-01-5\\\",\\\"status\\\":\\\"SUBMITTED\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":null,\\\"dueAt\\\":\\\"2026-12-04T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"1909900555015\\\"},{\\\"caseNo\\\":\\\"EG-2569-000030\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"สมชาย ใจดี\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-45-6\\\",\\\"status\\\":\\\"SUBMITTED\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":null,\\\"dueAt\\\":\\\"2026-12-04T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"1101700123456\\\"},{\\\"caseNo\\\":\\\"EG-2569-000016\\\",\\\"serviceId\\\":\\\"SV-02\\\",\\\"serviceName\\\":\\\"ขออนุญาตประกอบกิจการ\\\",\\\"applicantName\\\":\\\"ปิติ มีสุข\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-01-5\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-08T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"1909900555015\\\"},{\\\"caseNo\\\":\\\"EG-2569-000018\\\",\\\"serviceId\\\":\\\"SV-02\\\",\\\"serviceName\\\":\\\"ขออนุญาตประกอบกิจการ\\\",\\\"applicantName\\\":\\\"สมชาย ใจดี\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-45-6\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-09T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"1101700123456\\\"},{\\\"caseNo\\\":\\\"EG-2569-000019\\\",\\\"serviceId\\\":\\\"SV-02\\\",\\\"serviceName\\\":\\\"ขออนุญาตประกอบกิจการ\\\",\\\"applicantName\\\":\\\"สมหญิง รักไทย\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-65-9\\\",\\\"status\\\":\\\"APPROVED\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":null,\\\"dueAt\\\":\\\"2026-12-09T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"3100600987659\\\"},{\\\"caseNo\\\":\\\"EG-2569-000012\\\",\\\"serviceId\\\":\\\"SV-03\\\",\\\"serviceName\\\":\\\"ขออนุญาตก่อสร้าง/ต่อเติมอาคาร\\\",\\\"applicantName\\\":\\\"ปิติ มีสุข\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-01-5\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":1,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-11T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"1909900555015\\\"},{\\\"caseNo\\\":\\\"EG-2569-000021\\\",\\\"serviceId\\\":\\\"SV-02\\\",\\\"serviceName\\\":\\\"ขออนุญาตประกอบกิจการ\\\",\\\"applicantName\\\":\\\"สมหญิง รักไทย\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-65-9\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-11T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"3100600987659\\\"}],\\\"workload\\\":3}\"\u001b[39m\n    at /workspace/plans/egov-eservice/app/tests-b.spec.ts:442:26",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: not \u001b[32m/\\d{13}|\\d-\\d{4}-\\d{5}-\\d{2}-\\d/\u001b[39m\nReceived string:      \u001b[31m\"{\\\"filter\\\":\\\"all\\\",\\\"items\\\":[{\\\"caseNo\\\":\\\"EG-2569-000020\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"สมชาย ใจดี\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-45-6\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg1\\\",\\\"dueAt\\\":\\\"2026-11-30T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"overdue\\\",\\\"idNo\\\":\\\"\u001b[7m1101700123456\u001b[27m\\\"},{\\\"caseNo\\\":\\\"EG-2569-000022\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"สมหญิง รักไทย\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-65-9\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg1\\\",\\\"dueAt\\\":\\\"2026-12-01T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"near\\\",\\\"idNo\\\":\\\"3100600987659\\\"},{\\\"caseNo\\\":\\\"EG-2569-000024\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"ปิติ มีสุข\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-01-5\\\",\\\"status\\\":\\\"SUBMITTED\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":null,\\\"dueAt\\\":\\\"2026-12-02T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"near\\\",\\\"idNo\\\":\\\"1909900555015\\\"},{\\\"caseNo\\\":\\\"EG-2569-000023\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"สมหญิง รักไทย\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-65-9\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg1\\\",\\\"dueAt\\\":\\\"2026-12-03T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"3100600987659\\\"},{\\\"caseNo\\\":\\\"EG-2569-000025\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"สมหญิง รักไทย\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-65-9\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-03T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"3100600987659\\\"},{\\\"caseNo\\\":\\\"EG-2569-000026\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"สมชาย ใจดี\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-45-6\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-03T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"1101700123456\\\"},{\\\"caseNo\\\":\\\"EG-2569-000013\\\",\\\"serviceId\\\":\\\"SV-02\\\",\\\"serviceName\\\":\\\"ขออนุญาตประกอบกิจการ\\\",\\\"applicantName\\\":\\\"สมชาย ใจดี\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-45-6\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-04T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"1101700123456\\\"},{\\\"caseNo\\\":\\\"EG-2569-000015\\\",\\\"serviceId\\\":\\\"SV-02\\\",\\\"serviceName\\\":\\\"ขออนุญาตประกอบกิจการ\\\",\\\"applicantName\\\":\\\"สมหญิง รักไทย\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-65-9\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-04T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"3100600987659\\\"},{\\\"caseNo\\\":\\\"EG-2569-000027\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"ปิติ มีสุข\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-01-5\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-04T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"1909900555015\\\"},{\\\"caseNo\\\":\\\"EG-2569-000028\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"สมหญิง รักไทย\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-65-9\\\",\\\"status\\\":\\\"SUBMITTED\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":null,\\\"dueAt\\\":\\\"2026-12-04T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"3100600987659\\\"},{\\\"caseNo\\\":\\\"EG-2569-000029\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"ปิติ มีสุข\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-01-5\\\",\\\"status\\\":\\\"SUBMITTED\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":null,\\\"dueAt\\\":\\\"2026-12-04T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"1909900555015\\\"},{\\\"caseNo\\\":\\\"EG-2569-000030\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"สมชาย ใจดี\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-45-6\\\",\\\"status\\\":\\\"SUBMITTED\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":null,\\\"dueAt\\\":\\\"2026-12-04T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"1101700123456\\\"},{\\\"caseNo\\\":\\\"EG-2569-000016\\\",\\\"serviceId\\\":\\\"SV-02\\\",\\\"serviceName\\\":\\\"ขออนุญาตประกอบกิจการ\\\",\\\"applicantName\\\":\\\"ปิติ มีสุข\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-01-5\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-08T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"1909900555015\\\"},{\\\"caseNo\\\":\\\"EG-2569-000018\\\",\\\"serviceId\\\":\\\"SV-02\\\",\\\"serviceName\\\":\\\"ขออนุญาตประกอบกิจการ\\\",\\\"applicantName\\\":\\\"สมชาย ใจดี\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-45-6\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-09T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"1101700123456\\\"},{\\\"caseNo\\\":\\\"EG-2569-000019\\\",\\\"serviceId\\\":\\\"SV-02\\\",\\\"serviceName\\\":\\\"ขออนุญาตประกอบกิจการ\\\",\\\"applicantName\\\":\\\"สมหญิง รักไทย\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-65-9\\\",\\\"status\\\":\\\"APPROVED\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":null,\\\"dueAt\\\":\\\"2026-12-09T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"3100600987659\\\"},{\\\"caseNo\\\":\\\"EG-2569-000012\\\",\\\"serviceId\\\":\\\"SV-03\\\",\\\"serviceName\\\":\\\"ขออนุญาตก่อสร้าง/ต่อเติมอาคาร\\\",\\\"applicantName\\\":\\\"ปิติ มีสุข\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-01-5\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":1,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-11T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"1909900555015\\\"},{\\\"caseNo\\\":\\\"EG-2569-000021\\\",\\\"serviceId\\\":\\\"SV-02\\\",\\\"serviceName\\\":\\\"ขออนุญาตประกอบกิจการ\\\",\\\"applicantName\\\":\\\"สมหญิง รักไทย\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-65-9\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-11T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"3100600987659\\\"}],\\\"workload\\\":3}\"\u001b[39m\n    at C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-b.spec.ts:640:26",
                         "location": {
-                          "file": "/workspace/plans/egov-eservice/app/tests-b.spec.ts",
+                          "file": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-b.spec.ts",
                           "column": 26,
-                          "line": 442
+                          "line": 640
                         },
-                        "snippet": "  440 |         const r = await api(page, 'get', path); expect(r.status()).toBe(200); expect(r.headers()['content-type']).toContain('application/json');\n  441 |         const value = await r.json(); const text = JSON.stringify(value);\n> 442 |         expect(text).not.toMatch(/\\d{13}|\\d-\\d{4}-\\d{5}-\\d{2}-\\d/);\n      |                          ^\n  443 |         for (const sensitive of ['3100600987659', '1101700123456', '1909900555015']) expect(text).not.toContain(sensitive);\n  444 |         const walk = (x: any): void => { if (!x || typeof x !== 'object') return; expect(Object.keys(x)).not.toContain('idNo'); Object.values(x).forEach(walk); }; walk(value);\n  445 |       }"
+                        "snippet": " \u001b[90m 638 |\u001b[39m         \u001b[36mconst\u001b[39m r \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m api(page\u001b[33m,\u001b[39m \u001b[32m'get'\u001b[39m\u001b[33m,\u001b[39m path)\u001b[33m;\u001b[39m expect(r\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m200\u001b[39m)\u001b[33m;\u001b[39m expect(r\u001b[33m.\u001b[39mheaders()[\u001b[32m'content-type'\u001b[39m])\u001b[33m.\u001b[39mtoContain(\u001b[32m'application/json'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 639 |\u001b[39m         \u001b[36mconst\u001b[39m value \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m r\u001b[33m.\u001b[39mjson()\u001b[33m;\u001b[39m \u001b[36mconst\u001b[39m text \u001b[33m=\u001b[39m \u001b[33mJSON\u001b[39m\u001b[33m.\u001b[39mstringify(value)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 640 |\u001b[39m         expect(text)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoMatch(\u001b[35m/\\d{13}|\\d-\\d{4}-\\d{5}-\\d{2}-\\d/\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 641 |\u001b[39m         \u001b[36mfor\u001b[39m (\u001b[36mconst\u001b[39m sensitive \u001b[36mof\u001b[39m [\u001b[32m'3100600987659'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'1101700123456'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'1909900555015'\u001b[39m]) expect(text)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoContain(sensitive)\u001b[33m;\u001b[39m\n \u001b[90m 642 |\u001b[39m         \u001b[36mconst\u001b[39m walk \u001b[33m=\u001b[39m (x\u001b[33m:\u001b[39m any)\u001b[33m:\u001b[39m \u001b[36mvoid\u001b[39m \u001b[33m=>\u001b[39m { \u001b[36mif\u001b[39m (\u001b[33m!\u001b[39mx \u001b[33m||\u001b[39m \u001b[36mtypeof\u001b[39m x \u001b[33m!==\u001b[39m \u001b[32m'object'\u001b[39m) \u001b[36mreturn\u001b[39m\u001b[33m;\u001b[39m expect(\u001b[33mObject\u001b[39m\u001b[33m.\u001b[39mkeys(x))\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoContain(\u001b[32m'idNo'\u001b[39m)\u001b[33m;\u001b[39m \u001b[33mObject\u001b[39m\u001b[33m.\u001b[39mvalues(x)\u001b[33m.\u001b[39mforEach(walk)\u001b[33m;\u001b[39m }\u001b[33m;\u001b[39m walk(value)\u001b[33m;\u001b[39m\n \u001b[90m 643 |\u001b[39m         \u001b[36mif\u001b[39m (path\u001b[33m.\u001b[39mstartsWith(\u001b[32m'/api/officer/queue'\u001b[39m)) { expect(value\u001b[33m.\u001b[39mitems\u001b[33m.\u001b[39mlength)\u001b[33m.\u001b[39mtoBeGreaterThan(\u001b[35m0\u001b[39m)\u001b[33m;\u001b[39m \u001b[36mfor\u001b[39m (\u001b[36mconst\u001b[39m it \u001b[36mof\u001b[39m value\u001b[33m.\u001b[39mitems) expect(it\u001b[33m.\u001b[39midMasked\u001b[33m,\u001b[39m \u001b[32m`${user} ${it.caseNo}`\u001b[39m)\u001b[33m.\u001b[39mtoMatch(\u001b[33mMASKED\u001b[39m)\u001b[33m;\u001b[39m }"
                       },
                       "errors": [
                         {
                           "location": {
-                            "file": "/workspace/plans/egov-eservice/app/tests-b.spec.ts",
+                            "file": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-b.spec.ts",
                             "column": 26,
-                            "line": 442
+                            "line": 640
                           },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: not \u001b[32m/\\d{13}|\\d-\\d{4}-\\d{5}-\\d{2}-\\d/\u001b[39m\nReceived string:      \u001b[31m\"{\\\"filter\\\":\\\"all\\\",\\\"items\\\":[{\\\"caseNo\\\":\\\"EG-2569-000020\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"สมชาย ใจดี\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-45-6\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg1\\\",\\\"dueAt\\\":\\\"2026-11-30T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"overdue\\\",\\\"idNo\\\":\\\"\u001b[7m1101700123456\u001b[27m\\\"},{\\\"caseNo\\\":\\\"EG-2569-000022\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"สมหญิง รักไทย\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-65-9\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg1\\\",\\\"dueAt\\\":\\\"2026-12-01T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"near\\\",\\\"idNo\\\":\\\"3100600987659\\\"},{\\\"caseNo\\\":\\\"EG-2569-000024\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"ปิติ มีสุข\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-01-5\\\",\\\"status\\\":\\\"SUBMITTED\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":null,\\\"dueAt\\\":\\\"2026-12-02T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"near\\\",\\\"idNo\\\":\\\"1909900555015\\\"},{\\\"caseNo\\\":\\\"EG-2569-000023\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"สมหญิง รักไทย\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-65-9\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg1\\\",\\\"dueAt\\\":\\\"2026-12-03T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"3100600987659\\\"},{\\\"caseNo\\\":\\\"EG-2569-000025\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"สมหญิง รักไทย\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-65-9\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-03T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"3100600987659\\\"},{\\\"caseNo\\\":\\\"EG-2569-000026\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"สมชาย ใจดี\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-45-6\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-03T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"1101700123456\\\"},{\\\"caseNo\\\":\\\"EG-2569-000013\\\",\\\"serviceId\\\":\\\"SV-02\\\",\\\"serviceName\\\":\\\"ขออนุญาตประกอบกิจการ\\\",\\\"applicantName\\\":\\\"สมชาย ใจดี\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-45-6\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-04T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"1101700123456\\\"},{\\\"caseNo\\\":\\\"EG-2569-000015\\\",\\\"serviceId\\\":\\\"SV-02\\\",\\\"serviceName\\\":\\\"ขออนุญาตประกอบกิจการ\\\",\\\"applicantName\\\":\\\"สมหญิง รักไทย\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-65-9\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-04T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"3100600987659\\\"},{\\\"caseNo\\\":\\\"EG-2569-000027\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"ปิติ มีสุข\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-01-5\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-04T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"1909900555015\\\"},{\\\"caseNo\\\":\\\"EG-2569-000028\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"สมหญิง รักไทย\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-65-9\\\",\\\"status\\\":\\\"SUBMITTED\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":null,\\\"dueAt\\\":\\\"2026-12-04T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"3100600987659\\\"},{\\\"caseNo\\\":\\\"EG-2569-000029\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"ปิติ มีสุข\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-01-5\\\",\\\"status\\\":\\\"SUBMITTED\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":null,\\\"dueAt\\\":\\\"2026-12-04T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"1909900555015\\\"},{\\\"caseNo\\\":\\\"EG-2569-000030\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"สมชาย ใจดี\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-45-6\\\",\\\"status\\\":\\\"SUBMITTED\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":null,\\\"dueAt\\\":\\\"2026-12-04T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"1101700123456\\\"},{\\\"caseNo\\\":\\\"EG-2569-000016\\\",\\\"serviceId\\\":\\\"SV-02\\\",\\\"serviceName\\\":\\\"ขออนุญาตประกอบกิจการ\\\",\\\"applicantName\\\":\\\"ปิติ มีสุข\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-01-5\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-08T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"1909900555015\\\"},{\\\"caseNo\\\":\\\"EG-2569-000018\\\",\\\"serviceId\\\":\\\"SV-02\\\",\\\"serviceName\\\":\\\"ขออนุญาตประกอบกิจการ\\\",\\\"applicantName\\\":\\\"สมชาย ใจดี\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-45-6\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-09T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"1101700123456\\\"},{\\\"caseNo\\\":\\\"EG-2569-000019\\\",\\\"serviceId\\\":\\\"SV-02\\\",\\\"serviceName\\\":\\\"ขออนุญาตประกอบกิจการ\\\",\\\"applicantName\\\":\\\"สมหญิง รักไทย\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-65-9\\\",\\\"status\\\":\\\"APPROVED\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":null,\\\"dueAt\\\":\\\"2026-12-09T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"3100600987659\\\"},{\\\"caseNo\\\":\\\"EG-2569-000012\\\",\\\"serviceId\\\":\\\"SV-03\\\",\\\"serviceName\\\":\\\"ขออนุญาตก่อสร้าง/ต่อเติมอาคาร\\\",\\\"applicantName\\\":\\\"ปิติ มีสุข\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-01-5\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":1,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-11T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"1909900555015\\\"},{\\\"caseNo\\\":\\\"EG-2569-000021\\\",\\\"serviceId\\\":\\\"SV-02\\\",\\\"serviceName\\\":\\\"ขออนุญาตประกอบกิจการ\\\",\\\"applicantName\\\":\\\"สมหญิง รักไทย\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-65-9\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-11T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"3100600987659\\\"}],\\\"workload\\\":3}\"\u001b[39m\n\n  440 |         const r = await api(page, 'get', path); expect(r.status()).toBe(200); expect(r.headers()['content-type']).toContain('application/json');\n  441 |         const value = await r.json(); const text = JSON.stringify(value);\n> 442 |         expect(text).not.toMatch(/\\d{13}|\\d-\\d{4}-\\d{5}-\\d{2}-\\d/);\n      |                          ^\n  443 |         for (const sensitive of ['3100600987659', '1101700123456', '1909900555015']) expect(text).not.toContain(sensitive);\n  444 |         const walk = (x: any): void => { if (!x || typeof x !== 'object') return; expect(Object.keys(x)).not.toContain('idNo'); Object.values(x).forEach(walk); }; walk(value);\n  445 |       }\n    at /workspace/plans/egov-eservice/app/tests-b.spec.ts:442:26"
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoMatch\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected pattern: not \u001b[32m/\\d{13}|\\d-\\d{4}-\\d{5}-\\d{2}-\\d/\u001b[39m\nReceived string:      \u001b[31m\"{\\\"filter\\\":\\\"all\\\",\\\"items\\\":[{\\\"caseNo\\\":\\\"EG-2569-000020\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"สมชาย ใจดี\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-45-6\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg1\\\",\\\"dueAt\\\":\\\"2026-11-30T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"overdue\\\",\\\"idNo\\\":\\\"\u001b[7m1101700123456\u001b[27m\\\"},{\\\"caseNo\\\":\\\"EG-2569-000022\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"สมหญิง รักไทย\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-65-9\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg1\\\",\\\"dueAt\\\":\\\"2026-12-01T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"near\\\",\\\"idNo\\\":\\\"3100600987659\\\"},{\\\"caseNo\\\":\\\"EG-2569-000024\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"ปิติ มีสุข\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-01-5\\\",\\\"status\\\":\\\"SUBMITTED\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":null,\\\"dueAt\\\":\\\"2026-12-02T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"near\\\",\\\"idNo\\\":\\\"1909900555015\\\"},{\\\"caseNo\\\":\\\"EG-2569-000023\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"สมหญิง รักไทย\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-65-9\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg1\\\",\\\"dueAt\\\":\\\"2026-12-03T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"3100600987659\\\"},{\\\"caseNo\\\":\\\"EG-2569-000025\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"สมหญิง รักไทย\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-65-9\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-03T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"3100600987659\\\"},{\\\"caseNo\\\":\\\"EG-2569-000026\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"สมชาย ใจดี\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-45-6\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-03T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"1101700123456\\\"},{\\\"caseNo\\\":\\\"EG-2569-000013\\\",\\\"serviceId\\\":\\\"SV-02\\\",\\\"serviceName\\\":\\\"ขออนุญาตประกอบกิจการ\\\",\\\"applicantName\\\":\\\"สมชาย ใจดี\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-45-6\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-04T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"1101700123456\\\"},{\\\"caseNo\\\":\\\"EG-2569-000015\\\",\\\"serviceId\\\":\\\"SV-02\\\",\\\"serviceName\\\":\\\"ขออนุญาตประกอบกิจการ\\\",\\\"applicantName\\\":\\\"สมหญิง รักไทย\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-65-9\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-04T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"3100600987659\\\"},{\\\"caseNo\\\":\\\"EG-2569-000027\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"ปิติ มีสุข\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-01-5\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-04T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"1909900555015\\\"},{\\\"caseNo\\\":\\\"EG-2569-000028\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"สมหญิง รักไทย\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-65-9\\\",\\\"status\\\":\\\"SUBMITTED\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":null,\\\"dueAt\\\":\\\"2026-12-04T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"3100600987659\\\"},{\\\"caseNo\\\":\\\"EG-2569-000029\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"ปิติ มีสุข\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-01-5\\\",\\\"status\\\":\\\"SUBMITTED\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":null,\\\"dueAt\\\":\\\"2026-12-04T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"1909900555015\\\"},{\\\"caseNo\\\":\\\"EG-2569-000030\\\",\\\"serviceId\\\":\\\"SV-01\\\",\\\"serviceName\\\":\\\"ขอหนังสือรับรอง\\\",\\\"applicantName\\\":\\\"สมชาย ใจดี\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-45-6\\\",\\\"status\\\":\\\"SUBMITTED\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":null,\\\"dueAt\\\":\\\"2026-12-04T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"1101700123456\\\"},{\\\"caseNo\\\":\\\"EG-2569-000016\\\",\\\"serviceId\\\":\\\"SV-02\\\",\\\"serviceName\\\":\\\"ขออนุญาตประกอบกิจการ\\\",\\\"applicantName\\\":\\\"ปิติ มีสุข\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-01-5\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-08T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"1909900555015\\\"},{\\\"caseNo\\\":\\\"EG-2569-000018\\\",\\\"serviceId\\\":\\\"SV-02\\\",\\\"serviceName\\\":\\\"ขออนุญาตประกอบกิจการ\\\",\\\"applicantName\\\":\\\"สมชาย ใจดี\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-45-6\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-09T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"1101700123456\\\"},{\\\"caseNo\\\":\\\"EG-2569-000019\\\",\\\"serviceId\\\":\\\"SV-02\\\",\\\"serviceName\\\":\\\"ขออนุญาตประกอบกิจการ\\\",\\\"applicantName\\\":\\\"สมหญิง รักไทย\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-65-9\\\",\\\"status\\\":\\\"APPROVED\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":null,\\\"dueAt\\\":\\\"2026-12-09T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"3100600987659\\\"},{\\\"caseNo\\\":\\\"EG-2569-000012\\\",\\\"serviceId\\\":\\\"SV-03\\\",\\\"serviceName\\\":\\\"ขออนุญาตก่อสร้าง/ต่อเติมอาคาร\\\",\\\"applicantName\\\":\\\"ปิติ มีสุข\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-01-5\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":1,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-11T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"1909900555015\\\"},{\\\"caseNo\\\":\\\"EG-2569-000021\\\",\\\"serviceId\\\":\\\"SV-02\\\",\\\"serviceName\\\":\\\"ขออนุญาตประกอบกิจการ\\\",\\\"applicantName\\\":\\\"สมหญิง รักไทย\\\",\\\"idMasked\\\":\\\"X-XXXX-XXXXX-65-9\\\",\\\"status\\\":\\\"IN_REVIEW\\\",\\\"step\\\":null,\\\"dept\\\":\\\"registry\\\",\\\"owner\\\":\\\"off.reg2\\\",\\\"dueAt\\\":\\\"2026-12-11T16:30:00+07:00\\\",\\\"slaLevel\\\":\\\"normal\\\",\\\"idNo\\\":\\\"3100600987659\\\"}],\\\"workload\\\":3}\"\u001b[39m\n\n  638 |         const r = await api(page, 'get', path); expect(r.status()).toBe(200); expect(r.headers()['content-type']).toContain('application/json');\n  639 |         const value = await r.json(); const text = JSON.stringify(value);\n> 640 |         expect(text).not.toMatch(/\\d{13}|\\d-\\d{4}-\\d{5}-\\d{2}-\\d/);\n      |                          ^\n  641 |         for (const sensitive of ['3100600987659', '1101700123456', '1909900555015']) expect(text).not.toContain(sensitive);\n  642 |         const walk = (x: any): void => { if (!x || typeof x !== 'object') return; expect(Object.keys(x)).not.toContain('idNo'); Object.values(x).forEach(walk); }; walk(value);\n  643 |         if (path.startsWith('/api/officer/queue')) { expect(value.items.length).toBeGreaterThan(0); for (const it of value.items) expect(it.idMasked, `${user} ${it.caseNo}`).toMatch(MASKED); }\n    at C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-b.spec.ts:640:26"
                         }
                       ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:27:25.947Z",
+                      "startTime": "2026-11-23T13:33:32.589Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "error-context",
                           "contentType": "text/markdown",
-                          "path": "/workspace/plans/egov-eservice/app/e2e/results/out-B01_B05_B09/tests-b-ชุด-B-·-SLA-NOTI-W-88252-ส่งเลขบัตรเต็มหรือ-key-idNo/error-context.md"
+                          "path": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\results\\out-B01_B05_B09\\tests-b-ชุด-B-·-SLA-NOTI-W-88252-ส่งเลขบัตรเต็มหรือ-key-idNo\\error-context.md"
                         }
                       ],
                       "errorLocation": {
-                        "file": "/workspace/plans/egov-eservice/app/tests-b.spec.ts",
+                        "file": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-b.spec.ts",
                         "column": 26,
-                        "line": 442
+                        "line": 640
                       }
                     }
                   ],
@@ -1320,7 +1320,7 @@
               ],
               "id": "12cfe970336169d1d8dc-362f33ddf73b54938dd3",
               "file": "tests-b.spec.ts",
-              "line": 434,
+              "line": 632,
               "column": 3
             },
             {
@@ -1339,12 +1339,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 541,
+                      "duration": 650,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:27:26.422Z",
+                      "startTime": "2026-11-23T13:33:34.542Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1354,7 +1354,7 @@
               ],
               "id": "12cfe970336169d1d8dc-ef1dde571c04333032cb",
               "file": "tests-b.spec.ts",
-              "line": 449,
+              "line": 649,
               "column": 3
             },
             {
@@ -1373,12 +1373,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 152,
+                      "duration": 302,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:27:27.027Z",
+                      "startTime": "2026-11-23T13:33:35.322Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1388,7 +1388,7 @@
               ],
               "id": "12cfe970336169d1d8dc-2d0187b9bcc01e6ae601",
               "file": "tests-b.spec.ts",
-              "line": 462,
+              "line": 677,
               "column": 3
             },
             {
@@ -1407,12 +1407,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 353,
+                      "duration": 405,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:27:27.188Z",
+                      "startTime": "2026-11-23T13:33:35.635Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1422,7 +1422,7 @@
               ],
               "id": "12cfe970336169d1d8dc-0fd4dbea49814b5d1556",
               "file": "tests-b.spec.ts",
-              "line": 472,
+              "line": 699,
               "column": 3
             },
             {
@@ -1441,12 +1441,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 409,
+                      "duration": 1746,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:27:27.548Z",
+                      "startTime": "2026-11-23T13:33:36.049Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1456,7 +1456,7 @@
               ],
               "id": "12cfe970336169d1d8dc-ee36f19bcb9e94ea903f",
               "file": "tests-b.spec.ts",
-              "line": 482,
+              "line": 713,
               "column": 3
             },
             {
@@ -1475,12 +1475,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 493,
+                      "duration": 607,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:27:27.964Z",
+                      "startTime": "2026-11-23T13:33:37.806Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1490,7 +1490,7 @@
               ],
               "id": "12cfe970336169d1d8dc-750d130b398251cb2250",
               "file": "tests-b.spec.ts",
-              "line": 491,
+              "line": 751,
               "column": 3
             },
             {
@@ -1509,12 +1509,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 588,
+                      "duration": 1181,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:27:28.465Z",
+                      "startTime": "2026-11-23T13:33:38.426Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1524,7 +1524,7 @@
               ],
               "id": "12cfe970336169d1d8dc-a56c0984facdbc1ac1c8",
               "file": "tests-b.spec.ts",
-              "line": 520,
+              "line": 780,
               "column": 3
             },
             {
@@ -1543,12 +1543,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 177,
+                      "duration": 281,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:27:29.062Z",
+                      "startTime": "2026-11-23T13:33:39.619Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1558,7 +1558,7 @@
               ],
               "id": "12cfe970336169d1d8dc-e82045147c0a17fce627",
               "file": "tests-b.spec.ts",
-              "line": 548,
+              "line": 853,
               "column": 3
             },
             {
@@ -1577,12 +1577,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 696,
+                      "duration": 686,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:27:29.246Z",
+                      "startTime": "2026-11-23T13:33:39.912Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1592,7 +1592,7 @@
               ],
               "id": "12cfe970336169d1d8dc-14a8cbe195942b005939",
               "file": "tests-b.spec.ts",
-              "line": 559,
+              "line": 875,
               "column": 3
             },
             {
@@ -1611,12 +1611,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1316,
+                      "duration": 1526,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:27:29.950Z",
+                      "startTime": "2026-11-23T13:33:40.607Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1626,7 +1626,7 @@
               ],
               "id": "12cfe970336169d1d8dc-17df49b58f0f0ad6f12a",
               "file": "tests-b.spec.ts",
-              "line": 579,
+              "line": 895,
               "column": 3
             },
             {
@@ -1645,12 +1645,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 130,
+                      "duration": 457,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:27:31.273Z",
+                      "startTime": "2026-11-23T13:33:42.141Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1660,7 +1660,7 @@
               ],
               "id": "12cfe970336169d1d8dc-e73238ccbca64ab303b5",
               "file": "tests-b.spec.ts",
-              "line": 633,
+              "line": 949,
               "column": 3
             },
             {
@@ -1679,12 +1679,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 152,
+                      "duration": 470,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:27:31.409Z",
+                      "startTime": "2026-11-23T13:33:42.608Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1694,7 +1694,7 @@
               ],
               "id": "12cfe970336169d1d8dc-5f2909007b5402b26565",
               "file": "tests-b.spec.ts",
-              "line": 643,
+              "line": 996,
               "column": 3
             },
             {
@@ -1713,12 +1713,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1967,
+                      "duration": 1712,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:27:31.569Z",
+                      "startTime": "2026-11-23T13:33:43.086Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1728,7 +1728,7 @@
               ],
               "id": "12cfe970336169d1d8dc-21fdef3c6968a32cdc22",
               "file": "tests-b.spec.ts",
-              "line": 656,
+              "line": 1025,
               "column": 3
             },
             {
@@ -1747,12 +1747,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 7337,
+                      "duration": 7985,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:27:33.545Z",
+                      "startTime": "2026-11-23T13:33:44.807Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1762,7 +1762,7 @@
               ],
               "id": "12cfe970336169d1d8dc-099d209684078f3406b6",
               "file": "tests-b.spec.ts",
-              "line": 684,
+              "line": 1053,
               "column": 3
             },
             {
@@ -1781,12 +1781,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 578,
+                      "duration": 596,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:27:40.890Z",
+                      "startTime": "2026-11-23T13:33:52.801Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1796,7 +1796,7 @@
               ],
               "id": "12cfe970336169d1d8dc-65eef35f982970d6a4dd",
               "file": "tests-b.spec.ts",
-              "line": 734,
+              "line": 1103,
               "column": 3
             },
             {
@@ -1815,12 +1815,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 259,
+                      "duration": 320,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:27:41.476Z",
+                      "startTime": "2026-11-23T13:33:53.408Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1830,7 +1830,7 @@
               ],
               "id": "12cfe970336169d1d8dc-811bc1f06c630d11c76b",
               "file": "tests-b.spec.ts",
-              "line": 748,
+              "line": 1121,
               "column": 3
             }
           ]
@@ -1859,12 +1859,12 @@
                   "workerIndex": 3,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 186,
+                  "duration": 230,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-17T02:27:41.745Z",
+                  "startTime": "2026-11-23T13:33:53.746Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1893,12 +1893,12 @@
                   "workerIndex": 3,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 343,
+                  "duration": 367,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-17T02:27:41.938Z",
+                  "startTime": "2026-11-23T13:33:53.987Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1927,12 +1927,12 @@
                   "workerIndex": 3,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 3646,
+                  "duration": 4027,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-17T02:27:42.287Z",
+                  "startTime": "2026-11-23T13:33:54.361Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1950,8 +1950,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-11-17T02:27:00.460Z",
-    "duration": 45538.559,
+    "startTime": "2026-11-23T13:32:57.460Z",
+    "duration": 61015.294,
     "expected": 48,
     "skipped": 0,
     "unexpected": 3,

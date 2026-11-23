@@ -7,17 +7,15 @@
 
 > หน่วยงานเป็นของสมมติ · ThaiD, PromptPay QR และลายเซ็นดิจิทัลเป็น **ตัวจำลอง** ทั้งหมด ไม่เชื่อมระบบจริง
 
-> **สถานะ (ฉบับระหว่างทาง 23 พ.ย. 2569):** โค้ดเว็บและชุด test เป็นฉบับล่าสุดแล้ว (51/51 ผ่าน 2 รอบติด) · BUG_MODE matrix รอบสุดท้ายกำลังรัน —
-> `BUG-HUNT.md` · `SUMMARY.md` · `test-report/` ใน commit นี้ยังเป็นผลของรอบก่อนหน้า และ `FINAL-REPORT.md` ยังไม่ได้เพิ่ม จะอัปเดตใน commit ถัดไป
-
 ## ผลลัพธ์
 
 | รายการ | ผล | หลักฐาน |
 |---|---|---|
-| ชุด Playwright 51 TC (`TEST_MODE=1` ไม่ตั้ง `BUG_MODE`) | **ผ่าน 51/51** · รันซ้ำทันทีอีกรอบ 51/51 · หลังปิดบั๊กทั้งหมด 51/51 | [`test-report/index.html`](test-report/index.html) · [`test-report/results.json`](test-report/results.json) · [`test-report/results/matrix.log`](test-report/results/matrix.log) |
+| ชุด Playwright 51 TC (`TEST_MODE=1` ไม่ตั้ง `BUG_MODE`) | **ผ่าน 51/51** · รันซ้ำทันทีโดยไม่ restart เว็บ 51/51 · หลังปิดบั๊กทั้งหมด 51/51 | [`test-report/index.html`](test-report/index.html) · [`test-report/results.json`](test-report/results.json) · [`matrix.log`](test-report/results/matrix.log) · [`rerun-no-restart.log`](test-report/results/rerun-no-restart.log) |
 | BUG_MODE B01–B12 ทีละตัว | **จับได้ 12/12** · ชุด TC ที่ล้มอยู่ในรายการของ BUGS.md ทุกตัว (ไม่มีล้มเกิน ไม่มีผ่านหลอก) | [`BUG-HUNT.md`](BUG-HUNT.md) · `test-report/results/bug-*.json` |
 | บั๊กรวม `B03,B07` · `B01,B05,B09` | ล้มเท่ากับ union ของแต่ละตัว | [`BUG-HUNT.md`](BUG-HUNT.md) |
 | GIF ของ TC ระดับ P1 | 43 ไฟล์ (P1 ทั้งหมด) | [`test-report/report/gifs/`](test-report/report/gifs/) |
+| เว็บใน Docker (`TEST_MODE=1 docker compose up --build`) | ผ่าน 50/50 (ทุก TC ยกเว้น TC-NFR-04 ที่ต้องอ่านไฟล์ฐานข้อมูลจาก host) · BUG_MODE matrix รันกับ `node server.js` โค้ดชุดเดียวกัน | [`test-report/results/docker-run.log`](test-report/results/docker-run.log) |
 | ไม่ตั้ง `TEST_MODE` | `/api/test/*` ตอบ 404 ทุกเส้น · `/api/health` และ `/verify` ยังใช้ได้ | [`test-report/results/test-mode-off.log`](test-report/results/test-mode-off.log) |
 
 ## ไฟล์ที่ส่ง (ตาม `PROMPTS.md` ของชุดโจทย์)

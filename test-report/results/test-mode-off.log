@@ -1,0 +1,8 @@
+# เว็บที่ไม่ตั้ง TEST_MODE (กติกาข้อ 4 · CONTRACT 0.8 · TC-NFR-03 ข้อปิด hook)
+POST /api/test/reset → 404
+GET /api/test/clock → 404
+PUT /api/test/clock → 404
+POST /api/test/payments/PP-0001/pay → 404
+POST /api/test/documents/DOC-2569-000001/tamper → 404
+GET /api/health → 200
+GET /verify/K7M2Q9XA → 200

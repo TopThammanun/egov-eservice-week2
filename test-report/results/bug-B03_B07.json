@@ -1,14 +1,14 @@
 {
   "config": {
     "argv": [
-      "/usr/bin/node",
-      "/workspace/plans/egov-eservice/app/e2e/node_modules/.bin/playwright",
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\node_modules\\@playwright\\test\\cli.js",
       "test",
       "--reporter=json",
       "--output=results/out-B03_B07"
     ],
-    "configFile": "/workspace/plans/egov-eservice/app/e2e/playwright.config.ts",
-    "rootDir": "/workspace/plans/egov-eservice/app",
+    "configFile": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\playwright.config.ts",
+    "rootDir": "C:/Work/Ai-homework/egov-eservice-week2-main/app/e2e",
     "failOnFlakyTests": false,
     "forbidOnly": false,
     "fullyParallel": false,
@@ -24,7 +24,7 @@
     "preserveOutput": "always",
     "projects": [
       {
-        "outputDir": "/workspace/plans/egov-eservice/app/e2e/results/out-B03_B07",
+        "outputDir": "C:/Work/Ai-homework/egov-eservice-week2-main/app/e2e/results/out-B03_B07",
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
@@ -32,7 +32,7 @@
         },
         "id": "",
         "name": "",
-        "testDir": "/workspace/plans/egov-eservice/app",
+        "testDir": "C:/Work/Ai-homework/egov-eservice-week2-main/app/e2e",
         "testIgnore": [],
         "testMatch": [
           "tests-*.spec.ts"
@@ -44,15 +44,15 @@
       {
         "grep": {},
         "grepInvert": null,
-        "outputDir": "/workspace/plans/egov-eservice/app/e2e/results/out-B03_B07",
+        "outputDir": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\results\\out-B03_B07",
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
           "actualWorkers": 1
         },
         "name": "",
-        "testDir": "/workspace/plans/egov-eservice/app",
-        "snapshotDir": "/workspace/plans/egov-eservice/app",
+        "testDir": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e",
+        "snapshotDir": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e",
         "testIgnore": [],
         "testMatch": [
           "tests-*.spec.ts"
@@ -112,12 +112,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 688,
+                  "duration": 1234,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-17T02:26:15.319Z",
+                  "startTime": "2026-11-23T13:31:55.862Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -127,7 +127,7 @@
           ],
           "id": "c95f8e5ae0ba9c093418-813b6978bee5f4467348",
           "file": "tests-a.spec.ts",
-          "line": 100,
+          "line": 110,
           "column": 1
         },
         {
@@ -146,12 +146,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 773,
+                  "duration": 749,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-17T02:26:16.076Z",
+                  "startTime": "2026-11-23T13:31:57.228Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -161,7 +161,7 @@
           ],
           "id": "c95f8e5ae0ba9c093418-eac9a82700bc8ed10338",
           "file": "tests-a.spec.ts",
-          "line": 122,
+          "line": 136,
           "column": 1
         },
         {
@@ -180,12 +180,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1367,
+                  "duration": 1372,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-17T02:26:16.856Z",
+                  "startTime": "2026-11-23T13:31:57.988Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -195,7 +195,7 @@
           ],
           "id": "c95f8e5ae0ba9c093418-fad86568f08d3e4fb20c",
           "file": "tests-a.spec.ts",
-          "line": 176,
+          "line": 190,
           "column": 1
         },
         {
@@ -214,12 +214,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 2580,
+                  "duration": 2764,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-17T02:26:18.230Z",
+                  "startTime": "2026-11-23T13:31:59.367Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -229,7 +229,7 @@
           ],
           "id": "c95f8e5ae0ba9c093418-f1c19968836b14f97cb2",
           "file": "tests-a.spec.ts",
-          "line": 211,
+          "line": 225,
           "column": 1
         },
         {
@@ -248,12 +248,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 422,
+                  "duration": 508,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-17T02:26:20.816Z",
+                  "startTime": "2026-11-23T13:32:02.139Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -263,7 +263,7 @@
           ],
           "id": "c95f8e5ae0ba9c093418-cbbe8610e7b046185ccd",
           "file": "tests-a.spec.ts",
-          "line": 243,
+          "line": 261,
           "column": 1
         },
         {
@@ -282,12 +282,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 728,
+                  "duration": 850,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-17T02:26:21.244Z",
+                  "startTime": "2026-11-23T13:32:02.656Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -297,7 +297,7 @@
           ],
           "id": "c95f8e5ae0ba9c093418-a0ca1a9d72311156c792",
           "file": "tests-a.spec.ts",
-          "line": 271,
+          "line": 294,
           "column": 1
         },
         {
@@ -316,12 +316,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 541,
+                  "duration": 579,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-17T02:26:21.982Z",
+                  "startTime": "2026-11-23T13:32:03.515Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -331,7 +331,7 @@
           ],
           "id": "c95f8e5ae0ba9c093418-7ae2d0e5e87d283b1870",
           "file": "tests-a.spec.ts",
-          "line": 313,
+          "line": 344,
           "column": 1
         },
         {
@@ -350,12 +350,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 935,
+                  "duration": 1297,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-17T02:26:22.531Z",
+                  "startTime": "2026-11-23T13:32:04.104Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -365,7 +365,7 @@
           ],
           "id": "c95f8e5ae0ba9c093418-488772d8fbfed41c938b",
           "file": "tests-a.spec.ts",
-          "line": 340,
+          "line": 377,
           "column": 1
         },
         {
@@ -384,12 +384,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 921,
+                  "duration": 1870,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-17T02:26:23.469Z",
+                  "startTime": "2026-11-23T13:32:05.411Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -399,7 +399,7 @@
           ],
           "id": "c95f8e5ae0ba9c093418-d47b46c8b4a39434d1f1",
           "file": "tests-a.spec.ts",
-          "line": 400,
+          "line": 454,
           "column": 1
         },
         {
@@ -418,12 +418,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 284,
+                  "duration": 380,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-17T02:26:24.396Z",
+                  "startTime": "2026-11-23T13:32:07.290Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -433,7 +433,7 @@
           ],
           "id": "c95f8e5ae0ba9c093418-f87f66ff78f0b7c60226",
           "file": "tests-a.spec.ts",
-          "line": 431,
+          "line": 497,
           "column": 1
         },
         {
@@ -452,12 +452,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 487,
+                  "duration": 550,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-17T02:26:24.687Z",
+                  "startTime": "2026-11-23T13:32:07.678Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -467,7 +467,7 @@
           ],
           "id": "c95f8e5ae0ba9c093418-628c7540816f887624a3",
           "file": "tests-a.spec.ts",
-          "line": 456,
+          "line": 522,
           "column": 1
         },
         {
@@ -486,12 +486,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 192,
+                  "duration": 169,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-17T02:26:25.183Z",
+                  "startTime": "2026-11-23T13:32:08.235Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -501,7 +501,7 @@
           ],
           "id": "c95f8e5ae0ba9c093418-baa327d0f6dcf5ca8c7e",
           "file": "tests-a.spec.ts",
-          "line": 477,
+          "line": 545,
           "column": 1
         },
         {
@@ -520,12 +520,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 299,
+                  "duration": 281,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-17T02:26:25.384Z",
+                  "startTime": "2026-11-23T13:32:08.411Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -535,7 +535,7 @@
           ],
           "id": "c95f8e5ae0ba9c093418-11c540e6f1cd57c9efc0",
           "file": "tests-a.spec.ts",
-          "line": 497,
+          "line": 565,
           "column": 1
         },
         {
@@ -554,12 +554,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 174,
+                  "duration": 182,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-17T02:26:25.688Z",
+                  "startTime": "2026-11-23T13:32:08.701Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -569,7 +569,7 @@
           ],
           "id": "c95f8e5ae0ba9c093418-f7803bf134435763bf83",
           "file": "tests-a.spec.ts",
-          "line": 523,
+          "line": 591,
           "column": 1
         },
         {
@@ -588,12 +588,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 520,
+                  "duration": 833,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-17T02:26:25.867Z",
+                  "startTime": "2026-11-23T13:32:08.892Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -603,7 +603,7 @@
           ],
           "id": "c95f8e5ae0ba9c093418-f2f2094e0685465590c5",
           "file": "tests-a.spec.ts",
-          "line": 540,
+          "line": 608,
           "column": 1
         },
         {
@@ -622,12 +622,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 439,
+                  "duration": 971,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-17T02:26:26.392Z",
+                  "startTime": "2026-11-23T13:32:09.736Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -637,7 +637,7 @@
           ],
           "id": "c95f8e5ae0ba9c093418-76146a9f401f9ed57e88",
           "file": "tests-a.spec.ts",
-          "line": 567,
+          "line": 647,
           "column": 1
         },
         {
@@ -656,12 +656,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 299,
+                  "duration": 947,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-17T02:26:26.837Z",
+                  "startTime": "2026-11-23T13:32:10.716Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -671,7 +671,7 @@
           ],
           "id": "c95f8e5ae0ba9c093418-7294050ee396a5df8764",
           "file": "tests-a.spec.ts",
-          "line": 598,
+          "line": 700,
           "column": 1
         }
       ]
@@ -686,7 +686,7 @@
         {
           "title": "ชุด B · SLA / NOTI / WORKFLOW / DOC / PDPA / DASH / AUDIT / ADMIN / NFR",
           "file": "tests-b.spec.ts",
-          "line": 83,
+          "line": 99,
           "column": 6,
           "specs": [
             {
@@ -705,43 +705,43 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 412,
+                      "duration": 414,
                       "error": {
                         "message": "Error: แถว c dueAt\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"2026-12-0\u001b[7m8\u001b[27mT16:30:00+07:00\"\u001b[39m\nReceived: \u001b[31m\"2026-12-0\u001b[7m7\u001b[27mT16:30:00+07:00\"\u001b[39m",
-                        "stack": "Error: แถว c dueAt\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"2026-12-0\u001b[7m8\u001b[27mT16:30:00+07:00\"\u001b[39m\nReceived: \u001b[31m\"2026-12-0\u001b[7m7\u001b[27mT16:30:00+07:00\"\u001b[39m\n    at /workspace/plans/egov-eservice/app/tests-b.spec.ts:103:45",
+                        "stack": "Error: แถว c dueAt\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"2026-12-0\u001b[7m8\u001b[27mT16:30:00+07:00\"\u001b[39m\nReceived: \u001b[31m\"2026-12-0\u001b[7m7\u001b[27mT16:30:00+07:00\"\u001b[39m\n    at C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-b.spec.ts:119:45",
                         "location": {
-                          "file": "/workspace/plans/egov-eservice/app/tests-b.spec.ts",
+                          "file": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-b.spec.ts",
                           "column": 45,
-                          "line": 103
+                          "line": 119
                         },
-                        "snippet": "  101 |       expect(caseNo, `แถว ${row.r}`).toBe('EG-2569-000031');\n  102 |       const c = await json(await api(page, 'get', `/api/cases/${caseNo}`));\n> 103 |       expect(c.dueAt, `แถว ${row.r} dueAt`).toBe(row.due);\n      |                                             ^\n  104 |       await open(page, `/citizen/cases/${caseNo}`);\n  105 |       await iso(page.getByTestId('sla-due'), row.due);\n  106 |       if (row.text) await expect(page.getByTestId('sla-due')).toContainText(row.text);"
+                        "snippet": " \u001b[90m 117 |\u001b[39m       expect(caseNo\u001b[33m,\u001b[39m \u001b[32m`แถว ${row.r}`\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[32m'EG-2569-000031'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 118 |\u001b[39m       \u001b[36mconst\u001b[39m c \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m json(\u001b[36mawait\u001b[39m api(page\u001b[33m,\u001b[39m \u001b[32m'get'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m`/api/cases/${caseNo}`\u001b[39m))\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 119 |\u001b[39m       expect(c\u001b[33m.\u001b[39mdueAt\u001b[33m,\u001b[39m \u001b[32m`แถว ${row.r} dueAt`\u001b[39m)\u001b[33m.\u001b[39mtoBe(row\u001b[33m.\u001b[39mdue)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 120 |\u001b[39m       \u001b[36mawait\u001b[39m open(page\u001b[33m,\u001b[39m \u001b[32m`/citizen/cases/${caseNo}`\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 121 |\u001b[39m       \u001b[36mawait\u001b[39m iso(page\u001b[33m.\u001b[39mgetByTestId(\u001b[32m'sla-due'\u001b[39m)\u001b[33m,\u001b[39m row\u001b[33m.\u001b[39mdue)\u001b[33m;\u001b[39m\n \u001b[90m 122 |\u001b[39m       \u001b[36mif\u001b[39m (row\u001b[33m.\u001b[39mtext) \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByTestId(\u001b[32m'sla-due'\u001b[39m))\u001b[33m.\u001b[39mtoContainText(row\u001b[33m.\u001b[39mtext)\u001b[33m;\u001b[39m"
                       },
                       "errors": [
                         {
                           "location": {
-                            "file": "/workspace/plans/egov-eservice/app/tests-b.spec.ts",
+                            "file": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-b.spec.ts",
                             "column": 45,
-                            "line": 103
+                            "line": 119
                           },
-                          "message": "Error: แถว c dueAt\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"2026-12-0\u001b[7m8\u001b[27mT16:30:00+07:00\"\u001b[39m\nReceived: \u001b[31m\"2026-12-0\u001b[7m7\u001b[27mT16:30:00+07:00\"\u001b[39m\n\n  101 |       expect(caseNo, `แถว ${row.r}`).toBe('EG-2569-000031');\n  102 |       const c = await json(await api(page, 'get', `/api/cases/${caseNo}`));\n> 103 |       expect(c.dueAt, `แถว ${row.r} dueAt`).toBe(row.due);\n      |                                             ^\n  104 |       await open(page, `/citizen/cases/${caseNo}`);\n  105 |       await iso(page.getByTestId('sla-due'), row.due);\n  106 |       if (row.text) await expect(page.getByTestId('sla-due')).toContainText(row.text);\n    at /workspace/plans/egov-eservice/app/tests-b.spec.ts:103:45"
+                          "message": "Error: แถว c dueAt\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"2026-12-0\u001b[7m8\u001b[27mT16:30:00+07:00\"\u001b[39m\nReceived: \u001b[31m\"2026-12-0\u001b[7m7\u001b[27mT16:30:00+07:00\"\u001b[39m\n\n  117 |       expect(caseNo, `แถว ${row.r}`).toBe('EG-2569-000031');\n  118 |       const c = await json(await api(page, 'get', `/api/cases/${caseNo}`));\n> 119 |       expect(c.dueAt, `แถว ${row.r} dueAt`).toBe(row.due);\n      |                                             ^\n  120 |       await open(page, `/citizen/cases/${caseNo}`);\n  121 |       await iso(page.getByTestId('sla-due'), row.due);\n  122 |       if (row.text) await expect(page.getByTestId('sla-due')).toContainText(row.text);\n    at C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-b.spec.ts:119:45"
                         }
                       ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:26:27.183Z",
+                      "startTime": "2026-11-23T13:32:13.084Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "error-context",
                           "contentType": "text/markdown",
-                          "path": "/workspace/plans/egov-eservice/app/e2e/results/out-B03_B07/tests-b-ชุด-B-·-SLA-NOTI-W-c31d1-ร็จข้ามวันหยุดและวันหยุดยาว/error-context.md"
+                          "path": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\results\\out-B03_B07\\tests-b-ชุด-B-·-SLA-NOTI-W-c31d1-ร็จข้ามวันหยุดและวันหยุดยาว\\error-context.md"
                         }
                       ],
                       "errorLocation": {
-                        "file": "/workspace/plans/egov-eservice/app/tests-b.spec.ts",
+                        "file": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-b.spec.ts",
                         "column": 45,
-                        "line": 103
+                        "line": 119
                       }
                     }
                   ],
@@ -750,7 +750,7 @@
               ],
               "id": "12cfe970336169d1d8dc-becd612bffd47e71ae46",
               "file": "tests-b.spec.ts",
-              "line": 84,
+              "line": 100,
               "column": 3
             },
             {
@@ -769,43 +769,43 @@
                       "workerIndex": 1,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 344,
+                      "duration": 584,
                       "error": {
                         "message": "Error: 2026-12-02T11:00:00+07:00 -> 2026-12-03T10:00:00+07:00\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"2026-12-0\u001b[7m8\u001b[27mT16:30:00+07:00\"\u001b[39m\nReceived: \u001b[31m\"2026-12-0\u001b[7m7\u001b[27mT16:30:00+07:00\"\u001b[39m",
-                        "stack": "Error: 2026-12-02T11:00:00+07:00 -> 2026-12-03T10:00:00+07:00\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"2026-12-0\u001b[7m8\u001b[27mT16:30:00+07:00\"\u001b[39m\nReceived: \u001b[31m\"2026-12-0\u001b[7m7\u001b[27mT16:30:00+07:00\"\u001b[39m\n    at scenario (/workspace/plans/egov-eservice/app/tests-b.spec.ts:147:51)\n    at /workspace/plans/egov-eservice/app/tests-b.spec.ts:149:5",
+                        "stack": "Error: 2026-12-02T11:00:00+07:00 -> 2026-12-03T10:00:00+07:00\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"2026-12-0\u001b[7m8\u001b[27mT16:30:00+07:00\"\u001b[39m\nReceived: \u001b[31m\"2026-12-0\u001b[7m7\u001b[27mT16:30:00+07:00\"\u001b[39m\n    at scenario (C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-b.spec.ts:176:51)\n    at C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-b.spec.ts:181:5",
                         "location": {
-                          "file": "/workspace/plans/egov-eservice/app/tests-b.spec.ts",
+                          "file": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-b.spec.ts",
                           "column": 51,
-                          "line": 147
+                          "line": 176
                         },
-                        "snippet": "  145 |       const cc = await json(await api(page, 'get', `/api/cases/${no}`));\n  146 |       expect(cc.status).toBe('IN_REVIEW'); expect(cc.owner).toBe('off.reg1');\n> 147 |       expect(cc.dueAt, `${returnAt} -> ${fixAt}`).toBe(due); expect(cc.slaLevel).toBe(level);\n      |                                                   ^\n  148 |     };\n  149 |     await scenario('2026-12-02T11:00:00+07:00', '2026-12-03T10:00:00+07:00', '2026-12-08T16:30:00+07:00', 'normal'); // ส่วน 1\n  150 |     await scenario('2026-12-02T09:00:00+07:00', '2026-12-02T15:00:00+07:00', '2026-12-04T16:30:00+07:00', 'normal'); // ส่วน 4 (หยุด 0 วัน) · BR-14: พ.2 เหลือ 2 วัน = ปกติ"
+                        "snippet": " \u001b[90m 174 |\u001b[39m       \u001b[36mconst\u001b[39m cc \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m json(\u001b[36mawait\u001b[39m api(page\u001b[33m,\u001b[39m \u001b[32m'get'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m`/api/cases/${no}`\u001b[39m))\u001b[33m;\u001b[39m\n \u001b[90m 175 |\u001b[39m       expect(cc\u001b[33m.\u001b[39mstatus)\u001b[33m.\u001b[39mtoBe(\u001b[32m'IN_REVIEW'\u001b[39m)\u001b[33m;\u001b[39m expect(cc\u001b[33m.\u001b[39mowner)\u001b[33m.\u001b[39mtoBe(\u001b[32m'off.reg1'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 176 |\u001b[39m       expect(cc\u001b[33m.\u001b[39mdueAt\u001b[33m,\u001b[39m \u001b[32m`${returnAt} -> ${fixAt}`\u001b[39m)\u001b[33m.\u001b[39mtoBe(due)\u001b[33m;\u001b[39m expect(cc\u001b[33m.\u001b[39mslaLevel)\u001b[33m.\u001b[39mtoBe(level)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 177 |\u001b[39m       \u001b[36mawait\u001b[39m open(page\u001b[33m,\u001b[39m \u001b[32m`/citizen/cases/${no}`\u001b[39m)\u001b[33m;\u001b[39m \u001b[36mawait\u001b[39m status(page\u001b[33m,\u001b[39m \u001b[32m'กำลังตรวจสอบ'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'IN_REVIEW'\u001b[39m)\u001b[33m;\u001b[39m \u001b[36mawait\u001b[39m iso(page\u001b[33m.\u001b[39mgetByTestId(\u001b[32m'sla-due'\u001b[39m)\u001b[33m,\u001b[39m due)\u001b[33m;\u001b[39m\n \u001b[90m 178 |\u001b[39m       \u001b[36mif\u001b[39m (dueText) \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByTestId(\u001b[32m'sla-due'\u001b[39m))\u001b[33m.\u001b[39mtoContainText(dueText)\u001b[33m;\u001b[39m\n \u001b[90m 179 |\u001b[39m       \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByTestId(\u001b[32m'sla-level'\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(levelText[level])\u001b[33m;\u001b[39m"
                       },
                       "errors": [
                         {
                           "location": {
-                            "file": "/workspace/plans/egov-eservice/app/tests-b.spec.ts",
+                            "file": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-b.spec.ts",
                             "column": 51,
-                            "line": 147
+                            "line": 176
                           },
-                          "message": "Error: 2026-12-02T11:00:00+07:00 -> 2026-12-03T10:00:00+07:00\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"2026-12-0\u001b[7m8\u001b[27mT16:30:00+07:00\"\u001b[39m\nReceived: \u001b[31m\"2026-12-0\u001b[7m7\u001b[27mT16:30:00+07:00\"\u001b[39m\n\n  145 |       const cc = await json(await api(page, 'get', `/api/cases/${no}`));\n  146 |       expect(cc.status).toBe('IN_REVIEW'); expect(cc.owner).toBe('off.reg1');\n> 147 |       expect(cc.dueAt, `${returnAt} -> ${fixAt}`).toBe(due); expect(cc.slaLevel).toBe(level);\n      |                                                   ^\n  148 |     };\n  149 |     await scenario('2026-12-02T11:00:00+07:00', '2026-12-03T10:00:00+07:00', '2026-12-08T16:30:00+07:00', 'normal'); // ส่วน 1\n  150 |     await scenario('2026-12-02T09:00:00+07:00', '2026-12-02T15:00:00+07:00', '2026-12-04T16:30:00+07:00', 'normal'); // ส่วน 4 (หยุด 0 วัน) · BR-14: พ.2 เหลือ 2 วัน = ปกติ\n    at scenario (/workspace/plans/egov-eservice/app/tests-b.spec.ts:147:51)\n    at /workspace/plans/egov-eservice/app/tests-b.spec.ts:149:5"
+                          "message": "Error: 2026-12-02T11:00:00+07:00 -> 2026-12-03T10:00:00+07:00\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"2026-12-0\u001b[7m8\u001b[27mT16:30:00+07:00\"\u001b[39m\nReceived: \u001b[31m\"2026-12-0\u001b[7m7\u001b[27mT16:30:00+07:00\"\u001b[39m\n\n  174 |       const cc = await json(await api(page, 'get', `/api/cases/${no}`));\n  175 |       expect(cc.status).toBe('IN_REVIEW'); expect(cc.owner).toBe('off.reg1');\n> 176 |       expect(cc.dueAt, `${returnAt} -> ${fixAt}`).toBe(due); expect(cc.slaLevel).toBe(level);\n      |                                                   ^\n  177 |       await open(page, `/citizen/cases/${no}`); await status(page, 'กำลังตรวจสอบ', 'IN_REVIEW'); await iso(page.getByTestId('sla-due'), due);\n  178 |       if (dueText) await expect(page.getByTestId('sla-due')).toContainText(dueText);\n  179 |       await expect(page.getByTestId('sla-level')).toHaveText(levelText[level]);\n    at scenario (C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-b.spec.ts:176:51)\n    at C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-b.spec.ts:181:5"
                         }
                       ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:26:27.931Z",
+                      "startTime": "2026-11-23T13:32:15.416Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "error-context",
                           "contentType": "text/markdown",
-                          "path": "/workspace/plans/egov-eservice/app/e2e/results/out-B03_B07/tests-b-ชุด-B-·-SLA-NOTI-W-4da97--FIX-และกลับมาต่อหลังส่งแก้/error-context.md"
+                          "path": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\results\\out-B03_B07\\tests-b-ชุด-B-·-SLA-NOTI-W-4da97--FIX-และกลับมาต่อหลังส่งแก้\\error-context.md"
                         }
                       ],
                       "errorLocation": {
-                        "file": "/workspace/plans/egov-eservice/app/tests-b.spec.ts",
+                        "file": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-b.spec.ts",
                         "column": 51,
-                        "line": 147
+                        "line": 176
                       }
                     }
                   ],
@@ -814,12 +814,12 @@
               ],
               "id": "12cfe970336169d1d8dc-23feeef739402d6e8b2f",
               "file": "tests-b.spec.ts",
-              "line": 124,
+              "line": 140,
               "column": 3
             },
             {
               "title": "TC-SLA-03 ระดับเตือนรวมขอบเวลาและสถานะปิด/หยุดนับ",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -832,53 +832,23 @@
                     {
                       "workerIndex": 2,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 5615,
-                      "error": {
-                        "message": "Error: EG-2569-000016 /officer/cases/EG-2569-000016\n\n\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByTestId('sla-level')\nExpected: \u001b[32m\"n\u001b[7mear\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"n\u001b[7mormal\u001b[27m\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - EG-2569-000016 /officer/cases/EG-2569-000016 getByTestId('sla-level') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('sla-level')\u001b[22m\n\u001b[2m    14 × locator resolved to <span data-level=\"normal\" class=\"badge lv-normal\" data-testid=\"sla-level\">ปกติ</span>\u001b[22m\n\u001b[2m       - unexpected value \"normal\"\u001b[22m\n",
-                        "stack": "Error: EG-2569-000016 /officer/cases/EG-2569-000016\n\n\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByTestId('sla-level')\nExpected: \u001b[32m\"n\u001b[7mear\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"n\u001b[7mormal\u001b[27m\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - EG-2569-000016 /officer/cases/EG-2569-000016 getByTestId('sla-level') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('sla-level')\u001b[22m\n\u001b[2m    14 × locator resolved to <span data-level=\"normal\" class=\"badge lv-normal\" data-testid=\"sla-level\">ปกติ</span>\u001b[22m\n\u001b[2m       - unexpected value \"normal\"\u001b[22m\n\n    at check (/workspace/plans/egov-eservice/app/tests-b.spec.ts:158:72)\n    at /workspace/plans/egov-eservice/app/tests-b.spec.ts:174:37",
-                        "location": {
-                          "file": "/workspace/plans/egov-eservice/app/tests-b.spec.ts",
-                          "column": 72,
-                          "line": 158
-                        },
-                        "snippet": "  156 |     const check = async (path: string, caseNo: string, level: string, viaApi = true) => {\n  157 |       await open(page, path);\n> 158 |       await expect(page.getByTestId('sla-level'), `${caseNo} ${path}`).toHaveAttribute('data-level', level);\n      |                                                                        ^\n  159 |       await expect(page.getByTestId('sla-level')).toHaveText(levelText[level]);\n  160 |       if (viaApi) expect((await json(await api(page, 'get', `/api/cases/${caseNo}`))).slaLevel, caseNo).toBe(level);\n  161 |     };"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "/workspace/plans/egov-eservice/app/tests-b.spec.ts",
-                            "column": 72,
-                            "line": 158
-                          },
-                          "message": "Error: EG-2569-000016 /officer/cases/EG-2569-000016\n\n\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveAttribute\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByTestId('sla-level')\nExpected: \u001b[32m\"n\u001b[7mear\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"n\u001b[7mormal\u001b[27m\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - EG-2569-000016 /officer/cases/EG-2569-000016 getByTestId('sla-level') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('sla-level')\u001b[22m\n\u001b[2m    14 × locator resolved to <span data-level=\"normal\" class=\"badge lv-normal\" data-testid=\"sla-level\">ปกติ</span>\u001b[22m\n\u001b[2m       - unexpected value \"normal\"\u001b[22m\n\n\n  156 |     const check = async (path: string, caseNo: string, level: string, viaApi = true) => {\n  157 |       await open(page, path);\n> 158 |       await expect(page.getByTestId('sla-level'), `${caseNo} ${path}`).toHaveAttribute('data-level', level);\n      |                                                                        ^\n  159 |       await expect(page.getByTestId('sla-level')).toHaveText(levelText[level]);\n  160 |       if (viaApi) expect((await json(await api(page, 'get', `/api/cases/${caseNo}`))).slaLevel, caseNo).toBe(level);\n  161 |     };\n    at check (/workspace/plans/egov-eservice/app/tests-b.spec.ts:158:72)\n    at /workspace/plans/egov-eservice/app/tests-b.spec.ts:174:37"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 1301,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:26:28.679Z",
+                      "startTime": "2026-11-23T13:32:18.066Z",
                       "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "/workspace/plans/egov-eservice/app/e2e/results/out-B03_B07/tests-b-ชุด-B-·-SLA-NOTI-W-c1cbf-มขอบเวลาและสถานะปิด-หยุดนับ/error-context.md"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "/workspace/plans/egov-eservice/app/tests-b.spec.ts",
-                        "column": 72,
-                        "line": 158
-                      }
+                      "attachments": []
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "12cfe970336169d1d8dc-6e405c38acd7290dcace",
               "file": "tests-b.spec.ts",
-              "line": 154,
+              "line": 186,
               "column": 3
             },
             {
@@ -894,15 +864,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 3,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 334,
+                      "duration": 441,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:26:34.682Z",
+                      "startTime": "2026-11-23T13:32:19.496Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -912,12 +882,12 @@
               ],
               "id": "12cfe970336169d1d8dc-aff5f7e7ff937b1a037e",
               "file": "tests-b.spec.ts",
-              "line": 191,
+              "line": 223,
               "column": 3
             },
             {
               "title": "TC-NOTI-02 ไม่แจ้งซ้ำและเพิ่มรายการเมื่อระดับเปลี่ยน",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -928,55 +898,25 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 3,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
-                      "status": "failed",
-                      "duration": 706,
-                      "error": {
-                        "message": "Error: off.reg2\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 0\u001b[39m\n\n\u001b[33m@@ -1,9 +1,8 @@\u001b[39m\n\u001b[2m  Array [\u001b[22m\n\u001b[2m    \"000013:overdue\",\u001b[22m\n\u001b[2m    \"000015:overdue\",\u001b[22m\n\u001b[32m-   \"000016:near\",\u001b[39m\n\u001b[2m    \"000024:overdue\",\u001b[22m\n\u001b[2m    \"000025:overdue\",\u001b[22m\n\u001b[2m    \"000026:overdue\",\u001b[22m\n\u001b[2m    \"000027:overdue\",\u001b[22m\n\u001b[2m    \"000028:overdue\",\u001b[22m",
-                        "stack": "Error: off.reg2\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 0\u001b[39m\n\n\u001b[33m@@ -1,9 +1,8 @@\u001b[39m\n\u001b[2m  Array [\u001b[22m\n\u001b[2m    \"000013:overdue\",\u001b[22m\n\u001b[2m    \"000015:overdue\",\u001b[22m\n\u001b[32m-   \"000016:near\",\u001b[39m\n\u001b[2m    \"000024:overdue\",\u001b[22m\n\u001b[2m    \"000025:overdue\",\u001b[22m\n\u001b[2m    \"000026:overdue\",\u001b[22m\n\u001b[2m    \"000027:overdue\",\u001b[22m\n\u001b[2m    \"000028:overdue\",\u001b[22m\n    at /workspace/plans/egov-eservice/app/tests-b.spec.ts:239:43",
-                        "location": {
-                          "file": "/workspace/plans/egov-eservice/app/tests-b.spec.ts",
-                          "column": 43,
-                          "line": 239
-                        },
-                        "snippet": "  237 |     };\n  238 |     for (const [u, pairs] of Object.entries(expectedB)) {\n> 239 |       expect(await notiPairs(page, u), u).toEqual(pairs.sort());\n      |                                           ^\n  240 |       await open(page, '/notifications'); await expect(page.getByTestId('bell-count')).toHaveText(String(pairs.length));\n  241 |     }\n  242 |     // ส่วน C: ขั้นรออนุมัติ / รอออกเอกสาร (TEST-DATA 8.2)"
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "/workspace/plans/egov-eservice/app/tests-b.spec.ts",
-                            "column": 43,
-                            "line": 239
-                          },
-                          "message": "Error: off.reg2\n\n\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 0\u001b[39m\n\n\u001b[33m@@ -1,9 +1,8 @@\u001b[39m\n\u001b[2m  Array [\u001b[22m\n\u001b[2m    \"000013:overdue\",\u001b[22m\n\u001b[2m    \"000015:overdue\",\u001b[22m\n\u001b[32m-   \"000016:near\",\u001b[39m\n\u001b[2m    \"000024:overdue\",\u001b[22m\n\u001b[2m    \"000025:overdue\",\u001b[22m\n\u001b[2m    \"000026:overdue\",\u001b[22m\n\u001b[2m    \"000027:overdue\",\u001b[22m\n\u001b[2m    \"000028:overdue\",\u001b[22m\n\n  237 |     };\n  238 |     for (const [u, pairs] of Object.entries(expectedB)) {\n> 239 |       expect(await notiPairs(page, u), u).toEqual(pairs.sort());\n      |                                           ^\n  240 |       await open(page, '/notifications'); await expect(page.getByTestId('bell-count')).toHaveText(String(pairs.length));\n  241 |     }\n  242 |     // ส่วน C: ขั้นรออนุมัติ / รอออกเอกสาร (TEST-DATA 8.2)\n    at /workspace/plans/egov-eservice/app/tests-b.spec.ts:239:43"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 900,
+                      "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:26:35.068Z",
+                      "startTime": "2026-11-23T13:32:19.948Z",
                       "annotations": [],
-                      "attachments": [
-                        {
-                          "name": "error-context",
-                          "contentType": "text/markdown",
-                          "path": "/workspace/plans/egov-eservice/app/e2e/results/out-B03_B07/tests-b-ชุด-B-·-SLA-NOTI-W-a61ef-พิ่มรายการเมื่อระดับเปลี่ยน/error-context.md"
-                        }
-                      ],
-                      "errorLocation": {
-                        "file": "/workspace/plans/egov-eservice/app/tests-b.spec.ts",
-                        "column": 43,
-                        "line": 239
-                      }
+                      "attachments": []
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "12cfe970336169d1d8dc-639fc540f2c07dfc8e4f",
               "file": "tests-b.spec.ts",
-              "line": 209,
+              "line": 253,
               "column": 3
             },
             {
@@ -992,15 +932,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 462,
+                      "duration": 749,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:26:36.106Z",
+                      "startTime": "2026-11-23T13:32:20.859Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1010,7 +950,7 @@
               ],
               "id": "12cfe970336169d1d8dc-997945c45171dd58029b",
               "file": "tests-b.spec.ts",
-              "line": 258,
+              "line": 302,
               "column": 3
             },
             {
@@ -1026,15 +966,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 588,
+                      "duration": 966,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:26:36.625Z",
+                      "startTime": "2026-11-23T13:32:21.617Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1044,7 +984,7 @@
               ],
               "id": "12cfe970336169d1d8dc-ac6675ccadd0e4051862",
               "file": "tests-b.spec.ts",
-              "line": 273,
+              "line": 332,
               "column": 3
             },
             {
@@ -1060,15 +1000,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 700,
+                      "duration": 930,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:26:37.222Z",
+                      "startTime": "2026-11-23T13:32:22.597Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1078,7 +1018,7 @@
               ],
               "id": "12cfe970336169d1d8dc-9da246969775edec8762",
               "file": "tests-b.spec.ts",
-              "line": 287,
+              "line": 369,
               "column": 3
             },
             {
@@ -1094,15 +1034,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1100,
+                      "duration": 1104,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:26:37.931Z",
+                      "startTime": "2026-11-23T13:32:23.538Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1112,7 +1052,7 @@
               ],
               "id": "12cfe970336169d1d8dc-acfc035e5b75b834c323",
               "file": "tests-b.spec.ts",
-              "line": 308,
+              "line": 411,
               "column": 3
             },
             {
@@ -1128,15 +1068,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 106,
+                      "duration": 839,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:26:39.038Z",
+                      "startTime": "2026-11-23T13:32:24.653Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1146,7 +1086,7 @@
               ],
               "id": "12cfe970336169d1d8dc-4f2cdeeb23c5134ed3a0",
               "file": "tests-b.spec.ts",
-              "line": 354,
+              "line": 457,
               "column": 3
             },
             {
@@ -1162,15 +1102,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 186,
+                      "duration": 434,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:26:39.150Z",
+                      "startTime": "2026-11-23T13:32:25.503Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1180,7 +1120,7 @@
               ],
               "id": "12cfe970336169d1d8dc-f9f52dbecb460e10f28b",
               "file": "tests-b.spec.ts",
-              "line": 367,
+              "line": 495,
               "column": 3
             },
             {
@@ -1196,15 +1136,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 179,
+                      "duration": 311,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:26:39.343Z",
+                      "startTime": "2026-11-23T13:32:25.948Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1214,7 +1154,7 @@
               ],
               "id": "12cfe970336169d1d8dc-6d40e0f6c708306c20af",
               "file": "tests-b.spec.ts",
-              "line": 379,
+              "line": 518,
               "column": 3
             },
             {
@@ -1230,15 +1170,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 178,
+                      "duration": 216,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:26:39.530Z",
+                      "startTime": "2026-11-23T13:32:26.270Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1248,7 +1188,7 @@
               ],
               "id": "12cfe970336169d1d8dc-2fb0ea40e1434741373a",
               "file": "tests-b.spec.ts",
-              "line": 394,
+              "line": 547,
               "column": 3
             },
             {
@@ -1264,15 +1204,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 221,
+                      "duration": 735,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:26:39.713Z",
+                      "startTime": "2026-11-23T13:32:26.495Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1282,7 +1222,7 @@
               ],
               "id": "12cfe970336169d1d8dc-143c6b9ed5daa85d7d61",
               "file": "tests-b.spec.ts",
-              "line": 414,
+              "line": 567,
               "column": 3
             },
             {
@@ -1298,15 +1238,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 220,
+                      "duration": 394,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:26:39.941Z",
+                      "startTime": "2026-11-23T13:32:27.241Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1316,7 +1256,7 @@
               ],
               "id": "12cfe970336169d1d8dc-a25811889fadd841fe00",
               "file": "tests-b.spec.ts",
-              "line": 425,
+              "line": 615,
               "column": 3
             },
             {
@@ -1332,15 +1272,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 152,
+                      "duration": 191,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:26:40.167Z",
+                      "startTime": "2026-11-23T13:32:27.649Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1350,7 +1290,7 @@
               ],
               "id": "12cfe970336169d1d8dc-362f33ddf73b54938dd3",
               "file": "tests-b.spec.ts",
-              "line": 434,
+              "line": 632,
               "column": 3
             },
             {
@@ -1366,15 +1306,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 458,
+                      "duration": 588,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:26:40.326Z",
+                      "startTime": "2026-11-23T13:32:27.850Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1384,7 +1324,7 @@
               ],
               "id": "12cfe970336169d1d8dc-ef1dde571c04333032cb",
               "file": "tests-b.spec.ts",
-              "line": 449,
+              "line": 649,
               "column": 3
             },
             {
@@ -1400,15 +1340,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 137,
+                      "duration": 269,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:26:40.789Z",
+                      "startTime": "2026-11-23T13:32:28.445Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1418,7 +1358,7 @@
               ],
               "id": "12cfe970336169d1d8dc-2d0187b9bcc01e6ae601",
               "file": "tests-b.spec.ts",
-              "line": 462,
+              "line": 677,
               "column": 3
             },
             {
@@ -1434,15 +1374,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 331,
+                      "duration": 435,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:26:40.932Z",
+                      "startTime": "2026-11-23T13:32:28.721Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1452,7 +1392,7 @@
               ],
               "id": "12cfe970336169d1d8dc-0fd4dbea49814b5d1556",
               "file": "tests-b.spec.ts",
-              "line": 472,
+              "line": 699,
               "column": 3
             },
             {
@@ -1468,15 +1408,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 423,
+                      "duration": 1640,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:26:41.270Z",
+                      "startTime": "2026-11-23T13:32:29.166Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1486,7 +1426,7 @@
               ],
               "id": "12cfe970336169d1d8dc-ee36f19bcb9e94ea903f",
               "file": "tests-b.spec.ts",
-              "line": 482,
+              "line": 713,
               "column": 3
             },
             {
@@ -1502,15 +1442,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 512,
+                      "duration": 583,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:26:41.699Z",
+                      "startTime": "2026-11-23T13:32:30.818Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1520,7 +1460,7 @@
               ],
               "id": "12cfe970336169d1d8dc-750d130b398251cb2250",
               "file": "tests-b.spec.ts",
-              "line": 491,
+              "line": 751,
               "column": 3
             },
             {
@@ -1536,15 +1476,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 566,
+                      "duration": 1079,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:26:42.219Z",
+                      "startTime": "2026-11-23T13:32:31.412Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1554,7 +1494,7 @@
               ],
               "id": "12cfe970336169d1d8dc-a56c0984facdbc1ac1c8",
               "file": "tests-b.spec.ts",
-              "line": 520,
+              "line": 780,
               "column": 3
             },
             {
@@ -1570,15 +1510,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 151,
+                      "duration": 273,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:26:42.792Z",
+                      "startTime": "2026-11-23T13:32:32.500Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1588,7 +1528,7 @@
               ],
               "id": "12cfe970336169d1d8dc-e82045147c0a17fce627",
               "file": "tests-b.spec.ts",
-              "line": 548,
+              "line": 853,
               "column": 3
             },
             {
@@ -1604,15 +1544,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 664,
+                      "duration": 690,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:26:42.949Z",
+                      "startTime": "2026-11-23T13:32:32.782Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1622,7 +1562,7 @@
               ],
               "id": "12cfe970336169d1d8dc-14a8cbe195942b005939",
               "file": "tests-b.spec.ts",
-              "line": 559,
+              "line": 875,
               "column": 3
             },
             {
@@ -1638,46 +1578,46 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 4,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 764,
+                      "duration": 916,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"2026-12-0\u001b[7m8\u001b[27mT16:30:00+07:00\"\u001b[39m\nReceived: \u001b[31m\"2026-12-0\u001b[7m4\u001b[27mT16:30:00+07:00\"\u001b[39m",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"2026-12-0\u001b[7m8\u001b[27mT16:30:00+07:00\"\u001b[39m\nReceived: \u001b[31m\"2026-12-0\u001b[7m4\u001b[27mT16:30:00+07:00\"\u001b[39m\n    at /workspace/plans/egov-eservice/app/tests-b.spec.ts:608:128",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"2026-12-0\u001b[7m8\u001b[27mT16:30:00+07:00\"\u001b[39m\nReceived: \u001b[31m\"2026-12-0\u001b[7m4\u001b[27mT16:30:00+07:00\"\u001b[39m\n    at C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-b.spec.ts:924:128",
                         "location": {
-                          "file": "/workspace/plans/egov-eservice/app/tests-b.spec.ts",
+                          "file": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-b.spec.ts",
                           "column": 128,
-                          "line": 608
+                          "line": 924
                         },
-                        "snippet": "  606 |       expect((await json(await api(page, 'get', '/api/cases/EG-2569-000031'))).dueAt).toBe('2026-12-04T16:30:00+07:00');\n  607 |       expect(await newPaid(page)).toBe('EG-2569-000033');\n> 608 |       const c33 = await json(await api(page, 'get', '/api/cases/EG-2569-000033')); expect(c33.fee).toBe(25); expect(c33.dueAt).toBe('2026-12-08T16:30:00+07:00');\n      |                                                                                                                                ^\n  609 |       expect((await api(admin, 'put', '/api/admin/users/exec1', { role: 'auditor', dept: '' })).status()).toBe(200);\n  610 |       await open(exec, '/login'); await exec.getByTestId('login-tab-staff').click();\n  611 |       await exec.getByTestId('staff-username').fill('exec1'); await exec.getByTestId('staff-password').fill(staffPassword); await exec.getByTestId('staff-submit').click();"
+                        "snippet": " \u001b[90m 922 |\u001b[39m       expect((\u001b[36mawait\u001b[39m json(\u001b[36mawait\u001b[39m api(page\u001b[33m,\u001b[39m \u001b[32m'get'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'/api/cases/EG-2569-000031'\u001b[39m)))\u001b[33m.\u001b[39mdueAt)\u001b[33m.\u001b[39mtoBe(\u001b[32m'2026-12-04T16:30:00+07:00'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 923 |\u001b[39m       expect(\u001b[36mawait\u001b[39m newPaid(page))\u001b[33m.\u001b[39mtoBe(\u001b[32m'EG-2569-000033'\u001b[39m)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 924 |\u001b[39m       \u001b[36mconst\u001b[39m c33 \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m json(\u001b[36mawait\u001b[39m api(page\u001b[33m,\u001b[39m \u001b[32m'get'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'/api/cases/EG-2569-000033'\u001b[39m))\u001b[33m;\u001b[39m expect(c33\u001b[33m.\u001b[39mfee)\u001b[33m.\u001b[39mtoBe(\u001b[35m25\u001b[39m)\u001b[33m;\u001b[39m expect(c33\u001b[33m.\u001b[39mdueAt)\u001b[33m.\u001b[39mtoBe(\u001b[32m'2026-12-08T16:30:00+07:00'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                                                                                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 925 |\u001b[39m       expect((\u001b[36mawait\u001b[39m api(admin\u001b[33m,\u001b[39m \u001b[32m'put'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'/api/admin/users/exec1'\u001b[39m\u001b[33m,\u001b[39m { role\u001b[33m:\u001b[39m \u001b[32m'auditor'\u001b[39m\u001b[33m,\u001b[39m dept\u001b[33m:\u001b[39m \u001b[32m''\u001b[39m }))\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m200\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 926 |\u001b[39m       \u001b[36mawait\u001b[39m open(exec\u001b[33m,\u001b[39m \u001b[32m'/login'\u001b[39m)\u001b[33m;\u001b[39m \u001b[36mawait\u001b[39m exec\u001b[33m.\u001b[39mgetByTestId(\u001b[32m'login-tab-staff'\u001b[39m)\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 927 |\u001b[39m       \u001b[36mawait\u001b[39m exec\u001b[33m.\u001b[39mgetByTestId(\u001b[32m'staff-username'\u001b[39m)\u001b[33m.\u001b[39mfill(\u001b[32m'exec1'\u001b[39m)\u001b[33m;\u001b[39m \u001b[36mawait\u001b[39m exec\u001b[33m.\u001b[39mgetByTestId(\u001b[32m'staff-password'\u001b[39m)\u001b[33m.\u001b[39mfill(staffPassword)\u001b[33m;\u001b[39m \u001b[36mawait\u001b[39m exec\u001b[33m.\u001b[39mgetByTestId(\u001b[32m'staff-submit'\u001b[39m)\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m"
                       },
                       "errors": [
                         {
                           "location": {
-                            "file": "/workspace/plans/egov-eservice/app/tests-b.spec.ts",
+                            "file": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-b.spec.ts",
                             "column": 128,
-                            "line": 608
+                            "line": 924
                           },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"2026-12-0\u001b[7m8\u001b[27mT16:30:00+07:00\"\u001b[39m\nReceived: \u001b[31m\"2026-12-0\u001b[7m4\u001b[27mT16:30:00+07:00\"\u001b[39m\n\n  606 |       expect((await json(await api(page, 'get', '/api/cases/EG-2569-000031'))).dueAt).toBe('2026-12-04T16:30:00+07:00');\n  607 |       expect(await newPaid(page)).toBe('EG-2569-000033');\n> 608 |       const c33 = await json(await api(page, 'get', '/api/cases/EG-2569-000033')); expect(c33.fee).toBe(25); expect(c33.dueAt).toBe('2026-12-08T16:30:00+07:00');\n      |                                                                                                                                ^\n  609 |       expect((await api(admin, 'put', '/api/admin/users/exec1', { role: 'auditor', dept: '' })).status()).toBe(200);\n  610 |       await open(exec, '/login'); await exec.getByTestId('login-tab-staff').click();\n  611 |       await exec.getByTestId('staff-username').fill('exec1'); await exec.getByTestId('staff-password').fill(staffPassword); await exec.getByTestId('staff-submit').click();\n    at /workspace/plans/egov-eservice/app/tests-b.spec.ts:608:128"
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"2026-12-0\u001b[7m8\u001b[27mT16:30:00+07:00\"\u001b[39m\nReceived: \u001b[31m\"2026-12-0\u001b[7m4\u001b[27mT16:30:00+07:00\"\u001b[39m\n\n  922 |       expect((await json(await api(page, 'get', '/api/cases/EG-2569-000031'))).dueAt).toBe('2026-12-04T16:30:00+07:00');\n  923 |       expect(await newPaid(page)).toBe('EG-2569-000033');\n> 924 |       const c33 = await json(await api(page, 'get', '/api/cases/EG-2569-000033')); expect(c33.fee).toBe(25); expect(c33.dueAt).toBe('2026-12-08T16:30:00+07:00');\n      |                                                                                                                                ^\n  925 |       expect((await api(admin, 'put', '/api/admin/users/exec1', { role: 'auditor', dept: '' })).status()).toBe(200);\n  926 |       await open(exec, '/login'); await exec.getByTestId('login-tab-staff').click();\n  927 |       await exec.getByTestId('staff-username').fill('exec1'); await exec.getByTestId('staff-password').fill(staffPassword); await exec.getByTestId('staff-submit').click();\n    at C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-b.spec.ts:924:128"
                         }
                       ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:26:43.621Z",
+                      "startTime": "2026-11-23T13:32:33.483Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "error-context",
                           "contentType": "text/markdown",
-                          "path": "/workspace/plans/egov-eservice/app/e2e/results/out-B03_B07/tests-b-ชุด-B-·-SLA-NOTI-W-5fe4c-ยุดและบทบาท-พร้อมยอดที่ล็อก/error-context.md"
+                          "path": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\results\\out-B03_B07\\tests-b-ชุด-B-·-SLA-NOTI-W-5fe4c-ยุดและบทบาท-พร้อมยอดที่ล็อก\\error-context.md"
                         }
                       ],
                       "errorLocation": {
-                        "file": "/workspace/plans/egov-eservice/app/tests-b.spec.ts",
+                        "file": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-b.spec.ts",
                         "column": 128,
-                        "line": 608
+                        "line": 924
                       }
                     }
                   ],
@@ -1686,7 +1626,7 @@
               ],
               "id": "12cfe970336169d1d8dc-17df49b58f0f0ad6f12a",
               "file": "tests-b.spec.ts",
-              "line": 579,
+              "line": 895,
               "column": 3
             },
             {
@@ -1702,15 +1642,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 5,
+                      "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 172,
+                      "duration": 560,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:26:44.760Z",
+                      "startTime": "2026-11-23T13:32:36.187Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1720,7 +1660,7 @@
               ],
               "id": "12cfe970336169d1d8dc-e73238ccbca64ab303b5",
               "file": "tests-b.spec.ts",
-              "line": 633,
+              "line": 949,
               "column": 3
             },
             {
@@ -1736,15 +1676,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 5,
+                      "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 175,
+                      "duration": 391,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:26:44.992Z",
+                      "startTime": "2026-11-23T13:32:36.866Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1754,7 +1694,7 @@
               ],
               "id": "12cfe970336169d1d8dc-5f2909007b5402b26565",
               "file": "tests-b.spec.ts",
-              "line": 643,
+              "line": 996,
               "column": 3
             },
             {
@@ -1770,15 +1710,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 5,
+                      "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1819,
+                      "duration": 1665,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:26:45.175Z",
+                      "startTime": "2026-11-23T13:32:37.267Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1788,7 +1728,7 @@
               ],
               "id": "12cfe970336169d1d8dc-21fdef3c6968a32cdc22",
               "file": "tests-b.spec.ts",
-              "line": 656,
+              "line": 1025,
               "column": 3
             },
             {
@@ -1804,15 +1744,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 5,
+                      "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 6211,
+                      "duration": 7790,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:26:47.001Z",
+                      "startTime": "2026-11-23T13:32:38.942Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1822,7 +1762,7 @@
               ],
               "id": "12cfe970336169d1d8dc-099d209684078f3406b6",
               "file": "tests-b.spec.ts",
-              "line": 684,
+              "line": 1053,
               "column": 3
             },
             {
@@ -1838,15 +1778,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 5,
+                      "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 593,
+                      "duration": 692,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:26:53.217Z",
+                      "startTime": "2026-11-23T13:32:46.744Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1856,7 +1796,7 @@
               ],
               "id": "12cfe970336169d1d8dc-65eef35f982970d6a4dd",
               "file": "tests-b.spec.ts",
-              "line": 734,
+              "line": 1103,
               "column": 3
             },
             {
@@ -1872,15 +1812,15 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 5,
+                      "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 271,
+                      "duration": 372,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-17T02:26:53.816Z",
+                      "startTime": "2026-11-23T13:32:47.450Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1890,7 +1830,7 @@
               ],
               "id": "12cfe970336169d1d8dc-811bc1f06c630d11c76b",
               "file": "tests-b.spec.ts",
-              "line": 748,
+              "line": 1121,
               "column": 3
             }
           ]
@@ -1916,15 +1856,15 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 5,
+                  "workerIndex": 3,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 201,
+                  "duration": 273,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-17T02:26:54.099Z",
+                  "startTime": "2026-11-23T13:32:47.843Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1950,44 +1890,44 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 5,
+                  "workerIndex": 3,
                   "parallelIndex": 0,
                   "status": "failed",
-                  "duration": 83,
+                  "duration": 110,
                   "error": {
                     "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m403\u001b[39m\nReceived: \u001b[31m200\u001b[39m",
-                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m403\u001b[39m\nReceived: \u001b[31m200\u001b[39m\n    at /workspace/plans/egov-eservice/app/tests-c.spec.ts:72:25",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m403\u001b[39m\nReceived: \u001b[31m200\u001b[39m\n    at C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-c.spec.ts:72:25",
                     "location": {
-                      "file": "/workspace/plans/egov-eservice/app/tests-c.spec.ts",
+                      "file": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-c.spec.ts",
                       "column": 25,
                       "line": 72
                     },
-                    "snippet": "  70 |     const statusOf = async (no: string) => (await (await page.request.get(url(`/api/cases/${no}`))).json()).status;\n  71 |     const r1 = await page.request.post(url('/api/cases/EG-2569-000014/approve'));\n> 72 |     expect(r1.status()).toBe(403); expect((await r1.json()).code).toBe('FORBIDDEN');\n     |                         ^\n  73 |     expect(await statusOf('EG-2569-000014')).toBe('PENDING_APPROVAL');\n  74 |     const r2 = await page.request.post(url('/api/cases/EG-2569-000013/approve'));\n  75 |     expect(r2.status()).toBe(403);"
+                    "snippet": " \u001b[90m 70 |\u001b[39m     \u001b[36mconst\u001b[39m statusOf \u001b[33m=\u001b[39m \u001b[36masync\u001b[39m (no\u001b[33m:\u001b[39m string) \u001b[33m=>\u001b[39m (\u001b[36mawait\u001b[39m (\u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mrequest\u001b[33m.\u001b[39mget(url(\u001b[32m`/api/cases/${no}`\u001b[39m)))\u001b[33m.\u001b[39mjson())\u001b[33m.\u001b[39mstatus\u001b[33m;\u001b[39m\n \u001b[90m 71 |\u001b[39m     \u001b[36mconst\u001b[39m r1 \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mrequest\u001b[33m.\u001b[39mpost(url(\u001b[32m'/api/cases/EG-2569-000014/approve'\u001b[39m))\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 72 |\u001b[39m     expect(r1\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m403\u001b[39m)\u001b[33m;\u001b[39m expect((\u001b[36mawait\u001b[39m r1\u001b[33m.\u001b[39mjson())\u001b[33m.\u001b[39mcode)\u001b[33m.\u001b[39mtoBe(\u001b[32m'FORBIDDEN'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 73 |\u001b[39m     expect(\u001b[36mawait\u001b[39m statusOf(\u001b[32m'EG-2569-000014'\u001b[39m))\u001b[33m.\u001b[39mtoBe(\u001b[32m'PENDING_APPROVAL'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 74 |\u001b[39m     \u001b[36mconst\u001b[39m r2 \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mrequest\u001b[33m.\u001b[39mpost(url(\u001b[32m'/api/cases/EG-2569-000013/approve'\u001b[39m))\u001b[33m;\u001b[39m\n \u001b[90m 75 |\u001b[39m     expect(r2\u001b[33m.\u001b[39mstatus())\u001b[33m.\u001b[39mtoBe(\u001b[35m403\u001b[39m)\u001b[33m;\u001b[39m"
                   },
                   "errors": [
                     {
                       "location": {
-                        "file": "/workspace/plans/egov-eservice/app/tests-c.spec.ts",
+                        "file": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-c.spec.ts",
                         "column": 25,
                         "line": 72
                       },
-                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m403\u001b[39m\nReceived: \u001b[31m200\u001b[39m\n\n  70 |     const statusOf = async (no: string) => (await (await page.request.get(url(`/api/cases/${no}`))).json()).status;\n  71 |     const r1 = await page.request.post(url('/api/cases/EG-2569-000014/approve'));\n> 72 |     expect(r1.status()).toBe(403); expect((await r1.json()).code).toBe('FORBIDDEN');\n     |                         ^\n  73 |     expect(await statusOf('EG-2569-000014')).toBe('PENDING_APPROVAL');\n  74 |     const r2 = await page.request.post(url('/api/cases/EG-2569-000013/approve'));\n  75 |     expect(r2.status()).toBe(403);\n    at /workspace/plans/egov-eservice/app/tests-c.spec.ts:72:25"
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m403\u001b[39m\nReceived: \u001b[31m200\u001b[39m\n\n  70 |     const statusOf = async (no: string) => (await (await page.request.get(url(`/api/cases/${no}`))).json()).status;\n  71 |     const r1 = await page.request.post(url('/api/cases/EG-2569-000014/approve'));\n> 72 |     expect(r1.status()).toBe(403); expect((await r1.json()).code).toBe('FORBIDDEN');\n     |                         ^\n  73 |     expect(await statusOf('EG-2569-000014')).toBe('PENDING_APPROVAL');\n  74 |     const r2 = await page.request.post(url('/api/cases/EG-2569-000013/approve'));\n  75 |     expect(r2.status()).toBe(403);\n    at C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-c.spec.ts:72:25"
                     }
                   ],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-17T02:26:54.306Z",
+                  "startTime": "2026-11-23T13:32:48.128Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "error-context",
                       "contentType": "text/markdown",
-                      "path": "/workspace/plans/egov-eservice/app/e2e/results/out-B03_B07/tests-c-TC-RBAC-02-เจ้าหน้-85b06-ิ-SV-02-ไม่ได้-ตรวจที่-API-/error-context.md"
+                      "path": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\results\\out-B03_B07\\tests-c-TC-RBAC-02-เจ้าหน้-85b06-ิ-SV-02-ไม่ได้-ตรวจที่-API-\\error-context.md"
                     }
                   ],
                   "errorLocation": {
-                    "file": "/workspace/plans/egov-eservice/app/tests-c.spec.ts",
+                    "file": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-c.spec.ts",
                     "column": 25,
                     "line": 72
                   }
@@ -2014,15 +1954,15 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 6,
+                  "workerIndex": 4,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 3492,
+                  "duration": 4312,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-17T02:26:54.683Z",
+                  "startTime": "2026-11-23T13:32:48.866Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -2040,11 +1980,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-11-17T02:26:14.905Z",
-    "duration": 43366.906,
-    "expected": 45,
+    "startTime": "2026-11-23T13:31:54.008Z",
+    "duration": 59389.013000000006,
+    "expected": 47,
     "skipped": 0,
-    "unexpected": 6,
+    "unexpected": 4,
     "flaky": 0
   }
 }
