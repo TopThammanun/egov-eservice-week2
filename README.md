@@ -22,6 +22,7 @@
 
 | ขั้น | ไฟล์ | คืออะไร |
 |---|---|---|
+| เข้าใจโจทย์ | [`LAB1.md`](LAB1.md) | คำตอบเช็กพอยต์ 3 ข้อ · สรุปโจทย์ (3 บริการ · 6 บทบาท · กฎตัวเลข · ทำไมต้องมี CONTRACT) |
 | 1 วางแผน | [`blocks.json`](blocks.json) · [`dag.png`](dag.png) · [`gantt-plan.png`](gantt-plan.png) · [`PLAN.md`](PLAN.md) | 12 บล็อก · 4 บัญชี (yolo1 yolo2 cyolo1 cyolo2) · สายวิกฤต B01 → B03 → B04 → B11 → B12 |
 | 3 รันทีม | [`gantt-actual.png`](gantt-actual.png) · [`compare.png`](compare.png) · [`REPORT.md`](REPORT.md) · [`run.log`](run.log) · [`run-resume.log`](run-resume.log) | ผลรันจริงของ agent-team **รวมผลหลัง resume** (ok 11 · B12 หมดเวลา) · ภาพสร้างใหม่จาก log ด้วย [`tools/regen-actual-charts.js`](tools/regen-actual-charts.js) · ภาพเดิมจากเครื่องมือ (รอบแรก): [`gantt-actual-run1.png`](gantt-actual-run1.png) · [`compare-run1.png`](compare-run1.png) |
 | 3–4 เว็บ + test | [`app/`](app/) · [`app/e2e/`](app/e2e/) | เว็บ (Node 22 + SQLite ในตัว) และชุด Playwright 51 TC |
