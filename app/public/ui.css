@@ -1,0 +1,148 @@
+/* [B11] UI responsive + a11y layer. It loads after /app.css, and src/core/html.js adds it automatically when the file exists.
+   Scope: CSS only. It does not change the DOM, testids, text, or innerText (labels added with ::before are not part of innerText/textContent).
+   Covers: NFR-01 (375/768/1280, no horizontal scroll), NFR-02 (WCAG 2.1 AA), NFR-03 (focus visible), NFR-11 (status is not shown by colour alone).
+   Audit results: /ui-audit.md */
+
+/* ---------- 1. Base: prevent overflow (NFR-01) ---------- */
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+main{min-width:0;overflow-wrap:anywhere}
+img,svg,video,canvas,iframe{max-width:100%;height:auto}
+pre,code{white-space:pre-wrap;overflow-wrap:anywhere}
+input,select,textarea{min-width:0;min-height:44px}
+input[type=checkbox],input[type=radio]{min-height:auto;width:1.25rem;height:1.25rem;accent-color:#0f3d6e}
+input[type=file]{width:100%;min-height:auto}
+textarea{width:100%}
+fieldset{min-width:0;max-width:100%}
+.table-wrap{max-width:100%;-webkit-overflow-scrolling:touch}
+td,th{overflow-wrap:break-word}
+
+/* Fallback when a page does not define .sr-only itself (labels for screen readers only) */
+.sr-only{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+
+/* ---------- 2. Header and menu on narrow screens ---------- */
+.app-header{row-gap:.25rem}
+.app-header a,.app-header button{min-height:44px;display:inline-flex;align-items:center}
+.app-header nav a{padding:0 .25rem}
+@media (max-width:480px){
+  .app-header{padding:.5rem .75rem}
+  .app-header .brand{flex:1 1 100%}
+  .app-header .who{margin-left:0;flex:1 1 100%;justify-content:space-between}
+  main{padding:.75rem}
+  h1{font-size:1.6rem;line-height:1.3}
+}
+
+/* ---------- 3. Focus visible (NFR-03 · WCAG 2.4.7) ---------- */
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,summary:focus-visible,[tabindex]:focus-visible,.btn:focus-visible{outline:3px solid #b45309;outline-offset:2px;box-shadow:0 0 0 5px #fff}
+.app-header :focus-visible{outline-color:#fbbf24;box-shadow:none}
+
+/* ---------- 4. Status and warning level: text + shape + colour (NFR-11 · WCAG 1.4.1) ---------- */
+.badge{white-space:nowrap;line-height:1.4;font-weight:600;background:#fff}
+/* Add a marker in front so overdue/near cases are not shown by colour alone (visual only; alt text "" keeps it out of the accessible name) */
+.badge.lv-overdue::before{content:"⚠ ";content:"⚠ " / ""}
+.badge.lv-near::before{content:"⏰ ";content:"⏰ " / ""}
+.badge.lv-paused::before{content:"⏸ ";content:"⏸ " / ""}
+.badge.st-REJECTED::before,.badge.st-CANCELLED::before{content:"✕ ";content:"✕ " / ""}
+.badge.st-COMPLETED::before,.badge.st-APPROVED::before{content:"✓ ";content:"✓ " / ""}
+.badge.lv-near{background:#fef3c7}.badge.lv-overdue{background:#fee2e2;border-width:2px}
+.badge.st-NEED_FIX{background:#fffbeb;border-style:dashed}
+
+/* ---------- 5. Tables become cards on narrow screens (NFR-01 · WCAG 1.4.10 Reflow) ----------
+   - The page has no horizontal scroll, and the table does not need an inner scroll area either (this also avoids axe scrollable-region-focusable on /audit)
+   - Column headings are shown with ::before, using the row's data-testid (CONTRACT §2)
+   - Uses data-testid of the rows that CONTRACT defines: my-case-row my-draft-row queue-row approval-row audit-row service-row user-row */
+@media (max-width:900px){
+  .table-wrap:has(tr[data-testid=my-case-row],tr[data-testid=my-draft-row],tr[data-testid=queue-row],tr[data-testid=approval-row],tr[data-testid=audit-row],tr[data-testid=service-row],tr[data-testid=user-row]){overflow-x:visible}
+  .table-wrap table:has(tr[data-testid=my-case-row],tr[data-testid=my-draft-row],tr[data-testid=queue-row],tr[data-testid=approval-row],tr[data-testid=audit-row],tr[data-testid=service-row],tr[data-testid=user-row]){display:block;width:100%}
+  .table-wrap table:has(tr[data-testid=my-case-row],tr[data-testid=my-draft-row],tr[data-testid=queue-row],tr[data-testid=approval-row],tr[data-testid=audit-row],tr[data-testid=service-row],tr[data-testid=user-row]) :is(thead){position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+  .table-wrap table:has(tr[data-testid=my-case-row],tr[data-testid=my-draft-row],tr[data-testid=queue-row],tr[data-testid=approval-row],tr[data-testid=audit-row],tr[data-testid=service-row],tr[data-testid=user-row]) :is(tbody,tfoot){display:block}
+  :is(tr[data-testid=my-case-row],tr[data-testid=my-draft-row],tr[data-testid=queue-row],tr[data-testid=approval-row],tr[data-testid=audit-row],tr[data-testid=service-row],tr[data-testid=user-row]){
+    display:block;background:#fff;border:1px solid #d1d5db;border-radius:8px;padding:.5rem .75rem;margin:0 0 .75rem}
+  :is(tr[data-testid=my-case-row],tr[data-testid=my-draft-row],tr[data-testid=queue-row],tr[data-testid=approval-row],tr[data-testid=audit-row],tr[data-testid=service-row],tr[data-testid=user-row]) > :is(td,th){
+    display:flex;flex-wrap:wrap;gap:.25rem .75rem;align-items:baseline;border:0;border-bottom:1px dashed #e5e7eb;padding:.35rem 0;min-width:0}
+  :is(tr[data-testid=my-case-row],tr[data-testid=my-draft-row],tr[data-testid=queue-row],tr[data-testid=approval-row],tr[data-testid=audit-row],tr[data-testid=service-row],tr[data-testid=user-row]) > :is(td,th):last-child{border-bottom:0}
+  :is(tr[data-testid=my-case-row],tr[data-testid=my-draft-row],tr[data-testid=queue-row],tr[data-testid=approval-row],tr[data-testid=audit-row],tr[data-testid=service-row],tr[data-testid=user-row]) > td:empty{display:none}
+  :is(tr[data-testid=my-case-row],tr[data-testid=my-draft-row],tr[data-testid=queue-row],tr[data-testid=approval-row],tr[data-testid=audit-row],tr[data-testid=service-row],tr[data-testid=user-row]) > td::before{
+    flex:0 0 7.5rem;font-weight:600;color:#374151;font-size:.95rem}
+  /* rows that are not data rows (e.g. the empty-list message) keep a normal look */
+  .table-wrap table:has(tr[data-testid=queue-row],tr[data-testid=my-case-row],tr[data-testid=audit-row]) tbody tr:not([data-testid]){display:block}
+  .table-wrap table:has(tr[data-testid=queue-row],tr[data-testid=my-case-row],tr[data-testid=audit-row]) tbody tr:not([data-testid]) > td{display:block;border:0}
+
+  /* /citizen · my-case-row: เลขคำขอ บริการ สถานะ กำหนดเสร็จ ระดับ */
+  tr[data-testid=my-case-row] > td:nth-child(1)::before{content:"เลขคำขอ";content:"เลขคำขอ" / ""}
+  tr[data-testid=my-case-row] > td:nth-child(2)::before{content:"บริการ";content:"บริการ" / ""}
+  tr[data-testid=my-case-row] > td:nth-child(3)::before{content:"สถานะ";content:"สถานะ" / ""}
+  tr[data-testid=my-case-row] > td:nth-child(4)::before{content:"กำหนดเสร็จ";content:"กำหนดเสร็จ" / ""}
+  tr[data-testid=my-case-row] > td:nth-child(5)::before{content:"ระดับเตือน";content:"ระดับเตือน" / ""}
+  /* /citizen · my-draft-row: รหัสร่าง บริการ สถานะ ค่าธรรมเนียม แก้ไขล่าสุด ดำเนินการ */
+  tr[data-testid=my-draft-row] > td:nth-child(1)::before{content:"รหัสร่าง";content:"รหัสร่าง" / ""}
+  tr[data-testid=my-draft-row] > td:nth-child(2)::before{content:"บริการ";content:"บริการ" / ""}
+  tr[data-testid=my-draft-row] > td:nth-child(3)::before{content:"สถานะ";content:"สถานะ" / ""}
+  tr[data-testid=my-draft-row] > td:nth-child(4)::before{content:"ค่าธรรมเนียม";content:"ค่าธรรมเนียม" / ""}
+  tr[data-testid=my-draft-row] > td:nth-child(5)::before{content:"แก้ไขล่าสุด";content:"แก้ไขล่าสุด" / ""}
+  /* /officer/queue · queue-row: เลขคำขอ บริการ ผู้ยื่น เลขบัตร สถานะ กำหนดเสร็จ ระดับเตือน ผู้ถือเรื่อง ดำเนินการ */
+  tr[data-testid=queue-row] > td:nth-child(1)::before{content:"เลขคำขอ";content:"เลขคำขอ" / ""}
+  tr[data-testid=queue-row] > td:nth-child(2)::before{content:"บริการ";content:"บริการ" / ""}
+  tr[data-testid=queue-row] > td:nth-child(3)::before{content:"ผู้ยื่น";content:"ผู้ยื่น" / ""}
+  tr[data-testid=queue-row] > td:nth-child(4)::before{content:"เลขบัตร";content:"เลขบัตร" / ""}
+  tr[data-testid=queue-row] > td:nth-child(5)::before{content:"สถานะ";content:"สถานะ" / ""}
+  tr[data-testid=queue-row] > td:nth-child(6)::before{content:"กำหนดเสร็จ";content:"กำหนดเสร็จ" / ""}
+  tr[data-testid=queue-row] > td:nth-child(7)::before{content:"ระดับเตือน";content:"ระดับเตือน" / ""}
+  tr[data-testid=queue-row] > td:nth-child(8)::before{content:"ผู้ถือเรื่อง";content:"ผู้ถือเรื่อง" / ""}
+  /* /head/approvals · approval-row: เลขคำขอ บริการ ผู้ยื่น กำหนดเสร็จ ระดับเตือน ดำเนินการ */
+  tr[data-testid=approval-row] > td:nth-child(1)::before{content:"เลขคำขอ";content:"เลขคำขอ" / ""}
+  tr[data-testid=approval-row] > td:nth-child(2)::before{content:"บริการ";content:"บริการ" / ""}
+  tr[data-testid=approval-row] > td:nth-child(3)::before{content:"ผู้ยื่น";content:"ผู้ยื่น" / ""}
+  tr[data-testid=approval-row] > td:nth-child(4)::before{content:"กำหนดเสร็จ";content:"กำหนดเสร็จ" / ""}
+  tr[data-testid=approval-row] > td:nth-child(5)::before{content:"ระดับเตือน";content:"ระดับเตือน" / ""}
+  /* /audit · audit-row: เวลา ผู้ทำ บทบาท เหตุการณ์ เลขคำขอ สถานะก่อน→หลัง รายละเอียด (shows an empty detail cell too, to keep the column order) */
+  tr[data-testid=audit-row] > td:empty{display:flex}
+  tr[data-testid=audit-row] > td:nth-child(1)::before{content:"เวลา";content:"เวลา" / ""}
+  tr[data-testid=audit-row] > td:nth-child(2)::before{content:"ผู้ทำ";content:"ผู้ทำ" / ""}
+  tr[data-testid=audit-row] > td:nth-child(3)::before{content:"บทบาท";content:"บทบาท" / ""}
+  tr[data-testid=audit-row] > td:nth-child(4)::before{content:"เหตุการณ์";content:"เหตุการณ์" / ""}
+  tr[data-testid=audit-row] > td:nth-child(5)::before{content:"เลขคำขอ";content:"เลขคำขอ" / ""}
+  tr[data-testid=audit-row] > td:nth-child(6)::before{content:"ก่อน → หลัง";content:"ก่อน → หลัง" / ""}
+  tr[data-testid=audit-row] > td:nth-child(7)::before{content:"รายละเอียด";content:"รายละเอียด" / ""}
+  /* /admin/services · service-row and /admin/users · user-row: the row heading (th) becomes the card title; inputs already have a <label> */
+  :is(tr[data-testid=service-row],tr[data-testid=user-row]) > th{display:block;font-size:1.05rem}
+  tr[data-testid=service-row] > td{display:block}
+  tr[data-testid=service-row] > td label{margin-top:0}
+  tr[data-testid=service-row] input{width:100%;max-width:16rem}
+  tr[data-testid=user-row] > td:nth-child(2)::before{content:"บทบาท";content:"บทบาท" / ""}
+  tr[data-testid=user-row] > td:nth-child(3)::before{content:"แผนก";content:"แผนก" / ""}
+  tr[data-testid=user-row] select{flex:1 1 12rem;max-width:100%}
+}
+@media (max-width:420px){
+  :is(tr[data-testid=my-case-row],tr[data-testid=my-draft-row],tr[data-testid=queue-row],tr[data-testid=approval-row],tr[data-testid=audit-row],tr[data-testid=user-row]) > td::before{flex-basis:6.25rem;font-size:.9rem;color:#4b5563}
+  :is(tr[data-testid=my-case-row],tr[data-testid=my-draft-row],tr[data-testid=queue-row],tr[data-testid=approval-row],tr[data-testid=audit-row],tr[data-testid=user-row]) > td{flex-wrap:nowrap;padding:.25rem 0}
+  :is(tr[data-testid=my-case-row],tr[data-testid=my-draft-row],tr[data-testid=queue-row],tr[data-testid=approval-row],tr[data-testid=audit-row],tr[data-testid=user-row]) > td > *{min-width:0}
+}
+
+/* ---------- 6. Forms, buttons, cards on small screens ---------- */
+@media (max-width:480px){
+  .actions > button,.actions > .btn,.action-group > button{flex:1 1 auto}
+  .kpis{grid-template-columns:repeat(auto-fit,minmax(130px,1fr))}
+  .login-box,.reg-box,.qr-card,.verify-box,.card,.panel{max-width:100%}
+  input[type=date]{width:100%}
+}
+
+/* ---------- 7. Forced colors (Windows High Contrast · TC-NFR-02 emulateMedia forcedColors) ---------- */
+@media (forced-colors:active){
+  .badge{border:1px solid CanvasText;forced-color-adjust:auto}
+  .badge.lv-overdue{border-width:3px}
+  button,.btn{border:1px solid ButtonText}
+  button[disabled]{color:GrayText;border-color:GrayText}
+  :focus-visible{outline:3px solid Highlight!important}
+  :is(tr[data-testid]){border-color:CanvasText}
+}
+
+/* ---------- 8. Reduce motion ---------- */
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}
+}
+
+/* ---------- 9. Printing (receipt / document pages) ---------- */
+@media print{
+  .app-header nav,.app-header .who,#toast,button{display:none!important}
+  body{background:#fff}
+}

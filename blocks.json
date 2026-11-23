@@ -1,0 +1,175 @@
+{
+ "name": "egov-eservice",
+ "goal": "สร้างเว็บ e-Service กลางตามชุดโจทย์ใน /workspace/egov-brief ทำตาม REQUIREMENTS CONTRACT TEST-DATA DECISIONS ครบ รันด้วย docker compose คำสั่งเดียว รองรับ TEST_MODE=1 และ BUG_MODE ตาม BUGS.md และมีชุด Playwright ครบ 51 TC",
+ "blocks": [
+  {
+   "id": "B01",
+   "title": "โครงโปรเจกต์+DB+hook",
+   "size": "M",
+   "depends_on": [],
+   "skill": "yolo",
+   "difficulty": 3,
+   "output": "SCAFFOLD.md",
+   "done": "docker compose up ได้ทั้ง TEST_MODE=1; GET /api/health=200; POST /api/test/reset seed ตาม TEST-DATA; PUT /api/test/clock ทำงาน; BUG_MODE parser พร้อม",
+   "desc": "ครอบ FR-28 · NFR-04 NFR-06 NFR-09 NFR-10. อ่าน /workspace/egov-brief: CONTRACT.md §0 §6.6 §8, TEST-DATA.md, DECISIONS.md §0 §15. ทำ Node+SQLite (DB_PATH) docker-compose.yml, schema, seed, นาฬิกาทดสอบ Asia/Bangkok, test hook reset/clock/pay/tamper, loader BUG_MODE. เขียน SCAFFOLD.md บอกโครงไฟล์และจุดต่อให้บล็อกอื่น (แต่ละบล็อกเพิ่มไฟล์ของตัวเองเท่านั้น)"
+  },
+  {
+   "id": "B02",
+   "title": "Auth+RBAC+ลงทะเบียน",
+   "size": "M",
+   "depends_on": [
+    "B01"
+   ],
+   "skill": "yolo",
+   "difficulty": 3,
+   "output": "auth.js",
+   "done": "BR-01 checksum, BR-02 OTP ล็อก 3 ครั้ง/15 นาที, BR-03 ลงทะเบียน, BR-21 RBAC 401/403, เจ้าหน้าที่ SSO จำลอง ตาม CONTRACT §2.2-2.3 §6.1",
+   "desc": "อ่าน REQUIREMENTS FR-01..03 BR-01..03 BR-21, CONTRACT §2.2 §2.3 §5 §6.1, TEST-DATA §1, DECISIONS §1 §2 §17. เขียนเฉพาะ auth.js และ view ของ /login /register"
+  },
+  {
+   "id": "B03",
+   "title": "ไลบรารีกฎธุรกิจ",
+   "size": "L",
+   "depends_on": [
+    "B01"
+   ],
+   "skill": "review",
+   "difficulty": 4,
+   "output": "rules.js",
+   "done": "ฟังก์ชันค่าธรรมเนียม BR-04/05, D0+กำหนดเสร็จ BR-12, หยุดนับ BR-13, ระดับเตือน BR-14, เลขคำขอ/ใบเสร็จ BR-09/11, QR 15 นาที BR-10 ให้ผลตรงตาราง TEST-PLAN SLA-01..03 FEE-01 ทุกแถว",
+   "desc": "อ่าน REQUIREMENTS BR-04,05,09..15,20 และ DECISIONS §0 §3 §6 §8 §18, TEST-DATA §3 วันหยุด. คณิตศาสตร์ตัวเลข/เวลาเยอะ ให้อีกฝั่งตรวจซ้ำ. เป็น pure function ไม่แตะ DB"
+  },
+  {
+   "id": "B04",
+   "title": "ฝั่งประชาชน ยื่น+จ่าย",
+   "size": "L",
+   "depends_on": [
+    "B01",
+    "B02",
+    "B03"
+   ],
+   "skill": "yolo",
+   "difficulty": 4,
+   "output": "citizen.js",
+   "done": "แคตตาล็อก ฟอร์ม 3 บริการ ร่าง อัปโหลด (magic bytes/5MB/5 ไฟล์) เอกสารบังคับ QR ชำระ ติดตาม ยกเลิก ส่งแก้ไข ตาม CONTRACT §2.4-2.6 §6.2",
+   "desc": "อ่าน FR-04..11 BR-04..11 BR-20 BR-22, CONTRACT §2.4 §2.5 §2.6 §5 §6.2 §6.7, TEST-DATA §4 §6 §11. เขียนเฉพาะ citizen.js และ view ฝั่งประชาชน เรียกใช้ rules.js ห้ามคิดกฎซ้ำ"
+  },
+  {
+   "id": "B05",
+   "title": "ฝั่งเจ้าหน้าที่/หัวหน้า",
+   "size": "L",
+   "depends_on": [
+    "B01",
+    "B02",
+    "B03"
+   ],
+   "skill": "yolo",
+   "difficulty": 4,
+   "output": "officer.js",
+   "done": "คิวเรียงตาม BR-16 รับเรื่อง 409 BR-17 เพดาน 10 BR-18 ตีกลับ ≤2 ครั้ง ≥10 ตัวอักษร ส่งต่ออัตโนมัติ อนุมัติตามอำนาจ ปิดบังเลขบัตร unmask+Audit ไฟล์แนบ BR-29 ตาม CONTRACT §2.7-2.8 §6.3",
+   "desc": "อ่าน FR-12..16 FR-21 FR-29 BR-16..19 BR-21 BR-24 BR-29, CONTRACT §2.6 §2.7 §2.8 §6.3 §6.8, TEST-DATA §9. เขียนเฉพาะ officer.js และ view คิว/อนุมัติ"
+  },
+  {
+   "id": "B06",
+   "title": "เอกสารดิจิทัล+verify",
+   "size": "M",
+   "depends_on": [
+    "B01",
+    "B02"
+   ],
+   "skill": "yolo",
+   "difficulty": 3,
+   "output": "docs.js",
+   "done": "ออกเอกสาร DOC-2569-###### HMAC-SHA256 PDF+QR หน้า /verify/:code 4 แบบ ชื่อปิดบัง อายุ 90 วัน/1 ปี (ขอบ 29 ก.พ.) tamper hook",
+   "desc": "อ่าน FR-17 FR-18 BR-23, CONTRACT §2.13 §6.4 §8, TEST-DATA §5. เขียนเฉพาะ docs.js"
+  },
+  {
+   "id": "B07",
+   "title": "แจ้งเตือน+ยกเลิกอัตโนมัติ",
+   "size": "M",
+   "depends_on": [
+    "B01",
+    "B03"
+   ],
+   "skill": "yolo",
+   "difficulty": 3,
+   "output": "notify.js",
+   "done": "กระดิ่ง 1 ครั้งต่อระดับต่อคำขอต่อคน ผู้รับตาม BR-15 เกินกำหนดแจ้ง head ยกเลิกเองเมื่อครบ 168 ชม. และ /notifications ตาม CONTRACT §2.12",
+   "desc": "อ่าน FR-19 FR-20 FR-11 BR-14 BR-15 BR-20, CONTRACT §2.12, TEST-DATA §8. เขียนเฉพาะ notify.js"
+  },
+  {
+   "id": "B08",
+   "title": "Dashboard+Audit+Admin",
+   "size": "L",
+   "depends_on": [
+    "B01",
+    "B02",
+    "B03"
+   ],
+   "skill": "review",
+   "difficulty": 4,
+   "output": "reports.js",
+   "done": "ตัวเลข Dashboard ตรง TEST-DATA §7 (ทันกำหนด 16:30:00 ทัน, ปี 87.5%) ส่งออก Excel/PDF ไม่มีข้อมูลส่วนบุคคล Audit 10 เหตุการณ์ append-only 405 admin แก้ ranges BR-28",
+   "desc": "อ่าน FR-22..27 BR-21 BR-24 BR-25 BR-26 BR-27 BR-28, CONTRACT §2.9 §2.10 §2.11 §6.4 §6.5 §7, TEST-DATA §7 §10. ตัวเลขสถิติเยอะ ให้อีกฝั่งตรวจ. เขียนเฉพาะ reports.js"
+  },
+  {
+   "id": "B09",
+   "title": "Playwright ชุด A",
+   "size": "L",
+   "depends_on": [],
+   "skill": "cyolo",
+   "difficulty": 3,
+   "output": "tests-a.spec.ts",
+   "done": "test ครบทุก TC ของ AUTH FEE SUBMIT UPLOAD PAY QUEUE ชื่อขึ้นต้นด้วยรหัส TC ผลที่คาดหวังตรงการ์ด ไม่ผูกกับโค้ดเว็บ",
+   "desc": "อ่านได้เฉพาะ TEST-PLAN.md (หมวด 2-7) CONTRACT.md TEST-DATA.md ห้ามอ่านโค้ดเว็บและ BUGS.md. ห้ามเขียนผลที่คาดหวังให้ตรงหน้าจอ. หลัง reset ต้องล็อกอินใหม่"
+  },
+  {
+   "id": "B10",
+   "title": "Playwright ชุด B",
+   "size": "L",
+   "depends_on": [],
+   "skill": "cyolo",
+   "difficulty": 3,
+   "output": "tests-b.spec.ts",
+   "done": "test ครบทุก TC ของ SLA NOTI WORKFLOW DOC PDPA DASH AUDIT ADMIN NFR ชื่อขึ้นต้นด้วยรหัส TC (รวมกับชุด A ได้ 51 TC)",
+   "desc": "อ่านได้เฉพาะ TEST-PLAN.md (หมวด 8 เป็นต้นไป) CONTRACT.md TEST-DATA.md ห้ามอ่านโค้ดเว็บและ BUGS.md. NFR ใช้ @axe-core/playwright"
+  },
+  {
+   "id": "B11",
+   "title": "UI responsive+a11y",
+   "size": "M",
+   "depends_on": [
+    "B04",
+    "B05",
+    "B06",
+    "B08"
+   ],
+   "skill": "yolo",
+   "difficulty": 3,
+   "output": "ui-audit.md",
+   "done": "ตรวจ 13 หน้า ไม่มี scroll แนวนอนที่ 375/768/1280 มี label ทุก input data-testid ครบตาม CONTRACT สถานะมีข้อความไม่ใช้สีอย่างเดียว รายงานสิ่งที่พบ",
+   "desc": "อ่าน NFR-01 NFR-02 NFR-03 NFR-11 และ CONTRACT §2. สร้างเฉพาะ ui-audit.md และ ui.css (ไฟล์ใหม่) ห้ามแก้ไฟล์ของบล็อกอื่น ปัญหาที่เจอให้จดไว้ให้บล็อกรวมแก้"
+  },
+  {
+   "id": "B12",
+   "title": "รวม+รันเต็ม+BUG_MODE",
+   "size": "L",
+   "depends_on": [
+    "B04",
+    "B05",
+    "B06",
+    "B07",
+    "B08",
+    "B09",
+    "B10",
+    "B11"
+   ],
+   "skill": "yolo",
+   "difficulty": 4,
+   "output": "FINAL-REPORT.md",
+   "exclusive": true,
+   "done": "ประกอบเว็บ รัน Playwright เต็ม 51 TC ผ่านครบด้วย TEST_MODE=1 แล้วรัน BUG_MODE=B01..B12 ทีละตัว สรุปจับได้กี่ตัว ข้อล้มจำแนก เว็บผิด/test ผิด/แผนผิด",
+   "desc": "ครอบ NFR-07 NFR-08 (ตรวจผ่านชุด Playwright: TC-QUEUE-02 TC-PAY-03 TC-NFR-03) · NFR-05 อยู่นอกขอบเขต (Q-08). ห้ามแก้ผลที่คาดหวังใน test ให้ตรงหน้าจอ. เปิด BUGS.md ได้เฉพาะขั้นรัน BUG_MODE. เขียน FINAL-REPORT.md"
+  }
+ ]
+}

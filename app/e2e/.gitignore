@@ -1,0 +1,6 @@
+.data/
+results/
+report/
+test-results/
+node_modules/
+*.bak

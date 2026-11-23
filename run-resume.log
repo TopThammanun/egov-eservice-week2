@@ -1,0 +1,38 @@
+▶ resume egov-eservice-1116-102857: รันใหม่เฉพาะ B11, B12 (งานที่สำเร็จแล้วไม่รันซ้ำ)
+· ใช้ผลตรวจความพร้อม (เรียกจริง) จาก cache ≤10 นาที: yolo1=พร้อม@15:52:52, yolo2=พร้อม@15:52:51, cyolo1=พร้อม@15:52:51, cyolo2=พร้อม@15:52:52
+▶ B11 → yolo2 (opus/high)
+✔ B11 ← yolo2 508.8s in=70 out=35604 
+▶ B12 → yolo1 (opus/xhigh)
+✘ B12 ← yolo1 1501.0s in=438 out=1540 (timeout: timeout after 1500s)
+✘ B12: timeout after 1500s
+
+## สรุป run egov-eservice-1116-102857
+run directory: /workspace/.agent-team/egov-eservice-1116-102857
+
+| งาน | บัญชี | รุ่น/effort | เวลา s | input tokens | output tokens | สถานะ |
+|---|---|---|---|---|---|---|
+| B01 | yolo2 | opus/high | 741.4 | 76 | 73213 | ok |
+| B02 | yolo1 | opus/high | 192.7 | 52 | 21399 | ok |
+| B03 | cyolo2,yolo2 | gpt-6-luna/xhigh,opus/xhigh | 416.1 | 187208 | 36522 | ok (APPROVED รอบ 1 โดย cyolo2) |
+| B04 | yolo2 | opus/xhigh | 1128.0 | 90 | 115154 | ok |
+| B05 | yolo1 | opus/xhigh | 909.4 | 114 | 97266 | ok |
+| B06 | yolo2 | opus/high | 211.5 | 42 | 18797 | ok |
+| B07 | yolo1 | opus/high | 124.6 | 34 | 12558 | ok |
+| B08 | cyolo2,yolo1 | gpt-6-luna/xhigh,opus/xhigh | 828.7 | 393407 | 84747 | ok (APPROVED รอบ 1 โดย cyolo2) |
+| B09 | cyolo2 | gpt-6-luna/high | 477.4 | 1269298 | 24838 | ok |
+| B10 | cyolo1 | gpt-6-luna/high | 512.1 | 1338646 | 26396 | ok |
+| B11 | yolo1,yolo2 | opus/high | 508.8 | 70 | 35604 | ok |
+| B12 | yolo1 | opus/xhigh | 1501.0 | 438 | 1540 | failed: timeout after 1500s |
+
+การย้ายงานลูกทีม:
+| งาน | จาก | ไป | เหตุผล | เวลา |
+|---|---|---|---|---|
+| B11 | yolo2 | yolo1 | บัญชี yolo2 หยุดรับงาน: โควตา 82% ≥ เกณฑ์ 80% | 11:07:08 |
+
+โควตาของบัญชีที่ใช้:
+| บัญชี | โควตาล่าสุด |
+|---|---|
+| cyolo1 | week 46% (ข้อมูล 2026-11-16 15:53) |
+| cyolo2 | week 46% (ข้อมูล 2026-11-16 15:53) |
+| yolo1 | session 38% · week 14% (ข้อมูล 2026-11-16 16:23) |
+| yolo2 | session 11% · week 11% (ข้อมูล 2026-11-16 16:01) |

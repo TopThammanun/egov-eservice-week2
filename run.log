@@ -1,0 +1,67 @@
+▶ run egov-eservice-1116-102857 · run directory /workspace/.agent-team/egov-eservice-1116-102857
+· บัญชีที่อนุญาต: yolo1, yolo2, cyolo1, cyolo2
+· ใช้ผลตรวจความพร้อม (เรียกจริง) จาก cache ≤10 นาที: yolo1=พร้อม@10:28:45, yolo2=พร้อม@10:28:45, cyolo1=พร้อม@10:28:44, cyolo2=พร้อม@10:28:44
+· แผน: B01→yolo2, B02→yolo1, B03→yolo/cyolo, B04→yolo2, B05→yolo1, B06→yolo2, B07→yolo1, B08→yolo/cyolo, B09→cyolo2, B10→cyolo1, B11→yolo2, B12→yolo1
+▶ B01 → yolo2 (opus/high)
+▶ B10 → cyolo1 (gpt-6-luna/high)
+▶ B09 → cyolo2 (gpt-6-luna/high)
+✔ B09 ← cyolo2 477.4s in=1269298 out=24838 
+✔ B10 ← cyolo1 512.1s in=1338646 out=26396 
+✔ B01 ← yolo2 741.4s in=76 out=73213 
+▶ B02 → yolo1 (opus/high)
+▶ B03#w1 → yolo2 (opus/xhigh)
+✔ B02 ← yolo1 192.7s in=52 out=21399 
+▶ B06 → yolo2 (opus/high)
+✔ B03#w1 ← yolo2 353.5s in=44 out=33566 
+▶ B03#r1 → cyolo2 (gpt-6-luna/xhigh)
+✔ B06 ← yolo2 211.5s in=42 out=18797 
+✔ B03#r1 ← cyolo2 62.6s in=187164 out=2956 
+✔ B03 APPROVED ในรอบ 1
+▶ B07 → yolo1 (opus/high)
+▶ B05 → yolo1 (opus/xhigh)
+▶ B04 → yolo2 (opus/xhigh)
+▶ B08#w1 → yolo1 (opus/xhigh)
+✔ B07 ← yolo1 124.5s in=34 out=12558 
+✔ B08#w1 ← yolo1 712.0s in=78 out=79226 
+▶ B08#r1 → cyolo2 (gpt-6-luna/xhigh)
+✔ B08#r1 ← cyolo2 116.7s in=393329 out=5521 
+✔ B08 APPROVED ในรอบ 1
+✔ B05 ← yolo1 909.3s in=114 out=97266 
+⏸ yolo2 หยุดรับงานใหม่: โควตา 82% ≥ เกณฑ์ 80%
+↪ ย้ายงาน B11: yolo2 → yolo1 (บัญชี yolo2 หยุดรับงาน: โควตา 82% ≥ เกณฑ์ 80%)
+✔ B04 ← yolo2 1128.0s in=90 out=115154 
+▶ B11 → yolo1 (opus/high)
+✘ B11 ← yolo1 0.0s in=0 out=0 (error: Error: claude native binary not installed. Either postinstall did not run (--ig…)
+✘ B11: Error: claude native binary not installed. Either postinstall did not run (--ignore-scripts, some pnpm configs) or the platform-native optional dependency was not downloaded (--omit=optional). Run the postinstall manually (adjust path for local vs global install): node node_modules/@anthropic-ai/cl…
+⛔ B12 ถูกบล็อกเพราะ B11
+
+## สรุป run egov-eservice-1116-102857
+run directory: /workspace/.agent-team/egov-eservice-1116-102857
+
+| งาน | บัญชี | รุ่น/effort | เวลา s | input tokens | output tokens | สถานะ |
+|---|---|---|---|---|---|---|
+| B01 | yolo2 | opus/high | 741.4 | 76 | 73213 | ok |
+| B02 | yolo1 | opus/high | 192.7 | 52 | 21399 | ok |
+| B03 | cyolo2,yolo2 | gpt-6-luna/xhigh,opus/xhigh | 416.1 | 187208 | 36522 | ok (APPROVED รอบ 1 โดย cyolo2) |
+| B04 | yolo2 | opus/xhigh | 1128.0 | 90 | 115154 | ok |
+| B05 | yolo1 | opus/xhigh | 909.4 | 114 | 97266 | ok |
+| B06 | yolo2 | opus/high | 211.5 | 42 | 18797 | ok |
+| B07 | yolo1 | opus/high | 124.6 | 34 | 12558 | ok |
+| B08 | cyolo2,yolo1 | gpt-6-luna/xhigh,opus/xhigh | 828.7 | 393407 | 84747 | ok (APPROVED รอบ 1 โดย cyolo2) |
+| B09 | cyolo2 | gpt-6-luna/high | 477.4 | 1269298 | 24838 | ok |
+| B10 | cyolo1 | gpt-6-luna/high | 512.1 | 1338646 | 26396 | ok |
+| B11 | yolo1 | opus/high | 0.0 | 0 | 0 | failed: Error: claude native binary not installed. Either postinstall did not… |
+| B12 | yolo1 | - | 0 | 0 | 0 | blocked: งานที่ต้องรอ B11 ล้ม/ไม่ผ่าน จึงไม่รัน |
+
+การย้ายงานลูกทีม:
+| งาน | จาก | ไป | เหตุผล | เวลา |
+|---|---|---|---|---|
+| B11 | yolo2 | yolo1 | บัญชี yolo2 หยุดรับงาน: โควตา 82% ≥ เกณฑ์ 80% | 11:07:08 |
+
+โควตาของบัญชีที่ใช้:
+| บัญชี | โควตาล่าสุด |
+|---|---|
+| cyolo1 | week 10% (ข้อมูล 2026-11-12 12:12) |
+| cyolo2 | week 0% (ข้อมูล 2026-11-11 13:35) |
+| yolo1 | session 79% · week 10% (ข้อมูล 2026-11-16 11:03) |
+| yolo2 | session 82% · week 10% (ข้อมูล 2026-11-16 11:06) |

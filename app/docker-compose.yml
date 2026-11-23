@@ -1,0 +1,20 @@
+# [B01] รันคำสั่งเดียว:  docker compose up --build                       (ไม่ตั้ง TEST_MODE = ปิด test hook · /api/test/* ตอบ 404)
+#   โหมดทดสอบ:        TEST_MODE=1 docker compose up --build            (เปิด /api/test/* · BUG_MODE ว่าง = เว็บถูกต้อง 100%)
+#   เปิดบั๊ก:          TEST_MODE=1 BUG_MODE=B03 docker compose up --build
+#   เปลี่ยนพอร์ต:       PORT=8080 docker compose up        → http://localhost:8080
+services:
+  web:
+    build: .
+    image: egov-eservice:local
+    environment:
+      TEST_MODE: "${TEST_MODE:-}"
+      BUG_MODE: "${BUG_MODE:-}"
+      DB_PATH: /data/egov.db
+      PORT: "3000"
+    ports:
+      - "${PORT:-3000}:3000"
+    volumes:
+      - egov-data:/data
+    restart: unless-stopped
+volumes:
+  egov-data:

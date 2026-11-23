@@ -1,0 +1,27 @@
+/* [B01] สไตล์พื้นฐาน (B11 เพิ่ม/ทับใน /ui.css) */
+*,*::before,*::after{box-sizing:border-box}
+html{font-family:"Sarabun","Noto Sans Thai","Leelawadee UI",Tahoma,sans-serif;font-size:16px;line-height:1.5;color:#1b1f24;background:#f6f7f9}
+body{margin:0;overflow-x:hidden}
+main{max-width:1200px;margin:0 auto;padding:1rem}
+a{color:#0b57d0}
+img,table{max-width:100%}
+.app-header{display:flex;flex-wrap:wrap;gap:.5rem 1rem;align-items:center;padding:.5rem 1rem;background:#0f3d6e;color:#fff}
+.app-header a{color:#fff}
+.app-header nav{display:flex;flex-wrap:wrap;gap:.75rem}
+.app-header .who{margin-left:auto;display:flex;flex-wrap:wrap;gap:.5rem;align-items:center}
+.brand{font-weight:700;text-decoration:none}
+button,.btn{font:inherit;padding:.45rem .9rem;border-radius:6px;border:1px solid #0f3d6e;background:#0f3d6e;color:#fff;cursor:pointer;min-height:44px}
+button[disabled]{opacity:.55;cursor:not-allowed}
+input,select,textarea{font:inherit;padding:.4rem .5rem;border:1px solid #6b7280;border-radius:6px;max-width:100%}
+label{display:block;font-weight:600;margin:.5rem 0 .25rem}
+:focus-visible{outline:3px solid #f59e0b;outline-offset:2px}
+.table-wrap{overflow-x:auto}
+table{border-collapse:collapse;width:100%}
+th,td{border-bottom:1px solid #d1d5db;padding:.4rem .5rem;text-align:left;vertical-align:top}
+[role=alert]:not(:empty){color:#9b1c1c;font-weight:600}
+[hidden]{display:none!important}
+#toast{position:fixed;bottom:1rem;right:1rem;background:#065f46;color:#fff;padding:.6rem 1rem;border-radius:6px}
+.badge{display:inline-block;padding:.1rem .5rem;border-radius:999px;font-size:.9rem;border:1px solid currentColor}
+.st-DRAFT,.st-PENDING_PAYMENT{color:#4b5563}.st-SUBMITTED,.st-IN_REVIEW{color:#1d4ed8}.st-NEED_FIX{color:#92400e}
+.st-PENDING_APPROVAL{color:#6d28d9}.st-APPROVED,.st-COMPLETED{color:#065f46}.st-REJECTED,.st-CANCELLED{color:#9b1c1c}
+.lv-normal{color:#065f46}.lv-near{color:#92400e;background:#fef3c7}.lv-overdue{color:#9b1c1c;background:#fee2e2}.lv-paused{color:#4b5563}.lv-closed{color:#374151}

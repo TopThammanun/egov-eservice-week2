@@ -1,0 +1,13 @@
+{
+  "name": "egov-eservice-e2e",
+  "private": true,
+  "description": "[B12] Playwright runner + ชุด test (tests-*.spec.ts) 51 TC ตาม TEST-PLAN",
+  "scripts": {
+    "test": "playwright test"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.10.0",
+    "@playwright/test": "1.66.0-alpha-2026-11-09",
+    "exceljs": "^4.4.0"
+  }
+}

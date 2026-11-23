@@ -1,0 +1,7 @@
+# [B12] override สำหรับรัน Playwright: bind /data ออกมาที่ host เพื่อให้ TC-NFR-04 อ่านไฟล์ฐานข้อมูลได้ (DB_PATH)
+#   PORT=3912 docker compose -f docker-compose.yml -f e2e/compose.e2e.yml -p b12 up -d --build
+#   DB_PATH=$PWD/e2e/.data/egov.db BASE_URL=http://127.0.0.1:3912 npx --prefix e2e playwright test -c e2e
+services:
+  web:
+    volumes:
+      - ${E2E_DATA_DIR:-./e2e/.data}:/data
