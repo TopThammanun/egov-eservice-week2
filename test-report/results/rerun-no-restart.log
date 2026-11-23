@@ -1,3 +1,3 @@
-# รันชุดเต็ม 2 รอบติดกันโดยไม่ restart เว็บ (BUGS.md §3 ขั้น 2) · TEST_MODE=1 ไม่ตั้ง BUG_MODE · 2026-11-23 20:37
-รอบ 1 (พร้อมรายงาน HTML/JSON): passed 51/51 · 70s
+# รันชุดเต็ม 2 รอบติดกันโดยไม่ restart เว็บ (BUGS.md §3 ขั้น 2) · TEST_MODE=1 ไม่ตั้ง BUG_MODE · 2026-11-23 21:38
+รอบ 1 (พร้อมรายงาน HTML/JSON): passed 51/51 · 69s
 รอบ 2 (ทันที ไม่ restart): passed 51/51 · 68s

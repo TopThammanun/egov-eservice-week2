@@ -112,12 +112,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1169,
+                  "duration": 1301,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-23T13:28:25.446Z",
+                  "startTime": "2026-11-23T14:30:02.385Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -146,12 +146,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 674,
+                  "duration": 800,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-23T13:28:26.725Z",
+                  "startTime": "2026-11-23T14:30:03.836Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -180,12 +180,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1282,
+                  "duration": 1549,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-23T13:28:27.410Z",
+                  "startTime": "2026-11-23T14:30:04.649Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -214,12 +214,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 2662,
+                  "duration": 3022,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-23T13:28:28.701Z",
+                  "startTime": "2026-11-23T14:30:06.208Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -248,12 +248,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 455,
+                  "duration": 676,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-23T13:28:31.370Z",
+                  "startTime": "2026-11-23T14:30:09.240Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -282,12 +282,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 756,
+                  "duration": 945,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-23T13:28:31.833Z",
+                  "startTime": "2026-11-23T14:30:09.926Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -316,12 +316,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 517,
+                  "duration": 657,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-23T13:28:32.596Z",
+                  "startTime": "2026-11-23T14:30:10.881Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -350,12 +350,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1059,
+                  "duration": 1531,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-23T13:28:33.121Z",
+                  "startTime": "2026-11-23T14:30:11.547Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -384,12 +384,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1554,
+                  "duration": 1953,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-23T13:28:34.187Z",
+                  "startTime": "2026-11-23T14:30:13.088Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -418,12 +418,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 334,
+                  "duration": 416,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-23T13:28:35.749Z",
+                  "startTime": "2026-11-23T14:30:15.053Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -452,12 +452,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 487,
+                  "duration": 666,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-23T13:28:36.093Z",
+                  "startTime": "2026-11-23T14:30:15.479Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -486,12 +486,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 144,
+                  "duration": 212,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-23T13:28:36.586Z",
+                  "startTime": "2026-11-23T14:30:16.156Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -520,12 +520,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 252,
+                  "duration": 353,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-23T13:28:36.740Z",
+                  "startTime": "2026-11-23T14:30:16.381Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -554,12 +554,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 149,
+                  "duration": 210,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-23T13:28:37.001Z",
+                  "startTime": "2026-11-23T14:30:16.744Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -588,12 +588,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 704,
+                  "duration": 901,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-23T13:28:37.156Z",
+                  "startTime": "2026-11-23T14:30:16.963Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -622,12 +622,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 862,
+                  "duration": 1107,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-23T13:28:37.867Z",
+                  "startTime": "2026-11-23T14:30:17.873Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -656,12 +656,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 909,
+                  "duration": 1047,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-23T13:28:38.736Z",
+                  "startTime": "2026-11-23T14:30:18.989Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -686,7 +686,7 @@
         {
           "title": "ชุด B · SLA / NOTI / WORKFLOW / DOC / PDPA / DASH / AUDIT / ADMIN / NFR",
           "file": "tests-b.spec.ts",
-          "line": 99,
+          "line": 116,
           "column": 6,
           "specs": [
             {
@@ -705,12 +705,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1179,
+                      "duration": 1352,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T13:28:41.133Z",
+                      "startTime": "2026-11-23T14:30:21.710Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -720,7 +720,7 @@
               ],
               "id": "12cfe970336169d1d8dc-becd612bffd47e71ae46",
               "file": "tests-b.spec.ts",
-              "line": 100,
+              "line": 117,
               "column": 3
             },
             {
@@ -739,12 +739,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 996,
+                      "duration": 1056,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T13:28:42.326Z",
+                      "startTime": "2026-11-23T14:30:23.076Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -754,7 +754,7 @@
               ],
               "id": "12cfe970336169d1d8dc-23feeef739402d6e8b2f",
               "file": "tests-b.spec.ts",
-              "line": 140,
+              "line": 157,
               "column": 3
             },
             {
@@ -773,12 +773,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1220,
+                      "duration": 1427,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T13:28:43.333Z",
+                      "startTime": "2026-11-23T14:30:24.145Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -788,7 +788,7 @@
               ],
               "id": "12cfe970336169d1d8dc-6e405c38acd7290dcace",
               "file": "tests-b.spec.ts",
-              "line": 186,
+              "line": 203,
               "column": 3
             },
             {
@@ -807,12 +807,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 463,
+                      "duration": 532,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T13:28:44.564Z",
+                      "startTime": "2026-11-23T14:30:25.584Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -822,7 +822,7 @@
               ],
               "id": "12cfe970336169d1d8dc-aff5f7e7ff937b1a037e",
               "file": "tests-b.spec.ts",
-              "line": 223,
+              "line": 240,
               "column": 3
             },
             {
@@ -841,12 +841,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 970,
+                      "duration": 1065,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T13:28:45.037Z",
+                      "startTime": "2026-11-23T14:30:26.127Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -856,7 +856,7 @@
               ],
               "id": "12cfe970336169d1d8dc-639fc540f2c07dfc8e4f",
               "file": "tests-b.spec.ts",
-              "line": 253,
+              "line": 270,
               "column": 3
             },
             {
@@ -875,12 +875,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 761,
+                      "duration": 808,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T13:28:46.018Z",
+                      "startTime": "2026-11-23T14:30:27.204Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -890,7 +890,7 @@
               ],
               "id": "12cfe970336169d1d8dc-997945c45171dd58029b",
               "file": "tests-b.spec.ts",
-              "line": 302,
+              "line": 319,
               "column": 3
             },
             {
@@ -909,12 +909,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1161,
+                      "duration": 1128,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T13:28:46.791Z",
+                      "startTime": "2026-11-23T14:30:28.023Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -924,7 +924,7 @@
               ],
               "id": "12cfe970336169d1d8dc-ac6675ccadd0e4051862",
               "file": "tests-b.spec.ts",
-              "line": 332,
+              "line": 349,
               "column": 3
             },
             {
@@ -943,12 +943,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 976,
+                      "duration": 1063,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T13:28:47.963Z",
+                      "startTime": "2026-11-23T14:30:29.164Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -958,7 +958,7 @@
               ],
               "id": "12cfe970336169d1d8dc-9da246969775edec8762",
               "file": "tests-b.spec.ts",
-              "line": 369,
+              "line": 386,
               "column": 3
             },
             {
@@ -977,12 +977,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1159,
+                      "duration": 1260,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T13:28:48.949Z",
+                      "startTime": "2026-11-23T14:30:30.239Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -992,7 +992,7 @@
               ],
               "id": "12cfe970336169d1d8dc-acfc035e5b75b834c323",
               "file": "tests-b.spec.ts",
-              "line": 411,
+              "line": 428,
               "column": 3
             },
             {
@@ -1011,12 +1011,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 844,
+                      "duration": 1062,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T13:28:50.118Z",
+                      "startTime": "2026-11-23T14:30:31.511Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1026,7 +1026,7 @@
               ],
               "id": "12cfe970336169d1d8dc-4f2cdeeb23c5134ed3a0",
               "file": "tests-b.spec.ts",
-              "line": 457,
+              "line": 474,
               "column": 3
             },
             {
@@ -1045,12 +1045,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 408,
+                      "duration": 460,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T13:28:50.973Z",
+                      "startTime": "2026-11-23T14:30:32.585Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1060,7 +1060,7 @@
               ],
               "id": "12cfe970336169d1d8dc-f9f52dbecb460e10f28b",
               "file": "tests-b.spec.ts",
-              "line": 495,
+              "line": 512,
               "column": 3
             },
             {
@@ -1079,12 +1079,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 299,
+                      "duration": 341,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T13:28:51.393Z",
+                      "startTime": "2026-11-23T14:30:33.053Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1094,7 +1094,7 @@
               ],
               "id": "12cfe970336169d1d8dc-6d40e0f6c708306c20af",
               "file": "tests-b.spec.ts",
-              "line": 518,
+              "line": 535,
               "column": 3
             },
             {
@@ -1113,12 +1113,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 221,
+                      "duration": 262,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T13:28:51.702Z",
+                      "startTime": "2026-11-23T14:30:33.405Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1128,7 +1128,7 @@
               ],
               "id": "12cfe970336169d1d8dc-2fb0ea40e1434741373a",
               "file": "tests-b.spec.ts",
-              "line": 547,
+              "line": 564,
               "column": 3
             },
             {
@@ -1147,12 +1147,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 754,
+                      "duration": 824,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T13:28:51.934Z",
+                      "startTime": "2026-11-23T14:30:33.679Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1162,7 +1162,7 @@
               ],
               "id": "12cfe970336169d1d8dc-143c6b9ed5daa85d7d61",
               "file": "tests-b.spec.ts",
-              "line": 567,
+              "line": 584,
               "column": 3
             },
             {
@@ -1181,12 +1181,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 440,
+                      "duration": 442,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T13:28:52.697Z",
+                      "startTime": "2026-11-23T14:30:34.513Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1196,7 +1196,7 @@
               ],
               "id": "12cfe970336169d1d8dc-a25811889fadd841fe00",
               "file": "tests-b.spec.ts",
-              "line": 615,
+              "line": 632,
               "column": 3
             },
             {
@@ -1215,12 +1215,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 198,
+                      "duration": 234,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T13:28:53.145Z",
+                      "startTime": "2026-11-23T14:30:34.966Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1230,7 +1230,7 @@
               ],
               "id": "12cfe970336169d1d8dc-362f33ddf73b54938dd3",
               "file": "tests-b.spec.ts",
-              "line": 632,
+              "line": 649,
               "column": 3
             },
             {
@@ -1249,12 +1249,12 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 588,
+                      "duration": 662,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T13:28:53.355Z",
+                      "startTime": "2026-11-23T14:30:35.212Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1264,7 +1264,7 @@
               ],
               "id": "12cfe970336169d1d8dc-ef1dde571c04333032cb",
               "file": "tests-b.spec.ts",
-              "line": 649,
+              "line": 666,
               "column": 3
             },
             {
@@ -1283,31 +1283,31 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 5172,
+                      "duration": 5175,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByTestId('kpi-ontime-pct')\nExpected: \u001b[32m\"–\"\u001b[39m\nReceived: \u001b[31m\"0.0%\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" getByTestId('kpi-ontime-pct') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('kpi-ontime-pct')\u001b[22m\n\u001b[2m    14 × locator resolved to <strong data-testid=\"kpi-ontime-pct\" aria-describedby=\"lbl-kpi-ontime-pct\">0.0%</strong>\u001b[22m\n\u001b[2m       - unexpected value \"0.0%\"\u001b[22m\n",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByTestId('kpi-ontime-pct')\nExpected: \u001b[32m\"–\"\u001b[39m\nReceived: \u001b[31m\"0.0%\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" getByTestId('kpi-ontime-pct') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('kpi-ontime-pct')\u001b[22m\n\u001b[2m    14 × locator resolved to <strong data-testid=\"kpi-ontime-pct\" aria-describedby=\"lbl-kpi-ontime-pct\">0.0%</strong>\u001b[22m\n\u001b[2m       - unexpected value \"0.0%\"\u001b[22m\n\n    at C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-b.spec.ts:680:90",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByTestId('kpi-ontime-pct')\nExpected: \u001b[32m\"–\"\u001b[39m\nReceived: \u001b[31m\"0.0%\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" getByTestId('kpi-ontime-pct') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('kpi-ontime-pct')\u001b[22m\n\u001b[2m    14 × locator resolved to <strong data-testid=\"kpi-ontime-pct\" aria-describedby=\"lbl-kpi-ontime-pct\">0.0%</strong>\u001b[22m\n\u001b[2m       - unexpected value \"0.0%\"\u001b[22m\n\n    at C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-b.spec.ts:697:90",
                         "location": {
                           "file": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-b.spec.ts",
                           "column": 90,
-                          "line": 680
+                          "line": 697
                         },
-                        "snippet": " \u001b[90m 678 |\u001b[39m     \u001b[36mawait\u001b[39m reset(page\u001b[33m.\u001b[39mrequest)\u001b[33m;\u001b[39m \u001b[36mawait\u001b[39m staff(page\u001b[33m,\u001b[39m \u001b[32m'exec1'\u001b[39m)\u001b[33m;\u001b[39m \u001b[36mawait\u001b[39m open(page\u001b[33m,\u001b[39m \u001b[32m'/dashboard'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 679 |\u001b[39m     \u001b[36mconst\u001b[39m values\u001b[33m:\u001b[39m \u001b[33mRecord\u001b[39m\u001b[33m<\u001b[39m\u001b[33mstring\u001b[39m\u001b[33m,\u001b[39m string\u001b[33m>\u001b[39m \u001b[33m=\u001b[39m { \u001b[32m'kpi-received'\u001b[39m\u001b[33m:\u001b[39m \u001b[32m'3'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'kpi-closed'\u001b[39m\u001b[33m:\u001b[39m \u001b[32m'0'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'kpi-ontime-pct'\u001b[39m\u001b[33m:\u001b[39m \u001b[32m'–'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'kpi-backlog'\u001b[39m\u001b[33m:\u001b[39m \u001b[32m'21'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'kpi-overdue'\u001b[39m\u001b[33m:\u001b[39m \u001b[32m'1'\u001b[39m }\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 680 |\u001b[39m     \u001b[36mfor\u001b[39m (\u001b[36mconst\u001b[39m [id\u001b[33m,\u001b[39m value] \u001b[36mof\u001b[39m \u001b[33mObject\u001b[39m\u001b[33m.\u001b[39mentries(values)) \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByTestId(id))\u001b[33m.\u001b[39mtoHaveText(value)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                                                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 681 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByTestId(\u001b[32m'workload-row'\u001b[39m))\u001b[33m.\u001b[39mtoHaveCount(\u001b[35m3\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 682 |\u001b[39m     \u001b[36mconst\u001b[39m text \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'body'\u001b[39m)\u001b[33m.\u001b[39minnerText()\u001b[33m;\u001b[39m expect(text)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoMatch(\u001b[35m/\\d{13}|0\\d{9}/\u001b[39m)\u001b[33m;\u001b[39m \u001b[36mfor\u001b[39m (\u001b[36mconst\u001b[39m name \u001b[36mof\u001b[39m [\u001b[32m'สมชาย'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'สมหญิง'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'ปิติ'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'มานะ'\u001b[39m]) expect(text)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoContain(name)\u001b[33m;\u001b[39m\n \u001b[90m 683 |\u001b[39m     \u001b[36mconst\u001b[39m d \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m json(\u001b[36mawait\u001b[39m api(page\u001b[33m,\u001b[39m \u001b[32m'get'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'/api/dashboard?period=2026-12&service=ALL'\u001b[39m))\u001b[33m;\u001b[39m"
+                        "snippet": " \u001b[90m 695 |\u001b[39m     \u001b[36mawait\u001b[39m reset(page\u001b[33m.\u001b[39mrequest)\u001b[33m;\u001b[39m \u001b[36mawait\u001b[39m staff(page\u001b[33m,\u001b[39m \u001b[32m'exec1'\u001b[39m)\u001b[33m;\u001b[39m \u001b[36mawait\u001b[39m open(page\u001b[33m,\u001b[39m \u001b[32m'/dashboard'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 696 |\u001b[39m     \u001b[36mconst\u001b[39m values\u001b[33m:\u001b[39m \u001b[33mRecord\u001b[39m\u001b[33m<\u001b[39m\u001b[33mstring\u001b[39m\u001b[33m,\u001b[39m string\u001b[33m>\u001b[39m \u001b[33m=\u001b[39m { \u001b[32m'kpi-received'\u001b[39m\u001b[33m:\u001b[39m \u001b[32m'3'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'kpi-closed'\u001b[39m\u001b[33m:\u001b[39m \u001b[32m'0'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'kpi-ontime-pct'\u001b[39m\u001b[33m:\u001b[39m \u001b[32m'–'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'kpi-backlog'\u001b[39m\u001b[33m:\u001b[39m \u001b[32m'21'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'kpi-overdue'\u001b[39m\u001b[33m:\u001b[39m \u001b[32m'1'\u001b[39m }\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 697 |\u001b[39m     \u001b[36mfor\u001b[39m (\u001b[36mconst\u001b[39m [id\u001b[33m,\u001b[39m value] \u001b[36mof\u001b[39m \u001b[33mObject\u001b[39m\u001b[33m.\u001b[39mentries(values)) \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByTestId(id))\u001b[33m.\u001b[39mtoHaveText(value)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                                                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 698 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByTestId(\u001b[32m'workload-row'\u001b[39m))\u001b[33m.\u001b[39mtoHaveCount(\u001b[35m3\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 699 |\u001b[39m     \u001b[36mconst\u001b[39m text \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'body'\u001b[39m)\u001b[33m.\u001b[39minnerText()\u001b[33m;\u001b[39m expect(text)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoMatch(\u001b[35m/\\d{13}|0\\d{9}/\u001b[39m)\u001b[33m;\u001b[39m \u001b[36mfor\u001b[39m (\u001b[36mconst\u001b[39m name \u001b[36mof\u001b[39m [\u001b[32m'สมชาย'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'สมหญิง'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'ปิติ'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'มานะ'\u001b[39m]) expect(text)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoContain(name)\u001b[33m;\u001b[39m\n \u001b[90m 700 |\u001b[39m     \u001b[36mconst\u001b[39m d \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m json(\u001b[36mawait\u001b[39m api(page\u001b[33m,\u001b[39m \u001b[32m'get'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'/api/dashboard?period=2026-12&service=ALL'\u001b[39m))\u001b[33m;\u001b[39m"
                       },
                       "errors": [
                         {
                           "location": {
                             "file": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-b.spec.ts",
                             "column": 90,
-                            "line": 680
+                            "line": 697
                           },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByTestId('kpi-ontime-pct')\nExpected: \u001b[32m\"–\"\u001b[39m\nReceived: \u001b[31m\"0.0%\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" getByTestId('kpi-ontime-pct') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('kpi-ontime-pct')\u001b[22m\n\u001b[2m    14 × locator resolved to <strong data-testid=\"kpi-ontime-pct\" aria-describedby=\"lbl-kpi-ontime-pct\">0.0%</strong>\u001b[22m\n\u001b[2m       - unexpected value \"0.0%\"\u001b[22m\n\n\n  678 |     await reset(page.request); await staff(page, 'exec1'); await open(page, '/dashboard');\n  679 |     const values: Record<string, string> = { 'kpi-received': '3', 'kpi-closed': '0', 'kpi-ontime-pct': '–', 'kpi-backlog': '21', 'kpi-overdue': '1' };\n> 680 |     for (const [id, value] of Object.entries(values)) await expect(page.getByTestId(id)).toHaveText(value);\n      |                                                                                          ^\n  681 |     await expect(page.getByTestId('workload-row')).toHaveCount(3);\n  682 |     const text = await page.locator('body').innerText(); expect(text).not.toMatch(/\\d{13}|0\\d{9}/); for (const name of ['สมชาย', 'สมหญิง', 'ปิติ', 'มานะ']) expect(text).not.toContain(name);\n  683 |     const d = await json(await api(page, 'get', '/api/dashboard?period=2026-12&service=ALL'));\n    at C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-b.spec.ts:680:90"
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByTestId('kpi-ontime-pct')\nExpected: \u001b[32m\"–\"\u001b[39m\nReceived: \u001b[31m\"0.0%\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" getByTestId('kpi-ontime-pct') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('kpi-ontime-pct')\u001b[22m\n\u001b[2m    14 × locator resolved to <strong data-testid=\"kpi-ontime-pct\" aria-describedby=\"lbl-kpi-ontime-pct\">0.0%</strong>\u001b[22m\n\u001b[2m       - unexpected value \"0.0%\"\u001b[22m\n\n\n  695 |     await reset(page.request); await staff(page, 'exec1'); await open(page, '/dashboard');\n  696 |     const values: Record<string, string> = { 'kpi-received': '3', 'kpi-closed': '0', 'kpi-ontime-pct': '–', 'kpi-backlog': '21', 'kpi-overdue': '1' };\n> 697 |     for (const [id, value] of Object.entries(values)) await expect(page.getByTestId(id)).toHaveText(value);\n      |                                                                                          ^\n  698 |     await expect(page.getByTestId('workload-row')).toHaveCount(3);\n  699 |     const text = await page.locator('body').innerText(); expect(text).not.toMatch(/\\d{13}|0\\d{9}/); for (const name of ['สมชาย', 'สมหญิง', 'ปิติ', 'มานะ']) expect(text).not.toContain(name);\n  700 |     const d = await json(await api(page, 'get', '/api/dashboard?period=2026-12&service=ALL'));\n    at C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-b.spec.ts:697:90"
                         }
                       ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T13:28:53.953Z",
+                      "startTime": "2026-11-23T14:30:35.886Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -1319,7 +1319,7 @@
                       "errorLocation": {
                         "file": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-b.spec.ts",
                         "column": 90,
-                        "line": 680
+                        "line": 697
                       }
                     }
                   ],
@@ -1328,7 +1328,7 @@
               ],
               "id": "12cfe970336169d1d8dc-2d0187b9bcc01e6ae601",
               "file": "tests-b.spec.ts",
-              "line": 677,
+              "line": 694,
               "column": 3
             },
             {
@@ -1347,31 +1347,31 @@
                       "workerIndex": 1,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 5294,
+                      "duration": 5368,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByTestId('kpi-ontime-pct')\nExpected: \u001b[32m\"\u001b[7m85.7\u001b[27m%\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7m23.1\u001b[27m%\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" getByTestId('kpi-ontime-pct') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('kpi-ontime-pct')\u001b[22m\n\u001b[2m    14 × locator resolved to <strong data-testid=\"kpi-ontime-pct\" aria-describedby=\"lbl-kpi-ontime-pct\">23.1%</strong>\u001b[22m\n\u001b[2m       - unexpected value \"23.1%\"\u001b[22m\n",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByTestId('kpi-ontime-pct')\nExpected: \u001b[32m\"\u001b[7m85.7\u001b[27m%\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7m23.1\u001b[27m%\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" getByTestId('kpi-ontime-pct') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('kpi-ontime-pct')\u001b[22m\n\u001b[2m    14 × locator resolved to <strong data-testid=\"kpi-ontime-pct\" aria-describedby=\"lbl-kpi-ontime-pct\">23.1%</strong>\u001b[22m\n\u001b[2m       - unexpected value \"23.1%\"\u001b[22m\n\n    at C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-b.spec.ts:704:190",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByTestId('kpi-ontime-pct')\nExpected: \u001b[32m\"\u001b[7m85.7\u001b[27m%\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7m23.1\u001b[27m%\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" getByTestId('kpi-ontime-pct') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('kpi-ontime-pct')\u001b[22m\n\u001b[2m    14 × locator resolved to <strong data-testid=\"kpi-ontime-pct\" aria-describedby=\"lbl-kpi-ontime-pct\">23.1%</strong>\u001b[22m\n\u001b[2m       - unexpected value \"23.1%\"\u001b[22m\n\n    at C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-b.spec.ts:721:190",
                         "location": {
                           "file": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-b.spec.ts",
                           "column": 190,
-                          "line": 704
+                          "line": 721
                         },
-                        "snippet": " \u001b[90m 702 |\u001b[39m     \u001b[36mfor\u001b[39m (\u001b[36mconst\u001b[39m [period\u001b[33m,\u001b[39m service\u001b[33m,\u001b[39m received\u001b[33m,\u001b[39m closed\u001b[33m,\u001b[39m pct] \u001b[36mof\u001b[39m rows) {\n \u001b[90m 703 |\u001b[39m       \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByTestId(\u001b[32m'period-select'\u001b[39m)\u001b[33m.\u001b[39mselectOption(period)\u001b[33m;\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByTestId(\u001b[32m'service-select'\u001b[39m)\u001b[33m.\u001b[39mselectOption(service)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 704 |\u001b[39m       \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByTestId(\u001b[32m'kpi-received'\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(received)\u001b[33m;\u001b[39m \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByTestId(\u001b[32m'kpi-closed'\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(closed)\u001b[33m;\u001b[39m \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByTestId(\u001b[32m'kpi-ontime-pct'\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(pct)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                                                                                                                                                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 705 |\u001b[39m       \u001b[36mconst\u001b[39m d \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m json(\u001b[36mawait\u001b[39m api(page\u001b[33m,\u001b[39m \u001b[32m'get'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m`/api/dashboard?period=${period}&service=${service}`\u001b[39m))\u001b[33m;\u001b[39m expect(d\u001b[33m.\u001b[39mreceived)\u001b[33m.\u001b[39mtoBe(\u001b[33mNumber\u001b[39m(received))\u001b[33m;\u001b[39m expect(d\u001b[33m.\u001b[39mclosed)\u001b[33m.\u001b[39mtoBe(\u001b[33mNumber\u001b[39m(closed))\u001b[33m;\u001b[39m expect(d\u001b[33m.\u001b[39montimePct)\u001b[33m.\u001b[39mtoBe(pct \u001b[33m===\u001b[39m \u001b[32m'–'\u001b[39m \u001b[33m?\u001b[39m \u001b[36mnull\u001b[39m \u001b[33m:\u001b[39m \u001b[33mNumber\u001b[39m\u001b[33m.\u001b[39mparseFloat(pct))\u001b[33m;\u001b[39m\n \u001b[90m 706 |\u001b[39m       \u001b[90m// งานคงค้าง/เกินกำหนด = ค่า \"ณ ตอนนี้\" ไม่ขึ้นกับช่วงเวลา แต่ขึ้นกับบริการ (A-41)\u001b[39m\n \u001b[90m 707 |\u001b[39m       \u001b[36mconst\u001b[39m [backlog\u001b[33m,\u001b[39m overdue] \u001b[33m=\u001b[39m ({ \u001b[33mALL\u001b[39m\u001b[33m:\u001b[39m [\u001b[35m21\u001b[39m\u001b[33m,\u001b[39m \u001b[35m1\u001b[39m]\u001b[33m,\u001b[39m \u001b[32m'SV-01'\u001b[39m\u001b[33m:\u001b[39m [\u001b[35m11\u001b[39m\u001b[33m,\u001b[39m \u001b[35m1\u001b[39m]\u001b[33m,\u001b[39m \u001b[32m'SV-02'\u001b[39m\u001b[33m:\u001b[39m [\u001b[35m7\u001b[39m\u001b[33m,\u001b[39m \u001b[35m0\u001b[39m]\u001b[33m,\u001b[39m \u001b[32m'SV-03'\u001b[39m\u001b[33m:\u001b[39m [\u001b[35m3\u001b[39m\u001b[33m,\u001b[39m \u001b[35m0\u001b[39m] } \u001b[36mas\u001b[39m \u001b[33mRecord\u001b[39m\u001b[33m<\u001b[39m\u001b[33mstring\u001b[39m\u001b[33m,\u001b[39m number[]\u001b[33m>\u001b[39m)[service]\u001b[33m;\u001b[39m"
+                        "snippet": " \u001b[90m 719 |\u001b[39m     \u001b[36mfor\u001b[39m (\u001b[36mconst\u001b[39m [period\u001b[33m,\u001b[39m service\u001b[33m,\u001b[39m received\u001b[33m,\u001b[39m closed\u001b[33m,\u001b[39m pct] \u001b[36mof\u001b[39m rows) {\n \u001b[90m 720 |\u001b[39m       \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByTestId(\u001b[32m'period-select'\u001b[39m)\u001b[33m.\u001b[39mselectOption(period)\u001b[33m;\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByTestId(\u001b[32m'service-select'\u001b[39m)\u001b[33m.\u001b[39mselectOption(service)\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 721 |\u001b[39m       \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByTestId(\u001b[32m'kpi-received'\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(received)\u001b[33m;\u001b[39m \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByTestId(\u001b[32m'kpi-closed'\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(closed)\u001b[33m;\u001b[39m \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByTestId(\u001b[32m'kpi-ontime-pct'\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(pct)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                                                                                                                                                                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 722 |\u001b[39m       \u001b[36mconst\u001b[39m d \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m json(\u001b[36mawait\u001b[39m api(page\u001b[33m,\u001b[39m \u001b[32m'get'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m`/api/dashboard?period=${period}&service=${service}`\u001b[39m))\u001b[33m;\u001b[39m expect(d\u001b[33m.\u001b[39mreceived)\u001b[33m.\u001b[39mtoBe(\u001b[33mNumber\u001b[39m(received))\u001b[33m;\u001b[39m expect(d\u001b[33m.\u001b[39mclosed)\u001b[33m.\u001b[39mtoBe(\u001b[33mNumber\u001b[39m(closed))\u001b[33m;\u001b[39m expect(d\u001b[33m.\u001b[39montimePct)\u001b[33m.\u001b[39mtoBe(pct \u001b[33m===\u001b[39m \u001b[32m'–'\u001b[39m \u001b[33m?\u001b[39m \u001b[36mnull\u001b[39m \u001b[33m:\u001b[39m \u001b[33mNumber\u001b[39m\u001b[33m.\u001b[39mparseFloat(pct))\u001b[33m;\u001b[39m\n \u001b[90m 723 |\u001b[39m       \u001b[90m// งานคงค้าง/เกินกำหนด = ค่า \"ณ ตอนนี้\" ไม่ขึ้นกับช่วงเวลา แต่ขึ้นกับบริการ (A-41)\u001b[39m\n \u001b[90m 724 |\u001b[39m       \u001b[36mconst\u001b[39m [backlog\u001b[33m,\u001b[39m overdue] \u001b[33m=\u001b[39m ({ \u001b[33mALL\u001b[39m\u001b[33m:\u001b[39m [\u001b[35m21\u001b[39m\u001b[33m,\u001b[39m \u001b[35m1\u001b[39m]\u001b[33m,\u001b[39m \u001b[32m'SV-01'\u001b[39m\u001b[33m:\u001b[39m [\u001b[35m11\u001b[39m\u001b[33m,\u001b[39m \u001b[35m1\u001b[39m]\u001b[33m,\u001b[39m \u001b[32m'SV-02'\u001b[39m\u001b[33m:\u001b[39m [\u001b[35m7\u001b[39m\u001b[33m,\u001b[39m \u001b[35m0\u001b[39m]\u001b[33m,\u001b[39m \u001b[32m'SV-03'\u001b[39m\u001b[33m:\u001b[39m [\u001b[35m3\u001b[39m\u001b[33m,\u001b[39m \u001b[35m0\u001b[39m] } \u001b[36mas\u001b[39m \u001b[33mRecord\u001b[39m\u001b[33m<\u001b[39m\u001b[33mstring\u001b[39m\u001b[33m,\u001b[39m number[]\u001b[33m>\u001b[39m)[service]\u001b[33m;\u001b[39m"
                       },
                       "errors": [
                         {
                           "location": {
                             "file": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-b.spec.ts",
                             "column": 190,
-                            "line": 704
+                            "line": 721
                           },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByTestId('kpi-ontime-pct')\nExpected: \u001b[32m\"\u001b[7m85.7\u001b[27m%\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7m23.1\u001b[27m%\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" getByTestId('kpi-ontime-pct') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('kpi-ontime-pct')\u001b[22m\n\u001b[2m    14 × locator resolved to <strong data-testid=\"kpi-ontime-pct\" aria-describedby=\"lbl-kpi-ontime-pct\">23.1%</strong>\u001b[22m\n\u001b[2m       - unexpected value \"23.1%\"\u001b[22m\n\n\n  702 |     for (const [period, service, received, closed, pct] of rows) {\n  703 |       await page.getByTestId('period-select').selectOption(period); await page.getByTestId('service-select').selectOption(service);\n> 704 |       await expect(page.getByTestId('kpi-received')).toHaveText(received); await expect(page.getByTestId('kpi-closed')).toHaveText(closed); await expect(page.getByTestId('kpi-ontime-pct')).toHaveText(pct);\n      |                                                                                                                                                                                              ^\n  705 |       const d = await json(await api(page, 'get', `/api/dashboard?period=${period}&service=${service}`)); expect(d.received).toBe(Number(received)); expect(d.closed).toBe(Number(closed)); expect(d.ontimePct).toBe(pct === '–' ? null : Number.parseFloat(pct));\n  706 |       // งานคงค้าง/เกินกำหนด = ค่า \"ณ ตอนนี้\" ไม่ขึ้นกับช่วงเวลา แต่ขึ้นกับบริการ (A-41)\n  707 |       const [backlog, overdue] = ({ ALL: [21, 1], 'SV-01': [11, 1], 'SV-02': [7, 0], 'SV-03': [3, 0] } as Record<string, number[]>)[service];\n    at C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-b.spec.ts:704:190"
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByTestId('kpi-ontime-pct')\nExpected: \u001b[32m\"\u001b[7m85.7\u001b[27m%\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7m23.1\u001b[27m%\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" getByTestId('kpi-ontime-pct') with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByTestId('kpi-ontime-pct')\u001b[22m\n\u001b[2m    14 × locator resolved to <strong data-testid=\"kpi-ontime-pct\" aria-describedby=\"lbl-kpi-ontime-pct\">23.1%</strong>\u001b[22m\n\u001b[2m       - unexpected value \"23.1%\"\u001b[22m\n\n\n  719 |     for (const [period, service, received, closed, pct] of rows) {\n  720 |       await page.getByTestId('period-select').selectOption(period); await page.getByTestId('service-select').selectOption(service);\n> 721 |       await expect(page.getByTestId('kpi-received')).toHaveText(received); await expect(page.getByTestId('kpi-closed')).toHaveText(closed); await expect(page.getByTestId('kpi-ontime-pct')).toHaveText(pct);\n      |                                                                                                                                                                                              ^\n  722 |       const d = await json(await api(page, 'get', `/api/dashboard?period=${period}&service=${service}`)); expect(d.received).toBe(Number(received)); expect(d.closed).toBe(Number(closed)); expect(d.ontimePct).toBe(pct === '–' ? null : Number.parseFloat(pct));\n  723 |       // งานคงค้าง/เกินกำหนด = ค่า \"ณ ตอนนี้\" ไม่ขึ้นกับช่วงเวลา แต่ขึ้นกับบริการ (A-41)\n  724 |       const [backlog, overdue] = ({ ALL: [21, 1], 'SV-01': [11, 1], 'SV-02': [7, 0], 'SV-03': [3, 0] } as Record<string, number[]>)[service];\n    at C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-b.spec.ts:721:190"
                         }
                       ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T13:29:01.124Z",
+                      "startTime": "2026-11-23T14:30:43.638Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -1383,7 +1383,7 @@
                       "errorLocation": {
                         "file": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-b.spec.ts",
                         "column": 190,
-                        "line": 704
+                        "line": 721
                       }
                     }
                   ],
@@ -1392,7 +1392,7 @@
               ],
               "id": "12cfe970336169d1d8dc-0fd4dbea49814b5d1556",
               "file": "tests-b.spec.ts",
-              "line": 699,
+              "line": 716,
               "column": 3
             },
             {
@@ -1411,31 +1411,31 @@
                       "workerIndex": 2,
                       "parallelIndex": 0,
                       "status": "failed",
-                      "duration": 1666,
+                      "duration": 2098,
                       "error": {
                         "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[33m@@ -7,11 +7,11 @@\u001b[39m\n\u001b[2m      \"ปิดงาน\",\u001b[22m\n\u001b[2m      \"7\",\u001b[22m\n\u001b[2m    ],\u001b[22m\n\u001b[2m    Array [\u001b[22m\n\u001b[2m      \"ทันกำหนด %\",\u001b[22m\n\u001b[32m-     \"85.7%\",\u001b[39m\n\u001b[31m+     \"23.1%\",\u001b[39m\n\u001b[2m    ],\u001b[22m\n\u001b[2m    Array [\u001b[22m\n\u001b[2m      \"งานคงค้าง\",\u001b[22m\n\u001b[2m      \"21\",\u001b[22m\n\u001b[2m    ],\u001b[22m",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[33m@@ -7,11 +7,11 @@\u001b[39m\n\u001b[2m      \"ปิดงาน\",\u001b[22m\n\u001b[2m      \"7\",\u001b[22m\n\u001b[2m    ],\u001b[22m\n\u001b[2m    Array [\u001b[22m\n\u001b[2m      \"ทันกำหนด %\",\u001b[22m\n\u001b[32m-     \"85.7%\",\u001b[39m\n\u001b[31m+     \"23.1%\",\u001b[39m\n\u001b[2m    ],\u001b[22m\n\u001b[2m    Array [\u001b[22m\n\u001b[2m      \"งานคงค้าง\",\u001b[22m\n\u001b[2m      \"21\",\u001b[22m\n\u001b[2m    ],\u001b[22m\n    at exportXlsx (C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-b.spec.ts:727:32)\n    at C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-b.spec.ts:731:5",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[33m@@ -7,11 +7,11 @@\u001b[39m\n\u001b[2m      \"ปิดงาน\",\u001b[22m\n\u001b[2m      \"7\",\u001b[22m\n\u001b[2m    ],\u001b[22m\n\u001b[2m    Array [\u001b[22m\n\u001b[2m      \"ทันกำหนด %\",\u001b[22m\n\u001b[32m-     \"85.7%\",\u001b[39m\n\u001b[31m+     \"23.1%\",\u001b[39m\n\u001b[2m    ],\u001b[22m\n\u001b[2m    Array [\u001b[22m\n\u001b[2m      \"งานคงค้าง\",\u001b[22m\n\u001b[2m      \"21\",\u001b[22m\n\u001b[2m    ],\u001b[22m\n    at exportXlsx (C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-b.spec.ts:744:32)\n    at C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-b.spec.ts:748:5",
                         "location": {
                           "file": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-b.spec.ts",
                           "column": 32,
-                          "line": 727
+                          "line": 744
                         },
-                        "snippet": " \u001b[90m 725 |\u001b[39m       \u001b[36mconst\u001b[39m rows\u001b[33m:\u001b[39m string[][] \u001b[33m=\u001b[39m []\u001b[33m;\u001b[39m wb\u001b[33m.\u001b[39mworksheets[\u001b[35m0\u001b[39m]\u001b[33m.\u001b[39meachRow(r \u001b[33m=>\u001b[39m rows\u001b[33m.\u001b[39mpush([r\u001b[33m.\u001b[39mgetCell(\u001b[35m1\u001b[39m)\u001b[33m.\u001b[39mtext\u001b[33m.\u001b[39mtrim()\u001b[33m,\u001b[39m r\u001b[33m.\u001b[39mgetCell(\u001b[35m2\u001b[39m)\u001b[33m.\u001b[39mtext\u001b[33m.\u001b[39mtrim()]))\u001b[33m;\u001b[39m\n \u001b[90m 726 |\u001b[39m       expect(rows[\u001b[35m0\u001b[39m])\u001b[33m.\u001b[39mtoEqual([\u001b[32m'ตัวชี้วัด'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'ค่า'\u001b[39m])\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 727 |\u001b[39m       expect(rows\u001b[33m.\u001b[39mslice(\u001b[35m1\u001b[39m\u001b[33m,\u001b[39m \u001b[35m6\u001b[39m))\u001b[33m.\u001b[39mtoEqual(labels\u001b[33m.\u001b[39mmap((l\u001b[33m,\u001b[39m i) \u001b[33m=>\u001b[39m [l\u001b[33m,\u001b[39m values[i]]))\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 728 |\u001b[39m       expect(rows\u001b[33m.\u001b[39mslice(\u001b[35m1\u001b[39m\u001b[33m,\u001b[39m \u001b[35m6\u001b[39m)\u001b[33m.\u001b[39mmap(r \u001b[33m=>\u001b[39m r[\u001b[35m1\u001b[39m]))\u001b[33m.\u001b[39mtoEqual(onScreen)\u001b[33m;\u001b[39m\n \u001b[90m 729 |\u001b[39m       \u001b[36mconst\u001b[39m all\u001b[33m:\u001b[39m string[] \u001b[33m=\u001b[39m []\u001b[33m;\u001b[39m wb\u001b[33m.\u001b[39meachSheet(ws \u001b[33m=>\u001b[39m ws\u001b[33m.\u001b[39meachRow(r \u001b[33m=>\u001b[39m r\u001b[33m.\u001b[39meachCell(c \u001b[33m=>\u001b[39m all\u001b[33m.\u001b[39mpush(c\u001b[33m.\u001b[39mtext))))\u001b[33m;\u001b[39m noPii(all\u001b[33m.\u001b[39mjoin(\u001b[32m'\\n'\u001b[39m)\u001b[33m,\u001b[39m \u001b[32m'xlsx'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 730 |\u001b[39m     }\u001b[33m;\u001b[39m"
+                        "snippet": " \u001b[90m 742 |\u001b[39m       \u001b[36mconst\u001b[39m rows\u001b[33m:\u001b[39m string[][] \u001b[33m=\u001b[39m []\u001b[33m;\u001b[39m wb\u001b[33m.\u001b[39mworksheets[\u001b[35m0\u001b[39m]\u001b[33m.\u001b[39meachRow(r \u001b[33m=>\u001b[39m rows\u001b[33m.\u001b[39mpush([r\u001b[33m.\u001b[39mgetCell(\u001b[35m1\u001b[39m)\u001b[33m.\u001b[39mtext\u001b[33m.\u001b[39mtrim()\u001b[33m,\u001b[39m r\u001b[33m.\u001b[39mgetCell(\u001b[35m2\u001b[39m)\u001b[33m.\u001b[39mtext\u001b[33m.\u001b[39mtrim()]))\u001b[33m;\u001b[39m\n \u001b[90m 743 |\u001b[39m       expect(rows[\u001b[35m0\u001b[39m])\u001b[33m.\u001b[39mtoEqual([\u001b[32m'ตัวชี้วัด'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'ค่า'\u001b[39m])\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 744 |\u001b[39m       expect(rows\u001b[33m.\u001b[39mslice(\u001b[35m1\u001b[39m\u001b[33m,\u001b[39m \u001b[35m6\u001b[39m))\u001b[33m.\u001b[39mtoEqual(labels\u001b[33m.\u001b[39mmap((l\u001b[33m,\u001b[39m i) \u001b[33m=>\u001b[39m [l\u001b[33m,\u001b[39m values[i]]))\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 745 |\u001b[39m       expect(rows\u001b[33m.\u001b[39mslice(\u001b[35m1\u001b[39m\u001b[33m,\u001b[39m \u001b[35m6\u001b[39m)\u001b[33m.\u001b[39mmap(r \u001b[33m=>\u001b[39m r[\u001b[35m1\u001b[39m]))\u001b[33m.\u001b[39mtoEqual(onScreen)\u001b[33m;\u001b[39m\n \u001b[90m 746 |\u001b[39m       \u001b[36mconst\u001b[39m all\u001b[33m:\u001b[39m string[] \u001b[33m=\u001b[39m []\u001b[33m;\u001b[39m wb\u001b[33m.\u001b[39meachSheet(ws \u001b[33m=>\u001b[39m ws\u001b[33m.\u001b[39meachRow(r \u001b[33m=>\u001b[39m r\u001b[33m.\u001b[39meachCell(c \u001b[33m=>\u001b[39m all\u001b[33m.\u001b[39mpush(c\u001b[33m.\u001b[39mtext))))\u001b[33m;\u001b[39m noPii(all\u001b[33m.\u001b[39mjoin(\u001b[32m'\\n'\u001b[39m)\u001b[33m,\u001b[39m \u001b[32m'xlsx'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 747 |\u001b[39m     }\u001b[33m;\u001b[39m"
                       },
                       "errors": [
                         {
                           "location": {
                             "file": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-b.spec.ts",
                             "column": 32,
-                            "line": 727
+                            "line": 744
                           },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[33m@@ -7,11 +7,11 @@\u001b[39m\n\u001b[2m      \"ปิดงาน\",\u001b[22m\n\u001b[2m      \"7\",\u001b[22m\n\u001b[2m    ],\u001b[22m\n\u001b[2m    Array [\u001b[22m\n\u001b[2m      \"ทันกำหนด %\",\u001b[22m\n\u001b[32m-     \"85.7%\",\u001b[39m\n\u001b[31m+     \"23.1%\",\u001b[39m\n\u001b[2m    ],\u001b[22m\n\u001b[2m    Array [\u001b[22m\n\u001b[2m      \"งานคงค้าง\",\u001b[22m\n\u001b[2m      \"21\",\u001b[22m\n\u001b[2m    ],\u001b[22m\n\n  725 |       const rows: string[][] = []; wb.worksheets[0].eachRow(r => rows.push([r.getCell(1).text.trim(), r.getCell(2).text.trim()]));\n  726 |       expect(rows[0]).toEqual(['ตัวชี้วัด', 'ค่า']);\n> 727 |       expect(rows.slice(1, 6)).toEqual(labels.map((l, i) => [l, values[i]]));\n      |                                ^\n  728 |       expect(rows.slice(1, 6).map(r => r[1])).toEqual(onScreen);\n  729 |       const all: string[] = []; wb.eachSheet(ws => ws.eachRow(r => r.eachCell(c => all.push(c.text)))); noPii(all.join('\\n'), 'xlsx');\n  730 |     };\n    at exportXlsx (C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-b.spec.ts:727:32)\n    at C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-b.spec.ts:731:5"
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 1\u001b[39m\n\u001b[31m+ Received  + 1\u001b[39m\n\n\u001b[33m@@ -7,11 +7,11 @@\u001b[39m\n\u001b[2m      \"ปิดงาน\",\u001b[22m\n\u001b[2m      \"7\",\u001b[22m\n\u001b[2m    ],\u001b[22m\n\u001b[2m    Array [\u001b[22m\n\u001b[2m      \"ทันกำหนด %\",\u001b[22m\n\u001b[32m-     \"85.7%\",\u001b[39m\n\u001b[31m+     \"23.1%\",\u001b[39m\n\u001b[2m    ],\u001b[22m\n\u001b[2m    Array [\u001b[22m\n\u001b[2m      \"งานคงค้าง\",\u001b[22m\n\u001b[2m      \"21\",\u001b[22m\n\u001b[2m    ],\u001b[22m\n\n  742 |       const rows: string[][] = []; wb.worksheets[0].eachRow(r => rows.push([r.getCell(1).text.trim(), r.getCell(2).text.trim()]));\n  743 |       expect(rows[0]).toEqual(['ตัวชี้วัด', 'ค่า']);\n> 744 |       expect(rows.slice(1, 6)).toEqual(labels.map((l, i) => [l, values[i]]));\n      |                                ^\n  745 |       expect(rows.slice(1, 6).map(r => r[1])).toEqual(onScreen);\n  746 |       const all: string[] = []; wb.eachSheet(ws => ws.eachRow(r => r.eachCell(c => all.push(c.text)))); noPii(all.join('\\n'), 'xlsx');\n  747 |     };\n    at exportXlsx (C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-b.spec.ts:744:32)\n    at C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-b.spec.ts:748:5"
                         }
                       ],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T13:29:08.576Z",
+                      "startTime": "2026-11-23T14:30:51.850Z",
                       "annotations": [],
                       "attachments": [
                         {
@@ -1447,7 +1447,7 @@
                       "errorLocation": {
                         "file": "C:\\Work\\Ai-homework\\egov-eservice-week2-main\\app\\e2e\\tests-b.spec.ts",
                         "column": 32,
-                        "line": 727
+                        "line": 744
                       }
                     }
                   ],
@@ -1456,7 +1456,7 @@
               ],
               "id": "12cfe970336169d1d8dc-ee36f19bcb9e94ea903f",
               "file": "tests-b.spec.ts",
-              "line": 713,
+              "line": 730,
               "column": 3
             },
             {
@@ -1475,12 +1475,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 745,
+                      "duration": 726,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T13:29:12.406Z",
+                      "startTime": "2026-11-23T14:30:57.358Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1490,7 +1490,7 @@
               ],
               "id": "12cfe970336169d1d8dc-750d130b398251cb2250",
               "file": "tests-b.spec.ts",
-              "line": 751,
+              "line": 770,
               "column": 3
             },
             {
@@ -1509,12 +1509,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1300,
+                      "duration": 1585,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T13:29:13.288Z",
+                      "startTime": "2026-11-23T14:30:58.240Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1524,7 +1524,7 @@
               ],
               "id": "12cfe970336169d1d8dc-a56c0984facdbc1ac1c8",
               "file": "tests-b.spec.ts",
-              "line": 780,
+              "line": 799,
               "column": 3
             },
             {
@@ -1543,12 +1543,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 300,
+                      "duration": 312,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T13:29:14.600Z",
+                      "startTime": "2026-11-23T14:30:59.839Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1558,7 +1558,7 @@
               ],
               "id": "12cfe970336169d1d8dc-e82045147c0a17fce627",
               "file": "tests-b.spec.ts",
-              "line": 853,
+              "line": 872,
               "column": 3
             },
             {
@@ -1577,12 +1577,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 733,
+                      "duration": 803,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T13:29:14.911Z",
+                      "startTime": "2026-11-23T14:31:00.162Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1592,7 +1592,7 @@
               ],
               "id": "12cfe970336169d1d8dc-14a8cbe195942b005939",
               "file": "tests-b.spec.ts",
-              "line": 875,
+              "line": 894,
               "column": 3
             },
             {
@@ -1611,12 +1611,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1508,
+                      "duration": 1643,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T13:29:15.655Z",
+                      "startTime": "2026-11-23T14:31:00.976Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1626,7 +1626,7 @@
               ],
               "id": "12cfe970336169d1d8dc-17df49b58f0f0ad6f12a",
               "file": "tests-b.spec.ts",
-              "line": 895,
+              "line": 914,
               "column": 3
             },
             {
@@ -1645,12 +1645,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 479,
+                      "duration": 644,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T13:29:17.174Z",
+                      "startTime": "2026-11-23T14:31:02.633Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1660,7 +1660,7 @@
               ],
               "id": "12cfe970336169d1d8dc-e73238ccbca64ab303b5",
               "file": "tests-b.spec.ts",
-              "line": 949,
+              "line": 968,
               "column": 3
             },
             {
@@ -1679,12 +1679,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 435,
+                      "duration": 509,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T13:29:17.666Z",
+                      "startTime": "2026-11-23T14:31:03.288Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1694,7 +1694,7 @@
               ],
               "id": "12cfe970336169d1d8dc-5f2909007b5402b26565",
               "file": "tests-b.spec.ts",
-              "line": 996,
+              "line": 1015,
               "column": 3
             },
             {
@@ -1713,12 +1713,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 1671,
+                      "duration": 1931,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T13:29:18.112Z",
+                      "startTime": "2026-11-23T14:31:03.810Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1728,7 +1728,7 @@
               ],
               "id": "12cfe970336169d1d8dc-21fdef3c6968a32cdc22",
               "file": "tests-b.spec.ts",
-              "line": 1025,
+              "line": 1044,
               "column": 3
             },
             {
@@ -1747,12 +1747,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 8164,
+                      "duration": 8816,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T13:29:19.793Z",
+                      "startTime": "2026-11-23T14:31:05.754Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1762,7 +1762,7 @@
               ],
               "id": "12cfe970336169d1d8dc-099d209684078f3406b6",
               "file": "tests-b.spec.ts",
-              "line": 1053,
+              "line": 1072,
               "column": 3
             },
             {
@@ -1781,12 +1781,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 626,
+                      "duration": 782,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T13:29:27.967Z",
+                      "startTime": "2026-11-23T14:31:14.584Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1796,7 +1796,7 @@
               ],
               "id": "12cfe970336169d1d8dc-65eef35f982970d6a4dd",
               "file": "tests-b.spec.ts",
-              "line": 1103,
+              "line": 1122,
               "column": 3
             },
             {
@@ -1815,12 +1815,12 @@
                       "workerIndex": 3,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 330,
+                      "duration": 384,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-11-23T13:29:28.601Z",
+                      "startTime": "2026-11-23T14:31:15.380Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1830,7 +1830,7 @@
               ],
               "id": "12cfe970336169d1d8dc-811bc1f06c630d11c76b",
               "file": "tests-b.spec.ts",
-              "line": 1121,
+              "line": 1140,
               "column": 3
             }
           ]
@@ -1859,12 +1859,12 @@
                   "workerIndex": 3,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 238,
+                  "duration": 305,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-23T13:29:28.951Z",
+                  "startTime": "2026-11-23T14:31:15.787Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1893,12 +1893,12 @@
                   "workerIndex": 3,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 364,
+                  "duration": 375,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-23T13:29:29.198Z",
+                  "startTime": "2026-11-23T14:31:16.103Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1927,12 +1927,12 @@
                   "workerIndex": 3,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 3984,
+                  "duration": 4807,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-23T13:29:29.573Z",
+                  "startTime": "2026-11-23T14:31:16.487Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -1950,8 +1950,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-11-23T13:28:23.853Z",
-    "duration": 69784.356,
+    "startTime": "2026-11-23T14:29:59.782Z",
+    "duration": 81762.319,
     "expected": 48,
     "skipped": 0,
     "unexpected": 3,
