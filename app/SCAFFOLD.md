@@ -142,7 +142,7 @@ computeDueAt(paidAtISO, slaDays, holidays /* Set<'YYYY-MM-DD'> */) → 'YYYY-MM-
 |---|---|---|
 | B01 SV-03 101 ตร.ม. = ฿1,000 | ค่าธรรมเนียม | B03 rules |
 | B02 5,242,880 ไบต์ถูกปฏิเสธ | อัปโหลด | B04 |
-| B03 SLA ไม่ข้ามวันหยุด | computeDueAt + วันคงเหลือ (ฟังก์ชันวันทำการเดียวกัน) | B03 rules (fallback ใน core รองรับแล้ว) |
+| B03 SLA ไม่ข้ามวันหยุด | เฉพาะการคำนวณกำหนดเสร็จ: computeDueAt (ตอนชำระ) + resumeDueAt (ตอนส่งแก้) ผ่าน `dueHolidays()` · วันคงเหลือ/ระดับเตือน/แจ้งเตือนไม่กระทบ | B03 rules (fallback ใน core รองรับแล้ว) |
 | B04 ไม่หยุดนับตอน NEED_FIX | ส่งแก้ → ขยายกำหนด | B03 rules / B04 resubmit |
 | B05 QR 15:00 พอดียังจ่ายได้ | isQrExpired | B03 rules (fallback ใน core รองรับแล้ว) |
 | B06 IDOR | `GET /api/cases/:no` + หน้า `/citizen/cases/:no` | B04 |

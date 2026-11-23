@@ -47,10 +47,16 @@ TEST_MODE=1 BUG_MODE=B03,B07 docker compose up --build # เปิดบั๊�
 ## รันชุดทดสอบ
 
 ```bash
+# เทอร์มินัล 1 · เว็บโหมดทดสอบ (ค้างไว้)
+cd app && npm ci
+TEST_MODE=1 PORT=3912 DB_PATH=$PWD/e2e/.data/egov.db npm start
+
+# เทอร์มินัล 2 · ชุดเต็ม 51 TC
 cd app/e2e && npm ci && npx playwright install chromium
-cd ../ && TEST_MODE=1 PORT=3912 DB_PATH=$PWD/e2e/.data/egov.db npm start &            # หรือ docker compose (ดู app/e2e/README.md)
-cd e2e && DB_PATH=$PWD/.data/egov.db BASE_URL=http://127.0.0.1:3912 npx playwright test   # 51 passed
-cd ../ && WEB=node bash e2e/run-matrix.sh "" "" B01 B02 B03 B04 B05 B06 B07 B08 B09 B10 B11 B12 "B03,B07" "B01,B05,B09" ""
+DB_PATH=$PWD/.data/egov.db BASE_URL=http://127.0.0.1:3912 npx playwright test          # 51 passed
+
+# BUG_MODE ทีละตัว + ชุดรวม (ปิดเว็บในเทอร์มินัล 1 ก่อน · สคริปต์เปิด/ปิดเว็บเองทุกรอบ)
+cd app && WEB=node bash e2e/run-matrix.sh "" "" B01 B02 B03 B04 B05 B06 B07 B08 B09 B10 B11 B12 "B03,B07" "B01,B05,B09" ""
 ```
 
 รายละเอียดและข้อจำกัดของแต่ละวิธี: [`app/e2e/README.md`](app/e2e/README.md)
